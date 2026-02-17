@@ -1,0 +1,14 @@
+src/modules/<module>/
+├── <module>.schema.ts
+├── <module>.model.ts
+├── <module>.service.ts
+├── <module>.controller.ts
+└── <module>.routes.ts
+
+Routing mount:
+- Import module router in src/routes/index.ts
+- Mount under /api/v1/<plural-resource>
+
+Controller/service split:
+- controller: request mapping + response helper only
+- service: business rules + DB operations

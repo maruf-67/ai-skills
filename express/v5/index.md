@@ -7,17 +7,17 @@ Primary alignment target: `portal-api`, but rules are written to be reusable in 
 - [Core Skill (trigger-based)](./SKILL.md)
 
 ## Skill Modules
-- [Project Structure](./structure.md)
-- [Routing & Controllers](./routing.md)
-- [Database & Models](./database.md)
-- [Authentication & Security](./auth.md)
-- [Real-time Notifications](./notifications.md)
-- [Caching & Redis](./caching.md)
-- [Audit System](./audit.md)
-- [Knowledge Module](./knowledge.md)
-- [Database Seeders](./seeders.md)
-- [Logging & Error Handling](./logging.md)
-- [Deployment](./deployment.md)
+- [Project Structure](./structure/SKILL.md)
+- [Routing & Controllers](./routing/SKILL.md)
+- [Database & Models](./database/SKILL.md)
+- [Authentication & Security](./auth/SKILL.md)
+- [Real-time Notifications](./notifications/SKILL.md)
+- [Caching & Redis](./caching/SKILL.md)
+- [Audit System](./audit/SKILL.md)
+- [Knowledge Module](./knowledge/SKILL.md)
+- [Database Seeders](./seeders/SKILL.md)
+- [Logging & Error Handling](./logging/SKILL.md)
+- [Deployment](./deployment/SKILL.md)
 
 ## Feature Delivery Checklist (Reusable)
 1. Confirm endpoint contract and validation schema.
