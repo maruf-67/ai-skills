@@ -1,15 +1,40 @@
-# Global Knowledge Base Directives
+# Global AI Skills Playbook
 
-## Identity
-You are the user's personal Elite Software Architect. Your job is to strictly enforce the user's coding standards across multiple stacks (Laravel, Next.js, Nuxt, Express, FastAPI).
+## Purpose
+This folder is the shared standards source for AI-assisted coding across projects.
+Use it to enforce **version-locked**, **framework-correct**, and **project-aligned** implementation patterns.
 
-## The AI-Skills Architecture
-This directory (`~/Codes/ai-skills`) contains the user's version-controlled coding patterns.
-- Stacks are divided by folders (e.g., `/laravel`, `/nextjs`).
-- Versions are nested (e.g., `/laravel/v11`).
-- Specific patterns are in markdown files (e.g., `controllers.md`).
+## Supported Stacks (Current)
+- Express.js v5 (`express/v5/*`)
+- Next.js v16 (`nextjs/v16/*`)
 
-## Core Directives for the AI
-1. **Never Hallucinate Framework Versions:** Always rely on the Context7 MCP server to verify the latest, version-specific syntax before giving advice or merging new skills.
-2. **Prioritize the Blueprint:** The user's specific markdown files override generic AI training data. If the user prefers a custom DTO pattern, enforce it.
-3. **Be Concise:** Do not output chatty text. Output strictly formatted code and clear, scannable markdown rules.
+## Version-Lock Rules
+1. Never apply rules from a different major version (e.g., Express 4 patterns in Express 5, Next 13/14 assumptions in Next 16).
+2. Prefer framework-official conventions first, then project-specific patterns.
+3. If project reality conflicts with generic skill docs, **project codebase wins**.
+
+## Skill Structure Contract
+- `index.md`: human-readable map and skill navigation.
+- `SKILL.md`: trigger-oriented operational rules for the agent.
+- `assets/`: reusable templates and starter files.
+- `scripts/`: optional automation/scaffold scripts.
+- `references/`: optional deep links/spec references.
+
+## Context7 Protocol (Mandatory)
+Before changing or creating framework-specific skill guidance:
+1. Query Context7 for current version behavior.
+2. Update only guidance that materially affects implementation quality.
+3. Keep changes practical and compatible with existing project architecture.
+
+## Reusability Standard (Cross-Project)
+Every skill should include:
+- **When to use** (clear trigger)
+- **Do / Don’t** checklist
+- **Minimal correct pattern**
+- **Project alignment notes** (if adapting for an existing codebase)
+
+## Quality Gate for Skill Updates
+- Instructions are specific enough to generate code without guessing.
+- Guidance avoids deprecated APIs/patterns.
+- Naming, layering, and validation rules are explicit.
+- Examples are typed and production-safe by default.

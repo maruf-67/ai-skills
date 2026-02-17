@@ -1,13 +1,22 @@
 # Next.js v16+ Skills
 
-This guide covers patterns for Next.js 16 projects using the App Router.
+This guide covers standardized patterns for Next.js 16 projects using the App Router, derived from the Softograph Portal architecture.
 
 ## Contents
 
-- [General Rules & Patterns](./rules.md)
-- [Data Fetching & Services](./fetching.md)
-- [Component Architecture](./components.md)
-- [Authentication](./auth.md)
-- [Page Routing](./routing.md)
-- [State Management](./state.md)
-- [Styling & Theming](./styling.md)
+- [Core Skill (trigger-based)](./SKILL.md)
+- [General Rules & Patterns](./rules/SKILL.md)
+- [Data Fetching & Services](./fetching/SKILL.md)
+- [Component Architecture](./components/SKILL.md)
+- [Authentication](./auth/SKILL.md)
+- [Page Routing](./routing/SKILL.md)
+- [State Management](./state/SKILL.md)
+- [Styling & Theming](./styling/SKILL.md)
+
+## Feature Delivery Checklist (Reusable)
+1. Define feature types/contracts.
+2. Add or extend service functions.
+3. Add hook/context orchestration as needed.
+4. Implement feature components with shared UI primitives.
+5. Wire pages/routes with explicit server/client boundaries.
+6. Validate with lint + type-check + relevant tests.

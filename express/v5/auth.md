@@ -39,3 +39,25 @@ configured in `app.ts` with strict **Content Security Policy (CSP)**:
 ## CORS
 
 Custom middleware handles CORS to support credentials and dynamic origin matching against `FRONTEND_URL` and `API_URL`.
+
+## Controller Auth Extraction (Project-Aligned)
+
+Avoid repeating `(req as any).user` in controllers.
+Use shared helper utilities from `src/common/utils/authRequest.ts`:
+
+- `getAuthUser(req)`
+- `getRequiredUserId(req)`
+- `getUserRole(req)` / `getRequiredUserRole(req)`
+- `getAuthToken(req)`
+
+This keeps auth extraction consistent and lowers type drift across modules.
+
+## Do / Don’t
+
+### Do
+- Keep auth and ownership enforcement server-side.
+- Keep token cookies secure and domain-aligned.
+
+### Don’t
+- Put sensitive tokens directly in redirect URLs.
+- Re-implement auth extraction logic in each controller.

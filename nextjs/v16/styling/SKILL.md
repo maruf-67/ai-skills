@@ -1,3 +1,8 @@
+---
+name: styling
+description: Micro-skill for Next.js 16 styling
+---
+
 # Styling & Theming
 
 ## Tailwind CSS v4
