@@ -1,4 +1,3 @@
-```skill
 ---
 name: express-v5-auth
 description: Use this when implementing token auth, OAuth flows, and permission-safe request handling in Express v5.
@@ -32,4 +31,3 @@ Use this when implementing login flows, token guards, role checks, or OAuth call
 - Putting sensitive tokens in redirect query strings.
 - Duplicating auth parsing logic in every module.
 - Trusting client role/ownership claims without server validation.
-```

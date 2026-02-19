@@ -6,6 +6,16 @@ This directory contains version-locked coding skills and reusable patterns for f
 
 - [Next.js](./nextjs/index.md)
 - [Express.js](./express/index.md)
+- [Laravel](./laravel/index.md)
+
+## Auth Quick Pick
+
+| Backend | Frontend | Use |
+|---|---|---|
+| Laravel v12 | Next.js v16 (web SPA) | `laravel/v12/auth-sanctum/SKILL.md` + `nextjs/v16/auth/SKILL.md` |
+| Laravel v12 | Mobile/Desktop | `laravel/v12/auth-sanctum/SKILL.md` (PAT endpoints) |
+| Express v5 | Next.js v16 | `express/v5/auth/SKILL.md` + `nextjs/v16/auth-jwt/SKILL.md` |
+| Mixed Laravel + Express | Next.js v16 | Apply auth mode per service boundary (don’t merge patterns) |
 
 ## Usage Order
 1. Choose stack + major version first.

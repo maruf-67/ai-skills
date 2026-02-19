@@ -1,19 +1,22 @@
 ---
 name: auth
-description: Use this when implementing authentication/session flows in Next.js v16 with App Router and a backend-issued JWT/cookie model.
+description: Use this when implementing Sanctum SPA session authentication in Next.js v16 with App Router (Laravel + Next.js web clients).
 ---
 
 # Authentication
+
+> If your project is token-first (Express + JWT / Bearer), use `nextjs/v16/auth-jwt/SKILL.md` instead.
 
 ## Auth Provider Pattern
 
 Use a dedicated auth context (`src/contexts/AuthContext.tsx`) as the single UI auth state source.
 
 - **State**: `user`, `loading`, and auth actions.
-- **Session Model**: Prefer backend-managed httpOnly cookie/session + secure exchange endpoint.
+- **Web Session Model (Preferred)**: backend-managed httpOnly cookie/session + CSRF-protected credentialed requests.
+- **Non-browser Model**: use PAT endpoints for mobile/desktop; do not mix bearer-token storage into web SPA flow.
 - **Client Logic**:
-    - `login(user, accessToken)` updates local app state.
-    - `logout()` clears state and performs backend/session cleanup.
+    - `login()` establishes backend session and then fetches profile.
+    - `logout()` performs backend logout and clears in-memory UI auth state.
     - initialize current user from trusted backend endpoint when app boots.
 
 ## Usage
@@ -38,13 +41,14 @@ export default function Dashboard() {
 
 - Protect private route groups at layout/middleware boundaries.
 - Keep role checks server-trust-based (do not rely on UI-only role checks for security).
-- Use API client interceptors for 401 refresh/redirect fallback behavior.
+- Use API client interceptors for 401 redirect/session re-check behavior.
 
 ## Do / Don’t
 ### Do
 - Keep auth API calls inside `src/services/*`.
-- Use typed auth responses (`accessToken`, `user`) and shared contracts.
+- Use typed auth responses (`user`, `permissions`, `role`) and shared contracts.
+- Set `withCredentials: true` and include CSRF flow (`/sanctum/csrf-cookie`) before state-changing auth calls.
 
 ### Don’t
-- Store sensitive tokens in localStorage when backend cookies are available.
+- Store sensitive tokens in localStorage or JS-readable cookies when backend cookies are available.
 - Call backend auth endpoints directly from random page components.

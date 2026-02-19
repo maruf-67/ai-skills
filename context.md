@@ -7,6 +7,24 @@ Use it to enforce **version-locked**, **framework-correct**, and **project-align
 ## Supported Stacks (Current)
 - Express.js v5 (`express/v5/*`)
 - Next.js v16 (`nextjs/v16/*`)
+- Laravel v12 (`laravel/v12/*`)
+
+## Auth Mode Selection Matrix
+
+Use this matrix before applying any auth skill:
+
+| Backend | Frontend | Primary Auth Mode | Skill Path(s) |
+|---|---|---|---|
+| Laravel v12 | Next.js v16 (web SPA) | Sanctum stateful session (cookie + CSRF) | `laravel/v12/auth-sanctum/SKILL.md` + `nextjs/v16/auth/SKILL.md` |
+| Laravel v12 | Mobile/Desktop client | Sanctum PAT (device token) | `laravel/v12/auth-sanctum/SKILL.md` |
+| Express v5 | Next.js v16 | JWT / Bearer (access/refresh policy) | `express/v5/auth/SKILL.md` + `nextjs/v16/auth-jwt/SKILL.md` |
+| Mixed platform (Laravel web + Express API) | Next.js v16 | Per-service auth mode (do not merge patterns) | Select per-service row above |
+
+### Selection Rules
+1. If the web client is first-party and backend is Laravel, default to Sanctum session mode.
+2. If API is explicitly token-first (Express or JWT architecture), use JWT mode.
+3. Never mix JWT browser token storage into Sanctum SPA projects unless explicitly required by project architecture.
+4. For hybrid products, keep auth mode scoped by service boundary (web auth service vs external API service).
 
 ## Version-Lock Rules
 1. Never apply rules from a different major version (e.g., Express 4 patterns in Express 5, Next 13/14 assumptions in Next 16).
