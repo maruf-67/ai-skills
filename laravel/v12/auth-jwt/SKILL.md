@@ -1,5 +1,5 @@
 ---
-name: laravel-v12-auth-jwt
+name: auth-jwt
 description: Use this for Laravel v12 token-first authentication where API clients authenticate using JWT/Bearer tokens rather than Sanctum SPA sessions.
 ---
 

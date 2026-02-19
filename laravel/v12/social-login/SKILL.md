@@ -1,5 +1,5 @@
 ---
-name: laravel-v12-social-login
+name: social-login
 description: Patterns for implementing social authentication using Laravel Socialite. Use this when working on Google login or adding new providers.
 ---
 

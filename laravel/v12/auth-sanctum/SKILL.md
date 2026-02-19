@@ -1,5 +1,5 @@
 ---
-name: laravel-v12-auth-sanctum
+name: auth-sanctum
 description: Use this for Laravel v12 authentication when web clients are SPA frontends and should use Sanctum session cookies, with PAT endpoints for mobile/desktop clients.
 ---
 

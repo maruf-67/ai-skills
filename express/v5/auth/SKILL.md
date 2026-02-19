@@ -1,5 +1,5 @@
 ---
-name: express-v5-auth
+name: auth
 description: Use this when implementing token auth, OAuth flows, and permission-safe request handling in Express v5.
 ---
 
