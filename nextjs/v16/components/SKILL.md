@@ -36,6 +36,8 @@ Leverage the standardized `DataTable` component for all list views. It supports:
 ### Complex Forms
 - Use `Controller` for third-party components like `React Select` or `Tiptap Editor`.
 - Implement `AsyncCreatableMultiSelect` for dynamic tagging systems.
+- For single-select inputs, use the shared `src/components/ui/Select` wrapper instead of native `<select>` or direct feature-level `react-select` usage.
+- Prefer `options={[{ value, label }]}` with controlled `value` + `onChange` for consistent behavior and styling across modules.
 
 ## Component Directives
 - **'use client'**: Required for any component using hooks (`useState`, `useEffect`) or browser APIs.

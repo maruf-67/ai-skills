@@ -26,6 +26,8 @@ description: Core coding standards, naming conventions, and validation rules for
 - **Forms**: 
   - Powered by `React Hook Form`.
   - Use `zodResolver` for validation bridging.
+  - Use shared form controls from `src/components/ui/*` for consistent UX.
+  - For dropdowns, use the shared `Select`/`Async*Select` wrappers; avoid native `<select>` in feature modules.
 
 ## Styling Guidelines
 
