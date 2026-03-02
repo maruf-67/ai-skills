@@ -10,6 +10,7 @@ Directly discoverable GitHub Copilot skills are available in `.github/skills/`:
 - `nextjs-v16` (framework wrapper)
 - `express-v5` (framework wrapper)
 - `laravel-v12` (framework wrapper)
+- `marketing-data-stack` (GA4/BigQuery/Looker/Ads/CRM/GTM wrapper)
 
 These wrappers route to canonical versioned docs in this repository.
 
@@ -20,6 +21,7 @@ For the full micro-wrapper list, see `.github/skills/README.md`.
 - [Next.js](./nextjs/index.md)
 - [Express.js](./express/index.md)
 - [Laravel](./laravel/index.md)
+- [Marketing Data](./marketing-data/index.md)
 
 ## Auth Quick Pick
 

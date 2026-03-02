@@ -8,6 +8,7 @@ Use it to enforce **version-locked**, **framework-correct**, and **project-align
 - Express.js v5 (`express/v5/*`)
 - Next.js v16 (`nextjs/v16/*`)
 - Laravel v12 (`laravel/v12/*`)
+- Marketing Data v1 (`marketing-data/v1/*`)
 
 ## Auth Mode Selection Matrix
 

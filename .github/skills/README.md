@@ -8,6 +8,7 @@ These skills are organized for direct Copilot discovery under `.github/skills/`.
 - `nextjs-v16/` -> Next.js 16 wrapper
 - `express-v5/` -> Express 5 wrapper
 - `laravel-v12/` -> Laravel 12 wrapper
+- `marketing-data-stack/` -> Marketing data stack wrapper
 
 ## Next.js v16 micro wrappers
 - `nextjs-v16-rules/`
@@ -43,11 +44,19 @@ These skills are organized for direct Copilot discovery under `.github/skills/`.
 - `laravel-v12-social-login/`
 - `laravel-v12-ai-integration/`
 
+## Marketing data micro wrappers
+- `marketing-ga4-modeling/`
+- `marketing-looker-bigquery/`
+- `marketing-ads-connectors/`
+- `marketing-crm-integration/`
+- `marketing-gtm-integration/`
+
 ## Canonical source docs
 The wrappers point to versioned source docs in:
 - `nextjs/v16/*`
 - `express/v5/*`
 - `laravel/v12/*`
+- `marketing-data/v1/*`
 - `context.md`
 
 Update canonical docs first when behavior changes, then keep wrapper summaries aligned.
