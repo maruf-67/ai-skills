@@ -2,6 +2,19 @@
 
 This directory contains version-locked coding skills and reusable patterns for framework-specific AI implementation.
 
+## Copilot-Native Entry Points
+
+Directly discoverable GitHub Copilot skills are available in `.github/skills/`:
+- `ai-skills` (global router/orchestrator)
+- `auth-mode-router` (cross-stack auth selection)
+- `nextjs-v16` (framework wrapper)
+- `express-v5` (framework wrapper)
+- `laravel-v12` (framework wrapper)
+
+These wrappers route to canonical versioned docs in this repository.
+
+For the full micro-wrapper list, see `.github/skills/README.md`.
+
 ## Available Skills
 
 - [Next.js](./nextjs/index.md)
