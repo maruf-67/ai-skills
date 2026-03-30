@@ -1,4 +1,4 @@
-# Laravel v12 Skills
+# Laravel v13 Skills
 
 ## Available Skills
 - [API Responses](./api-responses/SKILL.md)

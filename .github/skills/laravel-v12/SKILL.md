@@ -1,6 +1,6 @@
 ---
-name: laravel-v12-wrapper
-description: Use for Laravel 12 backend tasks including routing, domain services, API responses, permissions, and auth mode selection.
+name: laravel-v12
+description: Use for Laravel 12 backend tasks including routing, domain services, API responses, Filament admin, permissions, and auth mode selection.
 ---
 
 # Laravel v12 Wrapper Skill
@@ -15,6 +15,9 @@ Use for Laravel 12 feature delivery, API design, service layer updates, permissi
    - domain-architecture: `../../../laravel/v12/domain-architecture/SKILL.md`
    - routing: `../../../laravel/v12/routing/SKILL.md`
    - permissions: `../../../laravel/v12/permissions/SKILL.md`
+   - filament-panel: `../../../laravel/v12/filament-panel/SKILL.md`
+   - filament-resources: `../../../laravel/v12/filament-resources/SKILL.md`
+   - filament-testing: `../../../laravel/v12/filament-testing/SKILL.md`
    - auth-sanctum: `../../../laravel/v12/auth-sanctum/SKILL.md`
    - auth-jwt: `../../../laravel/v12/auth-jwt/SKILL.md`
 

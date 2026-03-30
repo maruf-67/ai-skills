@@ -38,6 +38,9 @@ These skills are organized for direct Copilot discovery under `.github/skills/`.
 - `laravel-v12-domain-architecture/`
 - `laravel-v12-routing/`
 - `laravel-v12-permissions/`
+- `laravel-v12-filament-panel/`
+- `laravel-v12-filament-resources/`
+- `laravel-v12-filament-testing/`
 - `laravel-v12-auth-sanctum/`
 - `laravel-v12-auth-jwt/`
 - `laravel-v12-auditing-loggable/`
