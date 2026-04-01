@@ -1,0 +1,62 @@
+{
+  "defaultProfiles": [
+    "router",
+    "nextjs",
+    "express",
+    "laravel",
+    "flutter"
+  ],
+  "profiles": {
+    "router": {
+      "internal": [
+        "context.md",
+        "index.md"
+      ],
+      "external": [
+        ".github/skills/ai-skills/SKILL.md",
+        ".github/skills/auth-mode-router/SKILL.md"
+      ]
+    },
+    "nextjs": {
+      "internal": [
+        "nextjs/index.md",
+        "nextjs/v16/**"
+      ],
+      "external": [
+        ".github/skills/nextjs-v16/SKILL.md"
+      ]
+    },
+    "express": {
+      "internal": [
+        "express/index.md",
+        "express/v5/**"
+      ],
+      "external": [
+        ".github/skills/express-v5/SKILL.md"
+      ]
+    },
+    "laravel": {
+      "internal": [
+        "laravel/index.md",
+        "laravel/v12/**",
+        "laravel/v13/**"
+      ],
+      "external": [
+        ".github/skills/laravel-v12/SKILL.md",
+        ".github/skills/laravel-v13/SKILL.md"
+      ]
+    },
+    "flutter": {
+      "internal": [
+        "flutter/index.md",
+        "flutter/v3/**"
+      ],
+      "external": [
+        ".github/skills/flutter-v3/SKILL.md",
+        ".github/skills/flutter-v3-responsive/SKILL.md",
+        ".github/skills/flutter-v3-state/SKILL.md",
+        ".github/skills/flutter-v3-routing/SKILL.md"
+      ]
+    }
+  }
+}

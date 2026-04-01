@@ -8,6 +8,7 @@ These skills are organized for direct Copilot discovery under `.github/skills/`.
 - `nextjs-v16/` -> Next.js 16 wrapper
 - `express-v5/` -> Express 5 wrapper
 - `laravel-v12/` -> Laravel 12 wrapper
+- `flutter-v3/` -> Flutter Android/iOS wrapper
 - `marketing-data-stack/` -> Marketing data stack wrapper
 
 ## Next.js v16 micro wrappers
@@ -54,11 +55,22 @@ These skills are organized for direct Copilot discovery under `.github/skills/`.
 - `marketing-crm-integration/`
 - `marketing-gtm-integration/`
 
+## Flutter v3 micro wrappers
+- `flutter-v3-architecture/`
+- `flutter-v3-routing/`
+- `flutter-v3-state/`
+- `flutter-v3-fetching/`
+- `flutter-v3-styling/`
+- `flutter-v3-responsive/`
+- `flutter-v3-auth/`
+- `flutter-v3-auth-jwt/`
+
 ## Canonical source docs
 The wrappers point to versioned source docs in:
 - `nextjs/v16/*`
 - `express/v5/*`
 - `laravel/v12/*`
+- `flutter/v3/*`
 - `marketing-data/v1/*`
 - `context.md`
 

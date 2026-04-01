@@ -17,6 +17,8 @@ Select the correct skill path, avoid cross-version drift, and coordinate multipl
 	- Next.js 16+ -> `../nextjs-v16/SKILL.md`
 	- Express 5 -> `../express-v5/SKILL.md`
 	- Laravel 12 -> `../laravel-v12/SKILL.md`
+	- Laravel 13 -> `../laravel-v13/SKILL.md`
+	- Flutter 3 -> `../flutter-v3/SKILL.md`
 	- Marketing Data Stack -> `../marketing-data-stack/SKILL.md`
 3. If auth is involved, resolve mode via `../auth-mode-router/SKILL.md`.
 4. Reuse project-local patterns before introducing new abstractions.
@@ -38,4 +40,5 @@ Select the correct skill path, avoid cross-version drift, and coordinate multipl
 - Next.js map: `../../../nextjs/index.md`
 - Express map: `../../../express/index.md`
 - Laravel map: `../../../laravel/index.md`
+- Flutter map: `../../../flutter/index.md`
 - Marketing Data map: `../../../marketing-data/index.md`

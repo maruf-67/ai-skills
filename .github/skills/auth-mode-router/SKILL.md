@@ -1,6 +1,6 @@
 ---
 name: auth-mode-router
-description: Use to choose the correct auth skill combination across Next.js, Laravel, and Express without mixing incompatible browser auth patterns.
+description: Use to choose the correct auth skill combination across Next.js, Flutter, Laravel, and Express without mixing incompatible browser and token patterns.
 ---
 
 # Auth Mode Router Skill
@@ -12,9 +12,15 @@ Use whenever login, session, token, guards, middleware, or protected API behavio
 - Laravel v12 + Next.js v16 web SPA -> Sanctum session mode:
   - `../../../laravel/v12/auth-sanctum/SKILL.md`
   - `../../../nextjs/v16/auth/SKILL.md`
+- Laravel v13 + Flutter mobile -> Sanctum PAT mode:
+  - `../../../laravel/v13/auth-sanctum/SKILL.md`
+  - `../../../flutter/v3/auth-sanctum/SKILL.md`
 - Express v5 + Next.js v16 token-first APIs -> JWT/Bearer mode:
   - `../../../express/v5/auth/SKILL.md`
   - `../../../nextjs/v16/auth-jwt/SKILL.md`
+- Express v5 + Flutter mobile token-first APIs -> JWT/Bearer mode:
+  - `../../../express/v5/auth/SKILL.md`
+  - `../../../flutter/v3/auth-jwt/SKILL.md`
 - Mixed Laravel + Express -> scope auth by service boundary, do not merge patterns.
 
 ## Hard rules

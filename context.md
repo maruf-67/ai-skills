@@ -8,6 +8,7 @@ Use it to enforce **version-locked**, **framework-correct**, and **project-align
 - Express.js v5 (`express/v5/*`)
 - Next.js v16 (`nextjs/v16/*`)
 - Laravel v12 (`laravel/v12/*`)
+- Flutter v3 (`flutter/v3/*`)
 - Marketing Data v1 (`marketing-data/v1/*`)
 
 ## Auth Mode Selection Matrix
@@ -17,6 +18,8 @@ Use this matrix before applying any auth skill:
 | Backend | Frontend | Primary Auth Mode | Skill Path(s) |
 |---|---|---|---|
 | Laravel v12 | Next.js v16 (web SPA) | Sanctum stateful session (cookie + CSRF) | `laravel/v12/auth-sanctum/SKILL.md` + `nextjs/v16/auth/SKILL.md` |
+| Laravel v13 | Flutter mobile (Android/iOS) | Sanctum PAT (device token) | `laravel/v13/auth-sanctum/SKILL.md` + `flutter/v3/auth-sanctum/SKILL.md` |
+| Express v5 | Flutter mobile (Android/iOS) | JWT / Bearer (access/refresh policy) | `express/v5/auth/SKILL.md` + `flutter/v3/auth-jwt/SKILL.md` |
 | Laravel v12 | Mobile/Desktop client | Sanctum PAT (device token) | `laravel/v12/auth-sanctum/SKILL.md` |
 | Express v5 | Next.js v16 | JWT / Bearer (access/refresh policy) | `express/v5/auth/SKILL.md` + `nextjs/v16/auth-jwt/SKILL.md` |
 | Mixed platform (Laravel web + Express API) | Next.js v16 | Per-service auth mode (do not merge patterns) | Select per-service row above |
