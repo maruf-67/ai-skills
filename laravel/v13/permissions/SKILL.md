@@ -1,5 +1,5 @@
 ---
-name: laravel-v12-permissions
+name: laravel-v13-permissions
 description: Patterns for implementing RBAC, Permissions, and User Types. Use this for role assignment, permission checks, and authorization middleware.
 ---
 

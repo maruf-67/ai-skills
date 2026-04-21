@@ -1,5 +1,5 @@
 ---
-name: ai-skills-router
+name: ai-skills
 description: Use this first to select and compose the right framework/version skill, connect auth mode across stacks, and enforce MCP-first context gathering.
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: laravel-v12-api-responses
+name: laravel-v13-api-responses
 description: Standardized API response patterns using BaseController and JsonResponse. Use this for consistent formatting and centralized error codes.
 ---
 

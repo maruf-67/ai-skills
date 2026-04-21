@@ -1,5 +1,5 @@
 ---
-name: laravel-v12-ai-integration
+name: laravel-v13-ai-integration
 description: Advanced LLM integration using Prism. Use this for generating medical advice, structured data, and handling multi-modal LLM tasks.
 ---
 

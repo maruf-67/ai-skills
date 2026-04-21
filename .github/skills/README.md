@@ -8,6 +8,7 @@ These skills are organized for direct Copilot discovery under `.github/skills/`.
 - `nextjs-v16/` -> Next.js 16 wrapper
 - `express-v5/` -> Express 5 wrapper
 - `laravel-v12/` -> Laravel 12 wrapper
+- `laravel-v13/` -> Laravel 13 wrapper
 - `flutter-v3/` -> Flutter Android/iOS wrapper
 - `marketing-data-stack/` -> Marketing data stack wrapper
 
@@ -48,6 +49,20 @@ These skills are organized for direct Copilot discovery under `.github/skills/`.
 - `laravel-v12-social-login/`
 - `laravel-v12-ai-integration/`
 
+## Laravel v13 micro wrappers
+- `laravel-v13-api-responses/`
+- `laravel-v13-domain-architecture/`
+- `laravel-v13-routing/`
+- `laravel-v13-permissions/`
+- `laravel-v13-filament-panel/`
+- `laravel-v13-filament-resources/`
+- `laravel-v13-filament-testing/`
+- `laravel-v13-auth-sanctum/`
+- `laravel-v13-auth-jwt/`
+- `laravel-v13-auditing-loggable/`
+- `laravel-v13-social-login/`
+- `laravel-v13-ai-integration/`
+
 ## Marketing data micro wrappers
 - `marketing-ga4-modeling/`
 - `marketing-looker-bigquery/`
@@ -70,6 +85,7 @@ The wrappers point to versioned source docs in:
 - `nextjs/v16/*`
 - `express/v5/*`
 - `laravel/v12/*`
+- `laravel/v13/*`
 - `flutter/v3/*`
 - `marketing-data/v1/*`
 - `context.md`

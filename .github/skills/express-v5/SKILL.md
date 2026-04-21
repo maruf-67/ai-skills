@@ -1,5 +1,5 @@
 ---
-name: express-v5-wrapper
+name: express-v5
 description: Use for Express.js v5 backend tasks with TypeScript, layered architecture, validation, auth, and predictable API contracts.
 ---
 

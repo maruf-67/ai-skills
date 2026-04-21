@@ -1,5 +1,5 @@
 ---
-name: laravel-v12-auditing-loggable
+name: laravel-v13-auditing-loggable
 description: Automatic auditing and activity logging using the Loggable trait. Use this when creating or modifying models that need to track creation and updates.
 ---
 

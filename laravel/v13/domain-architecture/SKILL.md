@@ -1,5 +1,5 @@
 ---
-name: laravel-v12-domain-architecture
+name: laravel-v13-domain-architecture
 description: Modular Domain architecture for Laravel v13. Use this to maintain strict separation of concerns in app/Domains.
 ---
 

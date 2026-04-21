@@ -1,5 +1,5 @@
 ---
-name: laravel-v12-routing
+name: laravel-v13-routing
 description: Patterns for defining API routes, versioning, and middleware configuration in Laravel v13. Use this for adding or modifying endpoints.
 ---
 
