@@ -1,34 +1,75 @@
 ```skill
 ---
 name: express-v5-logging
-description: Use this when implementing structured logging and consistent error handling in Express v5 APIs.
+description: Use this when implementing structured logging and consistent error handling in Express v5 APIs with Winston or Pino.
 ---
 
 # Logging & Error Handling
 
 ## Trigger
-Use this when introducing new operational logs, error classes, or error-handling middleware behavior.
+Use this when introducing logging configurations, error handling middleware, or throwing custom application errors.
 
 ## Best Practices
 - Keep structured logs with contextual metadata (`module`, `userId`, `requestId`).
-- Separate operational errors from programmer/system errors.
-- Use a global error handler for consistent API error envelopes.
-- Keep async controllers wrapped so thrown errors propagate cleanly.
-- Avoid logging secrets or full tokens.
+- Separate operational errors (expected client/validation issues) from programmer/system errors (database down, reference error).
+- Use a global error handler middleware to catch all unhandled route errors and normalize the API response envelope.
+- Wrap asynchronous controllers (e.g. using `catchAsync`) so promise rejections propagate to the error middleware automatically.
+- Never log secrets, private keys, passwords, or full Authorization tokens.
 
-## Your Usage (portal-api)
-- Logging stack uses `winston` + rotating files and `morgan` bridge stream.
-- `AppError` is the operational error primitive.
-- Global handler in `src/common/middlewares/errorHandler.ts` normalizes responses.
-- Controllers use `catchAsync` for async error forwarding.
+## Stack Choices
 
-## Reusable Blueprint
-1. Throw `AppError` for expected domain failures.
-2. Let global handler map error to response payload.
-3. Log internal details server-side with request context.
+### Winston & Morgan Stack
+- Use Winston for system and application logging.
+- Bridge HTTP request logging to Winston streams using Morgan middleware.
+- Configure log files with daily rotations for persistency.
+
+### Pino & pino-http Stack
+- Use Pino for high-performance, low-overhead structured JSON logging.
+- Use `pino-http` middleware to log HTTP request lifecycles.
+- Standardize log serializers for request, response, and error objects.
+
+## Reusable Blueprints
+
+### Pino Configuration Blueprint
+```ts
+import pino from 'pino';
+
+export const logger = pino({
+  name: 'gateway',
+  level: process.env.LOG_LEVEL || 'info',
+  serializers: {
+    req: pino.stdSerializers.req,
+    res: pino.stdSerializers.res,
+    err: pino.stdSerializers.err,
+  },
+});
+```
+
+### Global Error Handler Middleware
+```ts
+import { Request, Response, NextFunction } from 'express';
+import { AppError } from '../utils/AppError.js';
+import { logger } from '../utils/logger.js';
+
+export const globalErrorHandler = (err: Error, req: Request, res: Response, next: NextFunction) => {
+  logger.error({ err }, 'Unhandled error');
+
+  if (err instanceof AppError) {
+    return res.status(err.statusCode).json({
+      success: false,
+      message: err.message,
+    });
+  }
+
+  return res.status(500).json({
+    success: false,
+    message: 'Internal Server Error',
+  });
+};
+```
 
 ## Avoid
-- Sending raw stack traces in production responses.
-- Mixing ad-hoc `console.log` with structured logger paths.
-- Returning different error payload shapes between modules.
+- Mixing direct `console.log` statements with structured loggers.
+- Exposing raw system stack traces in production HTTP responses.
+- Inconsistent error structures across different API modules.
 ```
