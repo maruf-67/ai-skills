@@ -80,9 +80,20 @@ These skills are organized for direct Copilot discovery under `.github/skills/`.
 - `flutter-v3-auth/`
 - `flutter-v3-auth-jwt/`
 
+## Nuxt v3 micro wrappers
+- `nuxt-v3-architecture/`
+- `nuxt-v3-routing/`
+- `nuxt-v3-state/`
+- `nuxt-v3-components/`
+- `nuxt-v3-fetching/`
+- `nuxt-v3-styling/`
+- `nuxt-v3-responsive/`
+- `nuxt-v3-auth/`
+
 ## Canonical source docs
 The wrappers point to versioned source docs in:
 - `nextjs/v16/*`
+- `nuxt/v3/*`
 - `express/v5/*`
 - `laravel/v12/*`
 - `laravel/v13/*`

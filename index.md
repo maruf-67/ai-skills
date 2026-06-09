@@ -8,6 +8,7 @@ Directly discoverable GitHub Copilot skills are available in `.github/skills/`:
 - `ai-skills` (global router/orchestrator)
 - `auth-mode-router` (cross-stack auth selection)
 - `nextjs-v16` (framework wrapper)
+- `nuxt-v3` (framework wrapper)
 - `express-v5` (framework wrapper)
 - `laravel-v12` (framework wrapper)
 - `flutter-v3` (framework wrapper)
@@ -20,6 +21,7 @@ For the full micro-wrapper list, see `.github/skills/README.md`.
 ## Available Skills
 
 - [Next.js](./nextjs/index.md)
+- [Nuxt](./nuxt/index.md)
 - [Express.js](./express/index.md)
 - [Laravel](./laravel/index.md)
 - [Flutter](./flutter/index.md)
