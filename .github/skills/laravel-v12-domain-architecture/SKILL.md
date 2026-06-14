@@ -9,7 +9,7 @@ description: Direct wrapper for Laravel 12 service/domain layering, controller-t
 Use for domain service extraction, business-rule placement, and scalable module organization.
 
 ## Canonical source
-- `../../../laravel/v12/domain-architecture/SKILL.md`
+- `../../../skills/development/laravel/v12/domain-architecture/SKILL.md`
 
 ## Related wrappers
 - `../laravel-v12/SKILL.md`

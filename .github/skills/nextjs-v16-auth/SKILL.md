@@ -9,7 +9,7 @@ description: Direct wrapper for Next.js 16 Sanctum session-mode auth integration
 Use for Laravel SPA session authentication, CSRF-aware request flow, and protected web app behavior.
 
 ## Canonical source
-- `../../../nextjs/v16/auth/SKILL.md`
+- `../../../skills/development/nextjs/v16/auth/SKILL.md`
 
 ## Related wrappers
 - `../auth-mode-router/SKILL.md`

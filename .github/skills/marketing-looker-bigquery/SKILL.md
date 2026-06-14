@@ -6,7 +6,7 @@ description: Direct wrapper for Looker Studio delivery patterns on top of BigQue
 # Marketing Looker + BigQuery Wrapper
 
 ## Canonical source
-- `../../../marketing-data/v1/looker-studio-bigquery/SKILL.md`
+- `../../../skills/development/marketing-data/v1/looker-studio-bigquery/SKILL.md`
 
 ## Related wrappers
 - `../marketing-data-stack/SKILL.md`

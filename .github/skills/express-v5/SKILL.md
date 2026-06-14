@@ -9,13 +9,13 @@ description: Use for Express.js v5 backend tasks with TypeScript, layered archit
 Use for route/module creation, request validation, controller/service/model changes, middleware wiring, and API contract updates.
 
 ## Required routing
-1. Apply core guidance from `../../../express/v5/SKILL.md`.
+1. Apply core guidance from `../../../skills/development/express/v5/SKILL.md`.
 2. Add subskills as needed:
-   - auth: `../../../express/v5/auth/SKILL.md`
-   - routing: `../../../express/v5/routing/SKILL.md`
-   - database: `../../../express/v5/database/SKILL.md`
-   - logging: `../../../express/v5/logging/SKILL.md`
-   - caching: `../../../express/v5/caching/SKILL.md`
+   - auth: `../../../skills/development/express/v5/auth/SKILL.md`
+   - routing: `../../../skills/development/express/v5/routing/SKILL.md`
+   - database: `../../../skills/development/express/v5/database/SKILL.md`
+   - logging: `../../../skills/development/express/v5/logging/SKILL.md`
+   - caching: `../../../skills/development/express/v5/caching/SKILL.md`
 
 ## Do
 - Keep flow: route -> validation -> controller -> service -> model.

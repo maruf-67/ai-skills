@@ -11,7 +11,7 @@ Use for notifier design, async state rendering, and side-effect boundary fixes.
 
 ## Canonical source
 
-- `../../../flutter/v3/state/SKILL.md`
+- `../../../skills/development/flutter/v3/state/SKILL.md`
 
 ## Related wrappers
 

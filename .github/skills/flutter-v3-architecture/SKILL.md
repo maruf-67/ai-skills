@@ -11,7 +11,7 @@ Use for module layout, architecture refactors, and boundary enforcement work.
 
 ## Canonical source
 
-- `../../../flutter/v3/architecture/SKILL.md`
+- `../../../skills/development/flutter/v3/architecture/SKILL.md`
 
 ## Related wrappers
 

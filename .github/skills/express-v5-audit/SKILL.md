@@ -9,7 +9,7 @@ description: Direct wrapper for Express v5 audit trail patterns, actor/resource 
 Use for change tracking, audit metadata standards, and immutable activity log behavior.
 
 ## Canonical source
-- `../../../express/v5/audit/SKILL.md`
+- `../../../skills/development/express/v5/audit/SKILL.md`
 
 ## Related wrappers
 - `../express-v5/SKILL.md`

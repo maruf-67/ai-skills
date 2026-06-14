@@ -11,7 +11,7 @@ Use for breakpoints, adaptive navigation, and compact/medium/expanded layout beh
 
 ## Canonical source
 
-- `../../../flutter/v3/responsive/SKILL.md`
+- `../../../skills/development/flutter/v3/responsive/SKILL.md`
 
 ## Related wrappers
 

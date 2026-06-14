@@ -11,7 +11,7 @@ Use for route design, deep linking, guard behavior, and nested flows.
 
 ## Canonical source
 
-- `../../../flutter/v3/routing/SKILL.md`
+- `../../../skills/development/flutter/v3/routing/SKILL.md`
 
 ## Related wrappers
 

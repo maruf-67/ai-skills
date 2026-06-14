@@ -9,7 +9,7 @@ description: Direct wrapper for Express v5 logging and error-observability patte
 Use for structured logging, error tracing, and observability improvements around request lifecycle events.
 
 ## Canonical source
-- `../../../express/v5/logging/SKILL.md`
+- `../../../skills/development/express/v5/logging/SKILL.md`
 
 ## Related wrappers
 - `../express-v5/SKILL.md`

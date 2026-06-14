@@ -9,7 +9,7 @@ description: Direct wrapper for Next.js 16 state management patterns using conte
 Use for context/provider architecture, shared client state, and hook-based state orchestration.
 
 ## Canonical source
-- `../../../nextjs/v16/state/SKILL.md`
+- `../../../skills/development/nextjs/v16/state/SKILL.md`
 
 ## Related wrappers
 - `../nextjs-v16/SKILL.md`

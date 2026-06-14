@@ -9,7 +9,7 @@ description: Direct wrapper for Next.js 16 rules and guardrails. Use for archite
 Use when enforcing implementation guardrails, architecture consistency, and review checklists for Next.js 16 work.
 
 ## Canonical source
-- `../../../nextjs/v16/rules/SKILL.md`
+- `../../../skills/development/nextjs/v16/rules/SKILL.md`
 
 ## Related wrappers
 - `../nextjs-v16/SKILL.md`

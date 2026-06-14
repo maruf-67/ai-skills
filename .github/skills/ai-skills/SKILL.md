@@ -37,8 +37,8 @@ Select the correct skill path, avoid cross-version drift, and coordinate multipl
 ## Canonical references
 - Global playbook: `../../../context.md`
 - Root map: `../../../index.md`
-- Next.js map: `../../../nextjs/index.md`
-- Express map: `../../../express/index.md`
-- Laravel map: `../../../laravel/index.md`
-- Flutter map: `../../../flutter/index.md`
-- Marketing Data map: `../../../marketing-data/index.md`
+- Next.js map: `../../../skills/development/nextjs/index.md`
+- Express map: `../../../skills/development/express/index.md`
+- Laravel map: `../../../skills/development/laravel/index.md`
+- Flutter map: `../../../skills/development/flutter/index.md`
+- Marketing Data map: `../../../skills/development/marketing-data/index.md`

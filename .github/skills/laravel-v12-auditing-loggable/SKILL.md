@@ -9,7 +9,7 @@ description: Direct wrapper for Laravel 12 auditing/loggable patterns for change
 Use for entity change logs, actor/action tracking, and audit-safe lifecycle events.
 
 ## Canonical source
-- `../../../laravel/v12/auditing-loggable/SKILL.md`
+- `../../../skills/development/laravel/v12/auditing-loggable/SKILL.md`
 
 ## Related wrappers
 - `../laravel-v12/SKILL.md`

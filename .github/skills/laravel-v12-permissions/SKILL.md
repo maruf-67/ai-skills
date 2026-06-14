@@ -9,7 +9,7 @@ description: Direct wrapper for Laravel 12 permissions/authorization rules, poli
 Use for authorization checks, role/permission wiring, and access control policy consistency.
 
 ## Canonical source
-- `../../../laravel/v12/permissions/SKILL.md`
+- `../../../skills/development/laravel/v12/permissions/SKILL.md`
 
 ## Related wrappers
 - `../laravel-v12/SKILL.md`

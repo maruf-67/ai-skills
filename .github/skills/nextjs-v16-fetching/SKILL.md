@@ -9,7 +9,7 @@ description: Direct wrapper for Next.js 16 data fetching and service-layer patte
 Use for request orchestration, cache strategy, revalidation behavior, and typed service functions.
 
 ## Canonical source
-- `../../../nextjs/v16/fetching/SKILL.md`
+- `../../../skills/development/nextjs/v16/fetching/SKILL.md`
 
 ## Related wrappers
 - `../nextjs-v16/SKILL.md`

@@ -9,14 +9,14 @@ description: Use for Next.js 16 App Router tasks. Enforces server/client boundar
 Use for Next.js 16+ feature work, refactors, bug fixes, routing, data fetching, state, and styling tasks.
 
 ## Required routing
-1. Apply Next.js 16 guidance from `../../../nextjs/v16/SKILL.md`.
+1. Apply Next.js 16 guidance from `../../../skills/development/nextjs/v16/SKILL.md`.
 2. Use micro-skills only as needed:
-   - rules: `../../../nextjs/v16/rules/SKILL.md`
-   - fetching: `../../../nextjs/v16/fetching/SKILL.md`
-   - components: `../../../nextjs/v16/components/SKILL.md`
-   - routing: `../../../nextjs/v16/routing/SKILL.md`
-   - state: `../../../nextjs/v16/state/SKILL.md`
-   - styling: `../../../nextjs/v16/styling/SKILL.md`
+   - rules: `../../../skills/development/nextjs/v16/rules/SKILL.md`
+   - fetching: `../../../skills/development/nextjs/v16/fetching/SKILL.md`
+   - components: `../../../skills/development/nextjs/v16/components/SKILL.md`
+   - routing: `../../../skills/development/nextjs/v16/routing/SKILL.md`
+   - state: `../../../skills/development/nextjs/v16/state/SKILL.md`
+   - styling: `../../../skills/development/nextjs/v16/styling/SKILL.md`
 
 ## Auth routing
 - For Laravel SPA session auth use `../auth-mode-router/SKILL.md` -> Sanctum path.

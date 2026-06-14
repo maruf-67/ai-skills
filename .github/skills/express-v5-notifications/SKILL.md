@@ -9,7 +9,7 @@ description: Direct wrapper for Express v5 notification/event emission patterns 
 Use for event emission, notification trigger flow, and integration-safe message payload design.
 
 ## Canonical source
-- `../../../express/v5/notifications/SKILL.md`
+- `../../../skills/development/express/v5/notifications/SKILL.md`
 
 ## Related wrappers
 - `../express-v5/SKILL.md`

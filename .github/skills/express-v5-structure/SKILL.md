@@ -9,7 +9,7 @@ description: Direct wrapper for Express v5 module/folder structure standards and
 Use for module layout decisions, feature folder normalization, and structure-level consistency refactors.
 
 ## Canonical source
-- `../../../express/v5/structure/SKILL.md`
+- `../../../skills/development/express/v5/structure/SKILL.md`
 
 ## Related wrappers
 - `../express-v5/SKILL.md`

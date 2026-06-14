@@ -9,7 +9,7 @@ description: Direct wrapper for Laravel 13 route definitions, middleware groupin
 Use for API/web route design, middleware order, and endpoint contract enforcement.
 
 ## Canonical source
-- `../../../laravel/v13/routing/SKILL.md`
+- `../../../skills/development/laravel/v13/routing/SKILL.md`
 
 ## Related wrappers
 - `../laravel-v13/SKILL.md`

@@ -9,7 +9,7 @@ description: Direct wrapper for Laravel 12 AI integration patterns, boundary des
 Use for AI client/service wiring, request validation boundaries, and safe response mapping in Laravel 12.
 
 ## Canonical source
-- `../../../laravel/v12/ai-integration/SKILL.md`
+- `../../../skills/development/laravel/v12/ai-integration/SKILL.md`
 
 ## Related wrappers
 - `../laravel-v12/SKILL.md`

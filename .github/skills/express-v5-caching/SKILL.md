@@ -9,7 +9,7 @@ description: Direct wrapper for Express v5 cache-aside and response caching patt
 Use for read-path performance optimization, cache key strategy, and invalidation-safe data updates.
 
 ## Canonical source
-- `../../../express/v5/caching/SKILL.md`
+- `../../../skills/development/express/v5/caching/SKILL.md`
 
 ## Related wrappers
 - `../express-v5/SKILL.md`

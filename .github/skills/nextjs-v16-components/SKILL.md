@@ -9,7 +9,7 @@ description: Direct wrapper for Next.js 16 component architecture, feature folde
 Use for feature component design, shared UI primitives, and component-level refactors in Next.js 16 projects.
 
 ## Canonical source
-- `../../../nextjs/v16/components/SKILL.md`
+- `../../../skills/development/nextjs/v16/components/SKILL.md`
 
 ## Related wrappers
 - `../nextjs-v16/SKILL.md`

@@ -1,0 +1,38 @@
+{
+  "skill_max_tokens": 8192,
+  "required_sections": [
+    "executive_summary",
+    "technical_approach",
+    "team_and_experience",
+    "timeline_and_milestones",
+    "financial_proposal",
+    "why_softograph"
+  ],
+  "structural_checks": {
+    "has_executive_summary": true,
+    "has_technical_approach_with_architecture": true,
+    "has_team_section_with_roles": true,
+    "has_timeline_with_milestones": true,
+    "has_financial_breakdown": true,
+    "mentions_softograph_by_name": true,
+    "references_client_requirements": true,
+    "outcome_focused_language": true
+  },
+  "brand_voice_checks": {
+    "no_hard_banned_words": true,
+    "products_described_by_outcome": true,
+    "posture_is_wise_guide": true
+  },
+  "test_expectations": {
+    "01-typical-rfp.md": {
+      "must_reference": ["BFDC", "warehouse", "SAP", "dashboard"],
+      "must_include_budget_within_range": true,
+      "must_have_8_month_timeline": true,
+      "min_word_count": 1500
+    },
+    "02-edge-minimal-info.md": {
+      "expected_behavior": "skill should ask clarifying questions OR produce a discovery-phase proposal with stated assumptions",
+      "must_not_hallucinate_specific_requirements": true
+    }
+  }
+}

@@ -11,7 +11,7 @@ Use for design system alignment, token usage, and theme-level UI consistency.
 
 ## Canonical source
 
-- `../../../flutter/v3/styling/SKILL.md`
+- `../../../skills/development/flutter/v3/styling/SKILL.md`
 
 ## Related wrappers
 

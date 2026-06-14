@@ -9,13 +9,13 @@ description: Use for end-to-end marketing data stack tasks spanning GA4, BigQuer
 Use this as the entry skill for marketing analytics architecture, implementation, or reviews.
 
 ## Required routing
-1. Apply core guidance from `../../../marketing-data/v1/SKILL.md`.
+1. Apply core guidance from `../../../skills/development/marketing-data/v1/SKILL.md`.
 2. Use focused micro-skills as needed:
-   - GA4 + BigQuery: `../../../marketing-data/v1/ga4-bigquery-modeling/SKILL.md`
-   - Looker + BigQuery: `../../../marketing-data/v1/looker-studio-bigquery/SKILL.md`
-   - Ads connectors: `../../../marketing-data/v1/ads-connectors/SKILL.md`
-   - CRM integration: `../../../marketing-data/v1/crm-integration/SKILL.md`
-   - GTM integration: `../../../marketing-data/v1/gtm-integration/SKILL.md`
+   - GA4 + BigQuery: `../../../skills/development/marketing-data/v1/ga4-bigquery-modeling/SKILL.md`
+   - Looker + BigQuery: `../../../skills/development/marketing-data/v1/looker-studio-bigquery/SKILL.md`
+   - Ads connectors: `../../../skills/development/marketing-data/v1/ads-connectors/SKILL.md`
+   - CRM integration: `../../../skills/development/marketing-data/v1/crm-integration/SKILL.md`
+   - GTM integration: `../../../skills/development/marketing-data/v1/gtm-integration/SKILL.md`
 
 ## Do
 - Keep warehouse contracts stable and versioned.

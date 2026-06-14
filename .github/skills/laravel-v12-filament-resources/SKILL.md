@@ -9,7 +9,7 @@ description: Direct wrapper for Laravel 12 and Filament v5 resource CRUD, forms,
 Use for Filament resource development, resource page customization, table/form actions, and policy-aligned admin CRUD.
 
 ## Canonical source
-- `../../../laravel/v12/filament-resources/SKILL.md`
+- `../../../skills/development/laravel/v12/filament-resources/SKILL.md`
 
 ## Related wrappers
 - `../laravel-v12/SKILL.md`

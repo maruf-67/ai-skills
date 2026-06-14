@@ -6,7 +6,7 @@ description: Direct wrapper for Meta and Google Ads API connector patterns, norm
 # Marketing Ads Connectors Wrapper
 
 ## Canonical source
-- `../../../marketing-data/v1/ads-connectors/SKILL.md`
+- `../../../skills/development/marketing-data/v1/ads-connectors/SKILL.md`
 
 ## Related wrappers
 - `../marketing-data-stack/SKILL.md`

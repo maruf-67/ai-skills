@@ -77,7 +77,7 @@ These skills are organized for direct Copilot discovery under `.github/skills/`.
 - `flutter-v3-fetching/`
 - `flutter-v3-styling/`
 - `flutter-v3-responsive/`
-- `flutter-v3-auth/`
+- `flutter-v3-auth-sanctum/`
 - `flutter-v3-auth-jwt/`
 
 ## Nuxt v3 micro wrappers
@@ -92,13 +92,13 @@ These skills are organized for direct Copilot discovery under `.github/skills/`.
 
 ## Canonical source docs
 The wrappers point to versioned source docs in:
-- `nextjs/v16/*`
-- `nuxt/v3/*`
-- `express/v5/*`
-- `laravel/v12/*`
-- `laravel/v13/*`
-- `flutter/v3/*`
-- `marketing-data/v1/*`
+- `skills/development/nextjs/v16/*`
+- `skills/development/nuxt/v3/*`
+- `skills/development/express/v5/*`
+- `skills/development/laravel/v12/*`
+- `skills/development/laravel/v13/*`
+- `skills/development/flutter/v3/*`
+- `skills/development/marketing-data/v1/*`
 - `context.md`
 
 Update canonical docs first when behavior changes, then keep wrapper summaries aligned.

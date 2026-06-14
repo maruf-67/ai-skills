@@ -9,7 +9,7 @@ description: Direct wrapper for Pest and Filament testing patterns in Laravel 12
 Use for writing or updating tests around Filament panel access, resource CRUD behavior, validation, and permission-gated actions.
 
 ## Canonical source
-- `../../../laravel/v12/filament-testing/SKILL.md`
+- `../../../skills/development/laravel/v12/filament-testing/SKILL.md`
 
 ## Related wrappers
 - `../laravel-v12/SKILL.md`

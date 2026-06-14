@@ -9,7 +9,7 @@ description: Direct wrapper for Laravel 12 JWT/Bearer token authentication when 
 Use for JWT access/refresh token flow in explicitly token-first Laravel APIs.
 
 ## Canonical source
-- `../../../laravel/v12/auth-jwt/SKILL.md`
+- `../../../skills/development/laravel/v12/auth-jwt/SKILL.md`
 
 ## Related wrappers
 - `../auth-mode-router/SKILL.md`

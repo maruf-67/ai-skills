@@ -9,7 +9,7 @@ description: Direct wrapper for Next.js 16 JWT/Bearer auth integration for token
 Use for token-first API auth, refresh-token orchestration, and protected client requests in Next.js 16.
 
 ## Canonical source
-- `../../../nextjs/v16/auth-jwt/SKILL.md`
+- `../../../skills/development/nextjs/v16/auth-jwt/SKILL.md`
 
 ## Related wrappers
 - `../auth-mode-router/SKILL.md`

@@ -11,7 +11,7 @@ Use for API integration, repository patterns, DTO mapping, and retry strategy up
 
 ## Canonical source
 
-- `../../../flutter/v3/data-fetching/SKILL.md`
+- `../../../skills/development/flutter/v3/data-fetching/SKILL.md`
 
 ## Related wrappers
 

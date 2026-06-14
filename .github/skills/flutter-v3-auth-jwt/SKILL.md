@@ -11,7 +11,7 @@ Use for token-first API authentication flows with access and refresh token handl
 
 ## Canonical source
 
-- `../../../flutter/v3/auth-jwt/SKILL.md`
+- `../../../skills/development/flutter/v3/auth-jwt/SKILL.md`
 
 ## Related wrappers
 

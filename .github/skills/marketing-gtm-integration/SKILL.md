@@ -6,7 +6,7 @@ description: Direct wrapper for GTM event contract governance across GA4, Ads, a
 # Marketing GTM Integration Wrapper
 
 ## Canonical source
-- `../../../marketing-data/v1/gtm-integration/SKILL.md`
+- `../../../skills/development/marketing-data/v1/gtm-integration/SKILL.md`
 
 ## Related wrappers
 - `../marketing-data-stack/SKILL.md`

@@ -9,17 +9,17 @@ description: Use for Laravel 12 backend tasks including routing, domain services
 Use for Laravel 12 feature delivery, API design, service layer updates, permission checks, and auth strategy work.
 
 ## Required routing
-1. Start from `../../../laravel/v12/index.md`.
+1. Start from `../../../skills/development/laravel/v12/index.md`.
 2. Apply the relevant skill:
-   - api-responses: `../../../laravel/v12/api-responses/SKILL.md`
-   - domain-architecture: `../../../laravel/v12/domain-architecture/SKILL.md`
-   - routing: `../../../laravel/v12/routing/SKILL.md`
-   - permissions: `../../../laravel/v12/permissions/SKILL.md`
-   - filament-panel: `../../../laravel/v12/filament-panel/SKILL.md`
-   - filament-resources: `../../../laravel/v12/filament-resources/SKILL.md`
-   - filament-testing: `../../../laravel/v12/filament-testing/SKILL.md`
-   - auth-sanctum: `../../../laravel/v12/auth-sanctum/SKILL.md`
-   - auth-jwt: `../../../laravel/v12/auth-jwt/SKILL.md`
+   - api-responses: `../../../skills/development/laravel/v12/api-responses/SKILL.md`
+   - domain-architecture: `../../../skills/development/laravel/v12/domain-architecture/SKILL.md`
+   - routing: `../../../skills/development/laravel/v12/routing/SKILL.md`
+   - permissions: `../../../skills/development/laravel/v12/permissions/SKILL.md`
+   - filament-panel: `../../../skills/development/laravel/v12/filament-panel/SKILL.md`
+   - filament-resources: `../../../skills/development/laravel/v12/filament-resources/SKILL.md`
+   - filament-testing: `../../../skills/development/laravel/v12/filament-testing/SKILL.md`
+   - auth-sanctum: `../../../skills/development/laravel/v12/auth-sanctum/SKILL.md`
+   - auth-jwt: `../../../skills/development/laravel/v12/auth-jwt/SKILL.md`
 
 ## Do
 - Keep controllers thin and domain logic in services/actions.

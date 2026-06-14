@@ -9,7 +9,7 @@ description: Direct wrapper for Laravel 12 social provider login integration and
 Use for OAuth provider login/callback implementation and identity-linking flow updates.
 
 ## Canonical source
-- `../../../laravel/v12/social-login/SKILL.md`
+- `../../../skills/development/laravel/v12/social-login/SKILL.md`
 
 ## Related wrappers
 - `../laravel-v12/SKILL.md`

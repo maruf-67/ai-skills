@@ -9,7 +9,7 @@ description: Direct wrapper for Laravel 12 Sanctum session/PAT auth flows for fi
 Use for Sanctum web session authentication, CSRF/session behavior, and PAT token endpoints.
 
 ## Canonical source
-- `../../../laravel/v12/auth-sanctum/SKILL.md`
+- `../../../skills/development/laravel/v12/auth-sanctum/SKILL.md`
 
 ## Related wrappers
 - `../auth-mode-router/SKILL.md`

@@ -11,19 +11,19 @@ Use for Flutter mobile feature work, refactors, bug fixes, architecture reviews,
 
 ## Required routing
 
-1. Apply Flutter 3 guidance from `../../../flutter/v3/SKILL.md`.
+1. Apply Flutter 3 guidance from `../../../skills/development/flutter/v3/SKILL.md`.
 2. Use micro-skills as needed:
-   - architecture: `../../../flutter/v3/architecture/SKILL.md`
-   - routing: `../../../flutter/v3/routing/SKILL.md`
-   - state: `../../../flutter/v3/state/SKILL.md`
-   - data-fetching: `../../../flutter/v3/data-fetching/SKILL.md`
-   - styling: `../../../flutter/v3/styling/SKILL.md`
-   - responsive: `../../../flutter/v3/responsive/SKILL.md`
+   - architecture: `../../../skills/development/flutter/v3/architecture/SKILL.md`
+   - routing: `../../../skills/development/flutter/v3/routing/SKILL.md`
+   - state: `../../../skills/development/flutter/v3/state/SKILL.md`
+   - data-fetching: `../../../skills/development/flutter/v3/data-fetching/SKILL.md`
+   - styling: `../../../skills/development/flutter/v3/styling/SKILL.md`
+   - responsive: `../../../skills/development/flutter/v3/responsive/SKILL.md`
 
 ## Auth routing
 
-- For Laravel Sanctum PAT mode use `../../../flutter/v3/auth-sanctum/SKILL.md`.
-- For token-first APIs use `../../../flutter/v3/auth-jwt/SKILL.md`.
+- For Laravel Sanctum PAT mode use `../../../skills/development/flutter/v3/auth-sanctum/SKILL.md`.
+- For token-first APIs use `../../../skills/development/flutter/v3/auth-jwt/SKILL.md`.
 
 ## Do
 

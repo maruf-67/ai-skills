@@ -9,7 +9,7 @@ description: Direct wrapper for Next.js 16 App Router patterns including async p
 Use for page/layout/route handler design, route grouping, dynamic segments, and navigation contract fixes.
 
 ## Canonical source
-- `../../../nextjs/v16/routing/SKILL.md`
+- `../../../skills/development/nextjs/v16/routing/SKILL.md`
 
 ## Related wrappers
 - `../nextjs-v16/SKILL.md`

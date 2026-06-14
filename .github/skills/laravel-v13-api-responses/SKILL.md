@@ -9,7 +9,7 @@ description: Direct wrapper for Laravel 13 API response envelope patterns and co
 Use for response contract standardization, status/message formatting, and API payload consistency.
 
 ## Canonical source
-- `../../../laravel/v13/api-responses/SKILL.md`
+- `../../../skills/development/laravel/v13/api-responses/SKILL.md`
 
 ## Related wrappers
 - `../laravel-v13/SKILL.md`

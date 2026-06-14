@@ -9,7 +9,7 @@ description: Direct wrapper for Laravel 13 and Filament v5 panel provider setup,
 Use for AdminPanelProvider changes, panel path/auth middleware configuration, and panel-level plugin/discovery setup.
 
 ## Canonical source
-- `../../../laravel/v13/filament-panel/SKILL.md`
+- `../../../skills/development/laravel/v13/filament-panel/SKILL.md`
 
 ## Related wrappers
 - `../laravel-v13/SKILL.md`

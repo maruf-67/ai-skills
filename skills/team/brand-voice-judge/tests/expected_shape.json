@@ -1,0 +1,52 @@
+{
+  "required_fields": [
+    "verdict",
+    "voice_drift_score",
+    "banned_words",
+    "tone_scores",
+    "ai_pattern_scores",
+    "suggested_fix",
+    "summary"
+  ],
+  "verdict_values": ["pass", "warn", "fail"],
+  "voice_drift_score_range": [0.0, 1.0],
+  "tone_scores_required": [
+    "voice",
+    "language",
+    "proof",
+    "posture",
+    "cta_style"
+  ],
+  "ai_pattern_scores_required": [
+    "perplexity",
+    "burstiness",
+    "discourse_coherence",
+    "structural_signatures",
+    "model_tells"
+  ],
+  "dimension_status_values": ["pass", "warn", "fail"],
+  "banned_words_is_array": true,
+  "test_expectations": {
+    "01-typical-pass.md": {
+      "expected_verdict": "pass",
+      "max_voice_drift": 0.1,
+      "banned_words_count": 0
+    },
+    "02-failing-buzzwords.md": {
+      "expected_verdict": "fail",
+      "min_voice_drift": 0.5,
+      "min_banned_words_count": 5,
+      "must_contain_primary_bans": true
+    },
+    "03-warn-soft-bans.md": {
+      "expected_verdict": "warn",
+      "notes": "Contains SECONDARY banned words only: innovative, scalable, proud to. Also has vague proof (many of our clients, significant improvements) and product narrative uses 'solutions' instead of outcome framing. Verdict MUST be warn — not pass and not fail. If skill returns pass, it missed the soft bans. If skill returns fail, it over-penalised. Key: secondary banned words WITHOUT context/evidence = warn, NOT fail. Mildly self-congratulatory voice = warn, NOT fail.",
+      "min_voice_drift": 0.1,
+      "max_voice_drift": 0.5
+    },
+    "04-edge-case-empty.md": {
+      "expected_behavior": "Skill should EITHER ask for content to evaluate OR return an error/refusal. Both are acceptable. Returning a fabricated verdict on empty input is a failure. A pass verdict with empty findings is also acceptable since there is nothing to flag.",
+      "acceptable_outcomes": ["asks_for_content", "returns_error", "pass_with_no_findings"]
+    }
+  }
+}

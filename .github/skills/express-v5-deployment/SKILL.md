@@ -9,7 +9,7 @@ description: Direct wrapper for Express v5 deployment readiness, environment che
 Use for production-readiness checks, environment consistency, and release hardening.
 
 ## Canonical source
-- `../../../express/v5/deployment/SKILL.md`
+- `../../../skills/development/express/v5/deployment/SKILL.md`
 
 ## Related wrappers
 - `../express-v5/SKILL.md`

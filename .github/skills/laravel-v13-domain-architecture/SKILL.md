@@ -9,7 +9,7 @@ description: Direct wrapper for Laravel 13 service/domain layering, controller-t
 Use for domain service extraction, business-rule placement, and scalable module organization.
 
 ## Canonical source
-- `../../../laravel/v13/domain-architecture/SKILL.md`
+- `../../../skills/development/laravel/v13/domain-architecture/SKILL.md`
 
 ## Related wrappers
 - `../laravel-v13/SKILL.md`
