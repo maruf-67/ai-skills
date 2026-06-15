@@ -7,54 +7,53 @@ description: Micro-skill for Next.js 16 styling
 
 ## Tailwind CSS v4
 
-The project uses Tailwind CSS v4 with a centralized theme configuration.
+The project uses **Tailwind CSS v4** with a pure CSS-based configuration — no `tailwind.config.{ts,js}` file.
 
 ### Configuration
-- **Entry**: `src/app/globals.css`
-- **Config**: `tailwind.config.ts` (Used for mapping CSS variables to utility classes).
+- **Entry**: `src/app/globals.css` starts with `@import "tailwindcss";`
+- **Theme**: Defined via `@theme inline` directive in `globals.css` — maps `:root` CSS custom properties to Tailwind utility classes
+- **No config file**: v4 eliminates `tailwind.config.ts`; all customization lives in CSS
 
 ### Theme Variables (`src/app/globals.css`)
 
-We define CSS variables for colors to support runtime theming and dark mode.
-
 ```css
-@theme inline {
-  /* Brand Colors */
-  --color-brand-blue: #d4ebff;
-  --color-brand-blue-medium: #417fb4;
-  --color-brand-blue-accent: #3c8fd5;
-  
-  /* Primary Scale (Blue) */
-  --color-primary-50: #d4ebff;
-  /* ... to 950 */
-  
-  /* Secondary Scale (Gray) */
-  --color-secondary-50: #f8f9fa;
-  /* ... to 950 */
+@import "tailwindcss";
+
+:root {
+  --primary: #F67951;
+  --primary-foreground: #FFFFFF;
+  --secondary: #131212;
+  --surface: #FFFFFF;
+  --muted-text: #838388;
+  /* ... all design tokens as CSS custom properties */
 }
 
-/* Dark Mode Overrides */
-.dark {
-  --background: #0f0f0f;
-  --foreground: #f5f5f5;
+@theme inline {
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-surface: var(--surface);
+  --color-muted-text: var(--muted-text);
+  /* ... map each :root var to a Tailwind utility class */
 }
 ```
 
-### Utility Class Mapping (`tailwind.config.ts`)
+### Usage in Components
 
-These CSS variables are mapped to Tailwind utility classes.
+Use the mapped utilities directly:
+```tsx
+<div className="bg-primary text-primary-foreground" />
+<div className="text-muted-text" />
+<span className="text-surface" />
+```
 
-- `bg-primary-500` -> `var(--color-primary-500)`
-- `text-brand-blue` -> `var(--color-brand-blue)`
+### Conditional Classes
+- Use `cn()` helper (`clsx` + `tailwind-merge`) from `@/lib/utils` for conditional class merging.
 
 ### Dark Mode
-- **Strategy**: Class-based (`darkMode: 'class'`).
-- **Implementation**: The `ThemeContext` toggles the `dark` class on the root element.
+- **Strategy**: Class-based — `ThemeContext` toggles `.dark` on `<html>`.
 - **Variant**: Use `dark:` prefix (e.g., `bg-white dark:bg-gray-900`).
-
-### Component Styling
-- Use `cn()` helper (clsx + tailwind-merge) for conditional classes.
-- Use `class-variance-authority` (cva) for component variants.
+- **Tokens**: Override `:root` variables inside `.dark { ... }` block in `globals.css`.
 
 ### Custom Scrollbar
-Custom scrollbar styles are defined in `globals.css` to match the "Cureanix" aesthetic (8px width, rounded thumbs).
+Defined in `globals.css` (8px width, rounded thumbs, matches the brand aesthetic).
