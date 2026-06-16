@@ -1,8 +1,8 @@
 ---
 name: cross-pillar-ideation
 description: "Detects downstream brand opportunities from any completed work. Use when: (1) A project, deployment, or milestone has just been completed, (2) The team has published something and wants to know what else it can become, (3) Tawhid has written or spoken somewhere and the team should amplify it, (4) A certification was renewed or awarded, (5) You want to turn a standalone action into an integrated campaign. Triggers on: 'what else can we do with this', 'what can we publish from this', 'amplify this', 'cross-pillar', 'what are we missing', 'turn this into a campaign'."
-source: softograph-custom
-context: softograph
+source: team-custom
+context: team
 version: 1.0.0
 added: 2026-03-28
 ---
@@ -91,13 +91,13 @@ Map the completed work to every possible pillar touchpoint:
 ### Channels
 - **LinkedIn:** Can this be a post? A series? A carousel? Tag the client?
 - **Facebook/Instagram:** Is there a visual? Can it be adapted?
-- **Blog (insights.softograph.com):** Full article, case study post, or technical write-up?
+- **Blog (insights.team.com):** Full article, case study post, or technical write-up?
 - **Medium/Substack:** Is there a broader industry angle for a longer piece?
 - **YouTube:** Is there a demo, walkthrough, or talking-head video angle?
 - **SEO:** Does this create a keyword opportunity (e.g. "AI merchandising verification Bangladesh")?
 
 ### Assets
-- **Blog post:** Full case study or project spotlight on insights.softograph.com
+- **Blog post:** Full case study or project spotlight on insights.team.com
 - **Podcast episode:** Is there a story here that makes for a good episode topic?
 
 ### Partnership/Networking
@@ -179,7 +179,7 @@ Assets available: [What exists to work with]
    What to do: [Specific action]
    Time estimate: [Half day / Full day]
 
-🟠 INTEGRATED CAMPAIGN POTENTIAL
+		 🟠 INTEGRATED CAMPAIGN POTENTIAL
 ──────────────────────────────────
 [If this can become a full integrated campaign]
    Campaign name: [Working title]
@@ -214,7 +214,7 @@ Use these as templates for common scenarios:
 → LinkedIn announcement (Channel) → press release (Partnership) → website update + sales deck update → award entry — ISO-certified company categories (Offline) → Tawhid quote for press release → add to proposals as credibility signal (Sales enablement)
 
 **CEO Substack article published:**
-→ LinkedIn repurpose — key argument as post (Channel) → blog cross-post on insights.softograph.com (Asset) → pitch to The Daily Star technology supplement (Partnership) → speaking pitch: use article as basis for conference topic (Offline) → email newsletter feature (Partnership)
+→ LinkedIn repurpose — key argument as post (Channel) → blog cross-post on insights.team.com (Asset) → pitch to The Daily Star technology supplement (Partnership) → speaking pitch: use article as basis for conference topic (Offline) → email newsletter feature (Partnership)
 
 **Event attended:**
 → LinkedIn post with key insight or takeaway (Channel) → follow-up outreach to people met (Offline/Networking) → blog post: "What [event] revealed about [industry trend]" (Asset) → chamber relationship follow-up (Offline)

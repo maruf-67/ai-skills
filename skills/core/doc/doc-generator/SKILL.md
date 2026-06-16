@@ -22,7 +22,7 @@ This skill generates a **single** document at a time — either a BRD or a PRD. 
 - **Atomic**: This skill produces **one** document per invocation. For the full chain, defer to `/ai-os:product-pipeline`.
 - **Brain-First**: Every artifact must be saved under the project's `/docs/` directory.
 - **Source-of-Truth**: Pull facts only from the codebase, the BRD, or the user's explicit input. No hallucination.
-- **Softograph Templates**: All BRDs and PRDs must follow the templates in `.ai/knowledge/specs/`.
+- **Team Templates**: All BRDs and PRDs must follow the templates in `.ai/knowledge/specs/`.
 - **Pause for Review**: After BRD generation, pause and ask for approval before producing the PRD.
 
 ## Workflow

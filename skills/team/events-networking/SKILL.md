@@ -1,28 +1,28 @@
 ---
 name: events-networking
-description: "Events strategy and networking for Softograph's offline brand presence. Use when: (1) Planning which events to attend, speak at, or sponsor, (2) Preparing for a specific event (who to meet, what to say), (3) Writing a speaker proposal or topic pitch, (4) Drafting networking outreach to chamber contacts or industry association members, (5) Documenting internal achievements for external use, (6) Preparing an award entry. Triggers on: 'event', 'conference', 'seminar', 'networking', 'chamber', 'attend', 'speak', 'award entry', 'internal achievement', 'BASIS', 'DCCI', 'MCCI'."
-source: softograph-custom
-context: softograph
+description: "Events strategy and networking for Team's offline brand presence. Use when: (1) Planning which events to attend, speak at, or sponsor, (2) Preparing for a specific event (who to meet, what to say), (3) Writing a speaker proposal or topic pitch, (4) Drafting networking outreach to chamber contacts or industry association members, (5) Documenting internal achievements for external use, (6) Preparing an award entry. Triggers on: 'event', 'conference', 'seminar', 'networking', 'chamber', 'attend', 'speak', 'award entry', 'internal achievement', 'BASIS', 'DCCI', 'MCCI'."
+source: team-custom
+context: team
 version: 1.0.0
 added: 2026-03-28
 ---
 
 # Events & Networking
 
-Covers Softograph's offline brand presence — events strategy, speaking opportunities, chamber engagement, networking outreach, and internal achievements documentation. The Offline Campaign pillar is often the most neglected; this skill ensures it stays active.
+Covers Team's offline brand presence — events strategy, speaking opportunities, chamber engagement, networking outreach, and internal achievements documentation. The Offline Campaign pillar is often the most neglected; this skill ensures it stays active.
 
 ---
 
-## Why Offline Matters for Softograph
+## Why Offline Matters for Team
 
-Softograph's best clients often come through relationships, not inbound. A consistent offline presence — at the right events, with the right people — compounds over years. The goal is not to attend everything; it is to be visibly present at the events that matter, and to be known by the people who matter.
+Team's best clients often come through relationships, not inbound. A consistent offline presence — at the right events, with the right people — compounds over years. The goal is not to attend everything; it is to be visibly present at the events that matter, and to be known by the people who matter.
 
 **Primary offline objectives:**
 1. Be recognised as a credible AI/software company by industry bodies (BASIS, ICT Division)
 2. Build relationships in business chambers (DCCI, MCCI, FBCCI, American Chamber)
 3. Create speaking opportunities for Tawhid in technology and business forums
 4. Enter and win relevant awards for credibility with enterprise clients
-5. Document achievements that reinforce Softograph's brand story
+5. Document achievements that reinforce Team's brand story
 
 ---
 
@@ -66,7 +66,7 @@ PHASE 6: ACHIEVEMENT DOCS   → Internal milestone → external brand asset
 For any event under consideration, evaluate:
 
 **Audience fit score (1-5):**
-- 5: Decision-makers from Softograph's target sectors (FMCG, pharma, banking, research)
+- 5: Decision-makers from Team's target sectors (FMCG, pharma, banking, research)
 - 4: Technology industry peers and potential partners
 - 3: Mixed business audience including potential clients
 - 2: General business audience, minimal sector overlap
@@ -141,7 +141,7 @@ WHO TO MEET:
 3. [Name/Role/Organisation] — [Why / What to discuss]
 
 KEY TALKING POINTS:
-- About Softograph: [1-2 sentences, specific to this audience]
+- About Team: [1-2 sentences, specific to this audience]
 - About our products: [Which product is most relevant here and why]
 - About recent wins: [Client reference appropriate to share]
 

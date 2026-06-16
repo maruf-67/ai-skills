@@ -1,8 +1,8 @@
 ---
 name: pr-media-relations
 description: "PR and media relations for corporate brand. Use when: (1) Writing a press release for a significant announcement, (2) Pitching a story to a national daily or trade publication, (3) Drafting an award nomination entry, (4) Writing editor/journalist outreach, (5) Preparing a PR brief from a completed project. Triggers on: 'press release', 'PR', 'media pitch', 'award entry', 'national daily', 'Daily Star', 'The Business Standard', 'journalist', 'publication', 'earned media'."
-source: softograph-custom
-context: softograph
+source: team-custom
+context: team
 version: 1.1.0
 added: 2026-03-28
 ---
@@ -15,7 +15,7 @@ Handles earned media end-to-end — press releases, national daily pitches, trad
 
 ---
 
-## Softograph's PR Positioning
+## Team's PR Positioning
 
 **What makes newsworthy:**
 - 12+ years of operation in Bangladesh — rare longevity in local tech
@@ -147,8 +147,8 @@ FOR IMMEDIATE RELEASE / EMBARGO UNTIL [DATE]
 
 [Boilerplate: 2-3 sentences about — include ISO certification, founding year, product areas]
 
-ABOUT SOFTOGRAPH
-Softograph Limited is a Dhaka-based software company (est. 2012) building AI-powered enterprise solutions for SMEs across Bangladesh, the UAE, and international markets. ISO certified. Products include TradeEye (AI merchandising verification), Proggya (business intelligence), ICE (gamified consumer engagement), and Data Dialogue (natural language AI interface).
+ABOUT Team
+Team Limited is a Dhaka-based software company (est. 2012) building AI-powered enterprise solutions for SMEs across Bangladesh, the UAE, and international markets. ISO certified. Products include TradeEye (AI merchandising verification), Proggya (business intelligence), ICE (gamified consumer engagement), and Data Dialogue (natural language AI interface).
 
 Contact:
 [Name, Title]
@@ -177,7 +177,7 @@ I can provide:
 Would this be of interest for [section name]?
 
 [Name]
-[Title, Softograph]
+[Title, Team]
 [Contact details]
 ```
 
@@ -189,7 +189,7 @@ Structure adapts to each award's requirements. Standard elements:
 
 ```
 COMPANY OVERVIEW (100-150 words)
-[Softograph overview — founding year, ISO, product areas, client examples]
+[Team overview — founding year, ISO, product areas, client examples]
 
 PROJECT/ACHIEVEMENT DESCRIPTION (200-400 words)
 [What was done, specific to the award category]

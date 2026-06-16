@@ -1,8 +1,8 @@
 ---
 name: brand-voice-judge
 description: "Brand voice and AI pattern compliance judge for content. Use when: (1) Checking if content passes brand voice guidelines, (2) Auditing content for AI structural patterns, (3) Spot-checking ABM variants, social reposts, or sales enablement content, (4) Running QC on batch AI-generated content, (5) Scoring content against the Do/Avoid matrix before publication. Triggers on: 'check brand voice', 'voice audit', 'is this on brand', 'brand compliance', 'QC this content', 'Tier 3 check', 'voice drift', 'AI pattern check'."
-source: softograph-custom
-context: softograph
+source: team-custom
+context: team
 version: 2.0.0
 added: 2026-05-11
 updated: 2026-05-24

@@ -1,15 +1,15 @@
 ---
 name: npd-launch-orchestrator
-description: "Cross-functional pre-launch orchestrator for consumer products (Borof Pani, ICE, and future consumer/cross-market products). Guides the full team — product, marketing, engineering, legal, operations — through all 7 pre-launch sections of Softograph's NPD checklist, one phase at a time. Use when preparing a consumer product for launch. Triggers on: 'product launch', 'npd', 'launch checklist', 'pre-launch', 'launch orchestrator', 'borof pani launch', 'consumer product launch', 'app launch'."
-source: softograph-custom
-context: softograph
+description: "Cross-functional pre-launch orchestrator for consumer products (Borof Pani, ICE, and future consumer/cross-market products). Guides the full team — product, marketing, engineering, legal, operations — through all 7 pre-launch sections of Team's NPD checklist, one phase at a time. Use when preparing a consumer product for launch. Triggers on: 'product launch', 'npd', 'launch checklist', 'pre-launch', 'launch orchestrator', 'borof pani launch', 'consumer product launch', 'app launch'."
+source: team-custom
+context: team
 version: 1.0.0
 added: 2026-03-28
 ---
 
 # NPD Launch Orchestrator — Pre-Launch (Consumer Products)
 
-Guides the cross-functional team through Softograph's 7-section NPD pre-launch checklist, one phase at a time. Each phase produces a concrete deliverable or completed checklist before moving to the next.
+Guides the cross-functional team through Team's 7-section NPD pre-launch checklist, one phase at a time. Each phase produces a concrete deliverable or completed checklist before moving to the next.
 
 **Applies to:** Borof Pani, ICE (consumer), and any consumer/cross-market product launch.  
 **For B2B products:** Use `product-brief-orchestrator` instead.  
@@ -67,7 +67,7 @@ PRE-LAUNCH PHASES:
   Phase 6/7 → Operations & Support            [pending]
   Phase 7/7 → Launch Preparation & Go/No-Go   [pending]
 
-─────────────────────────────
+  
 PHASE 1/7 — MARKET RESEARCH & STRATEGY
 [Execute immediately — see below]
 ```
@@ -95,7 +95,7 @@ Work through NPD Checklist Section 1 (Market Analysis + Business Strategy):
 **Checklist output:**
 ```
 PHASE 1 CHECKLIST STATUS
-─────────────────────────
+ 
 Market Research & Strategy — Section 1.1
   [ ] Market size and trends researched
   [ ] PEST analysis completed
@@ -133,7 +133,7 @@ Work through NPD Checklist Section 2 (Core Product, Infrastructure, QA):
 **Checklist output:**
 ```
 PHASE 2 CHECKLIST STATUS
-─────────────────────────
+ 
 Core Product — Section 2.1
   [ ] Core functionality complete
   [ ] Analytics/tracking implemented
@@ -175,7 +175,7 @@ Work through NPD Checklist Section 3:
 **Checklist output:**
 ```
 PHASE 3 CHECKLIST STATUS
-─────────────────────────
+ 
 Legal Documentation — Section 3.1
   [ ] Terms of Service drafted and reviewed
   [ ] Privacy Policy (GDPR-compliant) complete
@@ -212,7 +212,7 @@ Work through NPD Checklist Section 4:
 **Checklist output:**
 ```
 PHASE 4 CHECKLIST STATUS
-─────────────────────────
+ 
 Brand Development — Section 4.1
   [ ] Product name/logo finalised
   [ ] Brand guidelines created
@@ -252,7 +252,7 @@ Work through NPD Checklist Section 5:
 **Checklist output:**
 ```
 PHASE 5 CHECKLIST STATUS
-─────────────────────────
+ 
 Product Website — Section 5.1
   [ ] Landing page designed and built
   [ ] Responsive design confirmed
@@ -262,7 +262,7 @@ Product Website — Section 5.1
   [ ] User registration/onboarding flow live
   [ ] Support chat set up
 
-Softograph Ecosystem — Section 5.2
+Team Ecosystem — Section 5.2
   [ ] Connected to main website
   [ ] Cross-sell opportunities implemented
   [ ] Unified authentication set up
@@ -294,7 +294,7 @@ Work through NPD Checklist Section 6:
 **Checklist output:**
 ```
 PHASE 6 CHECKLIST STATUS
-─────────────────────────
+ 
 Customer Support — Section 6.1
   [ ] Support ticketing system set up
   [ ] Knowledge base created

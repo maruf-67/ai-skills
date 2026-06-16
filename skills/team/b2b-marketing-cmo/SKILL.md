@@ -1,17 +1,14 @@
 ---
-source: softograph-custom
-context: softograph
+source: team-custom
+context: team
 version: 1.0
 name: b2b-marketing-cmo
-description: "Comprehensive B2B Marketing Chief Marketing Officer skill for Softograph. Use when asked to: (1) Develop go-to-market strategy using 4Ps, STP, AIDA frameworks, (2) Conduct market or competitive research for any product, (3) Create pricing strategies requiring research and feasibility assessment, (4) Design integrated marketing campaigns with channel strategy, (5) Build sales enablement materials (battle cards, objection handling, case studies), (6) Develop execution playbooks with team checklists, (7) Allocate marketing budgets with ROI modeling, (8) Assess international market entry opportunities. Covers all four products: Proggya + Data Dialogue, ICE, Forge, TradeEye. Triggers on marketing strategy, pricing, positioning, campaigns, sales support, market research, or GTM planning."
+description: "Comprehensive B2B Marketing Chief Marketing Officer skill for Team. Use when asked to: (1) Develop go-to-market strategy using 4Ps, STP, AIDA frameworks, (2) Conduct market or competitive research for any product, (3) Create pricing strategies requiring research and feasibility assessment, (4) Design integrated marketing campaigns with channel strategy, (5) Build sales enablement materials (battle cards, objection handling, case studies), (6) Develop execution playbooks with team checklists, (7) Allocate marketing budgets with ROI modeling, (8) Assess international market entry opportunities. Covers all four products: Proggya + Data Dialogue, ICE, Forge, TradeEye. Triggers on marketing strategy, pricing, positioning, campaigns, sales support, market research, or GTM planning."
 ---
-source: softograph-custom
-context: softograph
-version: 1.0
 
 # B2B Marketing CMO
 
-Full-spectrum marketing strategy and execution for Softograph's B2B products. From strategic frameworks through execution checklists.
+Full-spectrum marketing strategy and execution for Team's B2B products. From strategic frameworks through execution checklists.
 
 ## Workflow Overview
 
@@ -26,9 +23,6 @@ PHASE 7: OPTIMIZATION     → Performance tracking, ROI analysis, adjustment
 ```
 
 ---
-source: softograph-custom
-context: softograph
-version: 1.0
 
 ## Context: Q1 2026 Marketing
 
@@ -61,9 +55,6 @@ version: 1.0
 | **TradeEye** | AI Merchandising Verification | FMCG Trade Marketing | **NEEDS RESEARCH** (BDT 20M-160M/deal) |
 
 ---
-source: softograph-custom
-context: softograph
-version: 1.0
 
 ## Phase 1: Strategic Framework Application
 
@@ -164,9 +155,6 @@ Map content and touchpoints to each stage:
 See [`references/strategic-frameworks.md`](references/strategic-frameworks.md) for templates and examples.
 
 ---
-source: softograph-custom
-context: softograph
-version: 1.0
 
 ## Phase 2: Market Intelligence
 
@@ -225,9 +213,6 @@ For each product, document:
 See [`references/product-profiles.md`](references/product-profiles.md) for existing persona work.
 
 ---
-source: softograph-custom
-context: softograph
-version: 1.0
 
 ## Phase 3: Pricing Strategy
 
@@ -282,9 +267,6 @@ version: 1.0
 See [`references/pricing-strategy-guide.md`](references/pricing-strategy-guide.md) for complete methodology.
 
 ---
-source: softograph-custom
-context: softograph
-version: 1.0
 
 ## Phase 4: Campaign Design
 
@@ -344,9 +326,6 @@ Week | Theme | Content Type | Channel | Owner | Status
 See [`references/campaign-planning-templates.md`](references/campaign-planning-templates.md) for full templates.
 
 ---
-source: softograph-custom
-context: softograph
-version: 1.0
 
 ## Phase 5: Communications Design
 
@@ -400,9 +379,6 @@ See [`references/communications-playbooks.md`](references/communications-playboo
 - **TradeEye**: Trade marketing optimization, AI in retail, market visibility
 
 ---
-source: softograph-custom
-context: softograph
-version: 1.0
 
 ## Phase 6: Sales Enablement
 
@@ -441,7 +417,7 @@ Challenge:
 - Previous approaches tried
 
 Solution:
-- Why they chose Softograph
+- Why they chose Team
 - Implementation approach
 - Key features used
 
@@ -477,9 +453,6 @@ Call to Action:
 See [`references/sales-enablement-templates.md`](references/sales-enablement-templates.md) for complete templates.
 
 ---
-source: softograph-custom
-context: softograph
-version: 1.0
 
 ## Phase 7: Execution Playbooks
 
@@ -559,9 +532,6 @@ POST-LAUNCH (Week 2+)
 See [`references/execution-checklists.md`](references/execution-checklists.md) for complete playbooks.
 
 ---
-source: softograph-custom
-context: softograph
-version: 1.0
 
 ## Phase 8: Budget & ROI Management
 
@@ -612,9 +582,6 @@ LTV = Average Monthly Revenue × Gross Margin × Average Customer Lifespan (mont
 See [`references/budget-roi-frameworks.md`](references/budget-roi-frameworks.md) for calculation templates.
 
 ---
-source: softograph-custom
-context: softograph
-version: 1.0
 
 ## Phase 9: International Market Assessment
 
@@ -658,9 +625,6 @@ When assessing international expansion (Iberia, UAE, ANZ, Africa):
 See [`references/international-assessment-framework.md`](references/international-assessment-framework.md) for complete methodology.
 
 ---
-source: softograph-custom
-context: softograph
-version: 1.0
 
 ## Dynamic Research Triggers
 
@@ -674,11 +638,11 @@ version: 1.0
 - Customer pushback on current pricing
 
 **Action:**
-1. Trigger web research on comparable products
-2. Analyze RFP budgets from pipeline
-3. Calculate value-based ceiling
-4. Recommend pricing with confidence interval
-5. Flag for CEO validation
+- Trigger web research on comparable products
+- Analyze RFP budgets from pipeline
+- Calculate value-based ceiling
+- Recommend pricing with confidence interval
+- Flag for CEO validation
 
 ### When Delivery Model Needs Assessment
 
@@ -689,11 +653,11 @@ version: 1.0
 - Competitive pressure on model
 
 **Action:**
-1. Analyze customer preference data
-2. Assess operational capability for each model
-3. Model unit economics for each approach
-4. Recommend with pros/cons
-5. Flag for strategic decision
+- Analyze customer preference data
+- Assess operational capability for each model
+- Model unit economics for each approach
+- Recommend with pros/cons
+- Flag for strategic decision
 
 ### When International Opportunity Arises
 
@@ -704,23 +668,19 @@ version: 1.0
 - Available bandwidth to expand
 
 **Action:**
-1. Run market attractiveness assessment
-2. Assess readiness score
-3. Recommend entry mode
-4. Estimate investment required
-5. Flag for strategic review
+- Run market attractiveness assessment
+- Assess readiness score
+- Recommend entry mode
+- Estimate investment required
+- Flag for strategic review
 
 ---
-source: softograph-custom
-context: softograph
-version: 1.0
 
 ## Quality Standards
 
 ### Output Checklist
 
 Before delivering any CMO output, verify:
-
 - [ ] Strategic framework properly applied
 - [ ] Research meets minimum standard (8+ sources)
 - [ ] Positioning is differentiated and defensible
@@ -744,9 +704,6 @@ Before delivering any CMO output, verify:
 All outputs → /mnt/user-data/outputs/
 
 ---
-source: softograph-custom
-context: softograph
-version: 1.0
 
 ## Reference Documents
 

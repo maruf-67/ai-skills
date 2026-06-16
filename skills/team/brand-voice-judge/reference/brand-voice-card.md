@@ -8,7 +8,7 @@ Distribute to: all content creators, freelancers, and agency partners.
 
 ## Who We Are
 
-**Softograph** is a Distribution Excellence Consultancy. We deploy AI as an instrument of client transformation. We are NOT a software vendor selling licenses.
+**Team** is a Distribution Excellence Consultancy. We deploy AI as an instrument of client transformation. We are NOT a software vendor selling licenses.
 
 **Brand posture:** The "wise guide." We attract senior decision-makers through demonstrated expertise, evidence of impact, and a clearly articulated worldview.
 

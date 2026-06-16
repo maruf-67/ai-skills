@@ -1,5 +1,5 @@
 ---
-source: softograph-custom
+source: team-custom
 context: both
 version: 1.0
 name: dev-orchestrator

@@ -11,7 +11,7 @@ Automate the transition from a product idea, a BRD, or a partial codebase into a
 ## Mandates
 - **Non-Invasive Scan**: Detect workspace state without modifying files until the path is confirmed.
 - **Detection Over Interviewing**: Prefer automated detection over asking the user.
-- **Softograph Standards**: All generated patterns must follow decoupled or monorepo conventions.
+- **Team Standards**: All generated patterns must follow decoupled or monorepo conventions.
 
 ## Workspace State Detection
 

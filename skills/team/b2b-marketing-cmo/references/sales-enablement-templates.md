@@ -384,35 +384,34 @@ PRICE OBJECTIONS
 ════════════════
 
 "It's too expensive"
-────────────────────
-Listen: "I hear that budget is a concern."
+  Listen: "I hear that budget is a concern."
 Acknowledge: "Price matters, and I want to make sure this makes 
-financial sense for you."
+  financial sense for you."
 Explore: "When you say expensive, are you comparing to a budget 
-you had in mind, or to other solutions?"
+  you had in mind, or to other solutions?"
 Respond: "Let me share how customers typically think about ROI. 
-If [product] saves your team [X hours/BDT] per month, the payback 
-is actually [Y] months. Does that change the equation?"
+  If [product] saves your team [X hours/BDT] per month, the payback 
+  is actually [Y] months. Does that change the equation?"
 
 
 "We don't have budget for this"
 ───────────────────────────────
 Explore: "Is it that budget isn't allocated, or that the overall 
-cost is concerning?"
+  cost is concerning?"
 Respond (if not allocated): "When do budget discussions typically 
-happen? We could time our proposal to align with that cycle."
+  happen? We could time our proposal to align with that cycle."
 Respond (if cost): "Sometimes we can structure payments differently—
-monthly vs. annual, or a phased approach. Would that help?"
+  monthly vs. annual, or a phased approach. Would that help?"
 
 
 "Competitor X is cheaper"
 ─────────────────────────
 Acknowledge: "You're right that [competitor] has a lower sticker price."
 Explore: "What's most important to you beyond price—support, features, 
-results?"
+  results?"
 Respond: "When our customers compared total cost including [implementation, 
-support, results], they found we were actually [better value]. Can I show 
-you that comparison?"
+  support, results], they found we were actually [better value]. Can I show 
+  you that comparison?"
 ```
 
 #### Timing Objections
@@ -424,12 +423,12 @@ TIMING OBJECTIONS
 "Not now / Not a priority"
 ──────────────────────────
 Explore: "Help me understand—is the problem itself not pressing, or is 
-it competing with other priorities?"
+  it competing with other priorities?"
 Respond (not pressing): "I appreciate your honesty. Just curious—what 
-would need to happen for this to become important?"
+  would need to happen for this to become important?"
 Respond (competing): "What if we could show value quickly without 
-pulling focus from your other projects? Our typical deployment is 
-4 weeks."
+  pulling focus from your other projects? Our typical deployment is 
+  4 weeks."
 
 
 "We need more time to think about it"
@@ -437,17 +436,17 @@ pulling focus from your other projects? Our typical deployment is
 Acknowledge: "Absolutely, this is an important decision."
 Explore: "What specific questions or concerns do you need to resolve?"
 Respond: "Why don't I send you [specific resource] that addresses 
-those points? When would be a good time to reconnect—next Tuesday?"
+  those points? When would be a good time to reconnect—next Tuesday?"
 
 
 "We're in the middle of another project"
 ────────────────────────────────────────
 Acknowledge: "Makes sense—focus is important."
 Explore: "When does that project wrap up? And is this [problem] 
-something you'll address after?"
+  something you'll address after?"
 Respond: "Let me stay in touch so we're ready when the timing is 
-right. In the meantime, I'll share some resources that might be 
-helpful."
+  right. In the meantime, I'll share some resources that might be 
+  helpful."
 ```
 
 #### Competition/Status Quo Objections
@@ -461,28 +460,28 @@ COMPETITION OBJECTIONS
 Acknowledge: "I know [competitor]—they do good work."
 Explore: "How's it going? What's working well? What would you change?"
 Respond: "We often work alongside [competitor] or help companies 
-transition. The reason customers switch is usually [specific gap]. 
-Is that something you've experienced?"
+  transition. The reason customers switch is usually [specific gap]. 
+  Is that something you've experienced?"
 
 
 "We built something internally"
 ───────────────────────────────
 Acknowledge: "That shows real initiative—not everyone invests in this."
 Explore: "What does your internal solution do well? Where do you find 
-it limited?"
+  it limited?"
 Respond: "Internal solutions are great for core use cases. What we 
-usually see is maintenance becomes a burden and it's hard to evolve. 
-How's your team finding that?"
+  usually see is maintenance becomes a burden and it's hard to evolve. 
+  How's your team finding that?"
 
 
 "We're fine with our current process"
 ─────────────────────────────────────
 Acknowledge: "If things are working, that's great."
 Explore: "Just curious—when you think about [relevant area], what 
-would 'even better' look like?"
+  would 'even better' look like?"
 Respond: "The companies that are pulling ahead aren't satisfied with 
-fine—they're looking for every edge. [Reference customer] felt the 
-same way before they saw what was possible."
+  fine—they're looking for every edge. [Reference customer] felt the 
+  same way before they saw what was possible."
 ```
 
 #### Authority/Trust Objections
@@ -496,24 +495,24 @@ AUTHORITY OBJECTIONS
 Acknowledge: "Of course, this affects more than just you."
 Explore: "What do you think their main questions or concerns will be?"
 Respond: "Would it help if we did a brief session with them? Or I 
-can prepare something for you to share. What would be most useful?"
+  can prepare something for you to share. What would be most useful?"
 
 
-"We've never heard of Softograph"
+"We've never heard of Team"
 ─────────────────────────────────
 Acknowledge: "That's fair—we're not as well-known as global giants."
 Respond: "We've been serving Bangladesh companies for 13 years, 
-including [reference customers]. What we lack in global marketing 
-we make up for in local expertise and support. Here's what [customer] 
-said about working with us..."
+  including [reference customers]. What we lack in global marketing 
+  we make up for in local expertise and support. Here's what [customer] 
+  said about working with us..."
 
 
 "How do we know you'll be around in 5 years?"
 ─────────────────────────────────────────────
 Acknowledge: "Stability matters when you're investing in a partner."
 Respond: "We've been in business since 2012—over 13 years. We're 
-profitable, growing, and serving customers like [references]. We 
-also ensure data portability so you're never locked in."
+  profitable, growing, and serving customers like [references]. We 
+  also ensure data portability so you're never locked in."
 ```
 
 ---
@@ -542,7 +541,7 @@ THE CHALLENGE
 
 [Customer name] faced a common problem in [industry]: [problem statement].
 
-Before working with Softograph:
+Before working with Team:
 • [Specific pain point 1]
 • [Specific pain point 2]
 • [Specific pain point 3]
@@ -600,9 +599,9 @@ ABOUT [CUSTOMER]
 ────────────────
 [1-2 sentence company description]
 
-ABOUT SOFTOGRAPH
+ABOUT Team
 ────────────────
-Softograph is a Bangladesh-based technology company delivering 
+Team is a Bangladesh-based technology company delivering 
 distribution intelligence solutions since 2012. Our products power 
 leading brands across FMCG, research, and enterprise markets.
 
@@ -703,28 +702,28 @@ SECTION 4: ROI SUMMARY
                                     Year 1      Year 2      Year 3
                                     ────────    ────────    ────────
 Benefits:
-  Time Savings                      BDT ____    BDT ____    BDT ____
-  Process Improvement               BDT ____    BDT ____    BDT ____
-  Tool Consolidation                BDT ____    BDT ____    BDT ____
-  Revenue Impact                    BDT ____    BDT ____    BDT ____
+   Time Savings                      BDT ____    BDT ____    BDT ____
+   Process Improvement               BDT ____    BDT ____    BDT ____
+   Tool Consolidation                BDT ____    BDT ____    BDT ____
+   Revenue Impact                    BDT ____    BDT ____    BDT ____
                                     ────────    ────────    ────────
-  Total Benefits                    BDT ____    BDT ____    BDT ____
+   Total Benefits                    BDT ____    BDT ____    BDT ____
 
 Investment:
-  Subscription                      BDT ____    BDT ____    BDT ____
-  Implementation                    BDT ____    —           —
-  Training                          BDT ____    BDT ____    —
+   Subscription                      BDT ____    BDT ____    BDT ____
+   Implementation                    BDT ____    —           —
+   Training                          BDT ____    BDT ____    —
                                     ────────    ────────    ────────
-  Total Investment                  BDT ____    BDT ____    BDT ____
+   Total Investment                  BDT ____    BDT ____    BDT ____
 
 Net Value:
-  Annual Net Benefit                BDT ____    BDT ____    BDT ____
-  Cumulative Benefit                BDT ____    BDT ____    BDT ____
+   Annual Net Benefit                BDT ____    BDT ____    BDT ____
+   Cumulative Benefit                BDT ____    BDT ____    BDT ____
 
 Key Metrics:
-  Payback Period:                   ___ months
-  Year 1 ROI:                       ___%
-  3-Year ROI:                       ___%
+   Payback Period:                   ___ months
+   Year 1 ROI:                       ___%
+   3-Year ROI:                       ___%
 
 
 SECTION 5: SENSITIVITY ANALYSIS

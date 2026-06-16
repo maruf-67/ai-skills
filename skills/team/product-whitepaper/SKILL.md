@@ -1,6 +1,6 @@
 ---
-source: softograph-custom
-context: softograph
+source: team-custom
+context: team
 version: 1.0
 name: product-whitepaper
 description: "Generate comprehensive product whitepapers and concept notes for Limited. Use when asked to: (1) Create a product whitepaper or concept note, (2) Document a new product idea, (3) Write a product brief for internal strategy or client proposals, (4) Develop market research documentation for a product concept. Supports two modes: internal (strategy documents) and external (client-facing proposals with client research and benefits analysis)."
@@ -23,8 +23,6 @@ Generate professional product whitepapers for Limited with market research, comp
 **External (client-facing)**: User mentions a specific client name, company, or organization
 **Internal (strategy)**: No client mentioned, or explicitly stated as internal
 
-Default to internal if ambiguous.
-
 ## Step 2: Gather Product Information
 
 Ask clarifying questions BEFORE starting research. Group questions logically (2-3 at a time max).
@@ -32,7 +30,7 @@ Ask clarifying questions BEFORE starting research. Group questions logically (2-
 ### Required Information (Both Types)
 
 - **Product concept**: Core idea, problem it solves, key features
-- **Softograph division**: Which unit will own this? (Core, Borof Pani, Proggya, AI Division)
+- **Team division**: Which unit will own this? (Core, Borof Pani, Proggya, AI Division)
 - **Target market**: Industry vertical, company size, geography
 - **Revenue model**: SaaS, licensing, project-based, hybrid?
 - **Timeline expectations**: MVP timeline, full product timeline

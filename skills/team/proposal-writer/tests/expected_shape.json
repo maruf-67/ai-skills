@@ -6,7 +6,7 @@
     "team_and_experience",
     "timeline_and_milestones",
     "financial_proposal",
-    "why_softograph"
+    "why_team"
   ],
   "structural_checks": {
     "has_executive_summary": true,
@@ -14,7 +14,7 @@
     "has_team_section_with_roles": true,
     "has_timeline_with_milestones": true,
     "has_financial_breakdown": true,
-    "mentions_softograph_by_name": true,
+    "mentions_team_by_name": true,
     "references_client_requirements": true,
     "outcome_focused_language": true
   },

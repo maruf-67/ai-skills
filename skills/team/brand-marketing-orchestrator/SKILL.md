@@ -1,8 +1,8 @@
 ---
 name: brand-marketing-orchestrator
-description: "Quarterly brand marketing orchestrator for Softograph's marketing team. Runs the full 4-pillar brand marketing cycle in a single session — quarterly planning, cross-pillar opportunity mapping, PR and earned media, events strategy, and weekly accountability tracking. One Gem handles everything. Use when starting a new quarter, planning a brand push, or running the Monday review. Triggers on: 'brand marketing', 'quarterly brand plan', 'brand orchestrator', 'marketing planning', 'brand planning cycle', 'Monday review'."
-source: softograph-custom
-context: softograph
+description: "Quarterly brand marketing orchestrator for Team's marketing team. Runs the full 4-pillar brand marketing cycle in a single session — quarterly planning, cross-pillar opportunity mapping, PR and earned media, events strategy, and weekly accountability tracking. One Gem handles everything. Use when starting a new quarter, planning a brand push, or running the Monday review. Triggers on: 'brand marketing', 'quarterly brand plan', 'brand orchestrator', 'marketing planning', 'brand planning cycle', 'Monday review'."
+source: team-custom
+context: team
 version: 2.0.0
 added: 2026-03-28
 updated: 2026-03-30
@@ -10,7 +10,7 @@ updated: 2026-03-30
 
 # Brand Marketing Orchestrator
 
-Runs Softograph's quarterly brand marketing cycle in a single session. Declares the full sequence upfront, executes one phase at a time, and prompts the next automatically. The marketing manager never has to load a different tool or decide what comes next.
+Runs Team's quarterly brand marketing cycle in a single session. Declares the full sequence upfront, executes one phase at a time, and prompts the next automatically. The marketing manager never has to load a different tool or decide what comes next.
 
 **Company:** Limited — B2B software, Dhaka, Bangladesh (est. 2012)  
 **Products:** Proggya (BI/analytics), Data Dialogue (RAG/NL), ICE (gamified engagement), Forge (gamified LMS), TradeEye (merchandising verification), TruMark (counterfeit detection), Callibrio (grant management), Inspecto (field verification), Talent Pulse (CV sorting), Borof Pani (gaming)  
@@ -25,7 +25,7 @@ Every plan, campaign, and activity maps to one or more of these:
 | Pillar | What it covers |
 |---|---|
 | **Channels** | LinkedIn, Facebook/Instagram, SEO/Blog, Medium/Substack, YouTube |
-| **Assets** | Blog (insights.softograph.com), Podcast, Case Studies, Whitepapers |
+| **Assets** | Blog (insights.team.com), Podcast, Case Studies, Whitepapers |
 | **Partnership/Networking** | Chambers, PR, Publications, Industry Associations |
 | **Offline Campaign** | Events, Seminars, Conferences, Awards, Internal Achievements |
 
@@ -175,7 +175,7 @@ For each, tell me:
 - Dateline and opening paragraph (who, what, when, where, why — in 50 words)
 - Body paragraphs (context, quote from Tawhid, product/service detail, impact)
 - Boilerplate: "About Limited"
-- Contact: info@softograph.com
+- Contact: info@team.com
 
 *For editorial pitches:*
 - Story angle in one sentence (why readers of [publication] should care)
@@ -222,12 +222,12 @@ Any events you specifically want a speaking slot at?
 2. **Speaking Proposal** (for the highest-priority event where a speaking slot is viable):
    - Proposed session title
    - Abstract (150 words, audience-value first — not a product pitch)
-   - Speaker bio (Tawhid Rahman, CEO Softograph, 2 sentences)
+   - Speaker bio (Tawhid Rahman, CEO Team, 2 sentences)
    - Why this session fits this event's audience
    - Submission format note (email to organiser / online form / "unknown — contact first")
 
 3. **Chamber Networking Priorities — Top 3:**
-   For each: the chamber, the specific networking opportunity this quarter, and one talking point to use that's relevant to Softograph's current momentum.
+   For each: the chamber, the specific networking opportunity this quarter, and one talking point to use that's relevant to Team's current momentum.
 
 4. **International events** (Spain/Portugal, UAE, Nigeria): flag any Q-relevant events even if attendance isn't confirmed — they may be worth remote participation or content creation around.
 
@@ -294,7 +294,7 @@ If 2+ pillars are showing ⚠️ Slipping or ❌ Inactive for 2 consecutive week
 Every output from this orchestrator must:
 - Reference products and markets by name — no generic outputs
 - Be immediately actionable — no further research required before acting
-- Match Softograph's professional, non-sensational tone
+- Match Team's professional, non-sensational tone
 - Include specific owners, timelines, or next actions
 - Be something the marketing manager can act on or share the same day
 

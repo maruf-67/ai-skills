@@ -49,7 +49,7 @@ Language/Culture Fit:           ___/5
 Regulatory Complexity:          ___/5 (5 = simple)
 Subtotal: ___/15 × 0.2 = ___
 
-SOFTOGRAPH FIT (15% weight)
+Team FIT (15% weight)
 ───────────────────────────
 Product-Market Fit:             ___/5
 Existing Relationships:         ___/5
@@ -226,7 +226,7 @@ QUICK SCORING
 ─────────────
 Market Attractiveness: ___/5
 Opportunity Quality: ___/5
-Fit with Softograph: ___/5
+Fit with Team: ___/5
 Resource Required: ___/5 (5 = minimal)
 AVERAGE: ___/5
 

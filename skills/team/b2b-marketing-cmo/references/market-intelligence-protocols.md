@@ -158,7 +158,7 @@ STRATEGIC INTENT
 ────────────────
 [Assessment of where they're heading]
 
-THREAT LEVEL TO SOFTOGRAPH
+THREAT LEVEL TO Team
 ──────────────────────────
 □ High  □ Medium  □ Low
 
@@ -186,7 +186,7 @@ LOW [Dimension 1]          │                          HIGH [Dimension 1]
                            │
                   [Competitor C]
                            │
-                           │     [Softograph Target]
+                           │     [Team Target]
                            │
                     LOW [Dimension 2]
 
@@ -309,7 +309,7 @@ SUMMARY
 | SOM Y3 | BDT [amount] | High/Med/Low |
 ```
 
-### Softograph-Specific Market Sizing Notes
+### Team-Specific Market Sizing Notes
 
 **Bangladesh Market Considerations:**
 - Limited published market research — use triangulation
@@ -513,7 +513,7 @@ Digital Transformation Priorities:
 3. [Priority 3]
 
 
-SOFTOGRAPH OPPORTUNITY
+Team OPPORTUNITY
 ──────────────────────
 Relevant Products:
 □ Proggya + Data Dialogue: [Fit assessment]
@@ -564,7 +564,7 @@ Content Topics That Resonate:
 
 
 TARGET ACCOUNTS
-───────────────
+---------------
 Tier 1 (Highest Priority):
 1. [Company] — [Rationale]
 2. [Company] — [Rationale]

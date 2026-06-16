@@ -9,7 +9,7 @@ Messaging architecture, pitch scripts, email sequences, and thought leadership p
 ### Brand-Level Messaging
 
 ```
-SOFTOGRAPH BRAND MESSAGING
+Team BRAND MESSAGING
 ══════════════════════════
 
 BRAND PROMISE
@@ -24,7 +24,7 @@ TAGLINE OPTIONS
 
 BRAND STORY (Elevator Version - 60 seconds)
 ───────────────────────────────────────────
-Softograph was founded in 2012 with a simple belief: Bangladesh's 
+Team was founded in 2012 with a simple belief: Bangladesh's 
 businesses deserve world-class technology. For over 13 years, we've 
 been solving the hardest problems in distribution—from helping field 
 teams execute perfectly to turning mountains of data into clear 
@@ -363,7 +363,7 @@ Subject: Quick question about [their company's] [relevant area]
 I noticed [specific observation about their company—recent news, 
 challenge in their industry, etc.].
 
-At Softograph, we've been helping [similar companies/competitors] 
+At Team, we've been helping [similar companies/competitors] 
 [achieve specific result]. 
 
 One example: [Brief proof point].
@@ -696,7 +696,7 @@ Agree? Disagree? Let's discuss.
 
 ### Language Guidelines
 
-**Power Words for Softograph:**
+**Power Words for Team:**
 - Transform, Enable, Accelerate
 - Insight, Intelligence, Visibility
 - Partner, Collaborate, Support

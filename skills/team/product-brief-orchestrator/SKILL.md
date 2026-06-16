@@ -1,8 +1,8 @@
 ---
 name: product-brief-orchestrator
 description: "Step-by-step product brief orchestrator for B2B products. Guides the team from concept or requirement through a complete product brief ready for engineering or client proposal. Use for B2B products (Proggya, Data Dialogue, ICE Enterprise, Inspecto, Callibrio, TradeEye, Talent Pulse). For consumer products with mobile/app store launches, use npd-launch-orchestrator instead. Triggers on: 'product brief', 'write a product brief', 'document this product idea', 'product orchestrator', 'help me spec this product'."
-source: softograph-custom
-context: softograph
+source: team-custom
+context: team
 version: 1.0.0
 added: 2026-03-28
 ---
@@ -59,7 +59,7 @@ Produce:
 - **Market sizing:** TAM/SAM estimate for Bangladesh + relevant international markets
 - **Competitive landscape:** What do buyers currently use (manual process / competitor / in-house) and what are its gaps
 - **Why now:** What's changed that makes this the right time (regulation, market maturity, technology availability)
-- **Softograph fit:** Why is positioned to build and sell this (existing client relationships, IP, distribution)
+- **Team fit:** Why is positioned to build and sell this (existing client relationships, IP, distribution)
 
 End with: `Step 1 complete. Ready for Step 2 (Product Concept)? Say 'next' or refine the problem first.`
 
@@ -86,7 +86,7 @@ End with: `Step 2 complete. Ready for Step 3 (Go-to-Market)? Say 'next' or adjus
 
 Produce:
 - **Primary market:** Which geography and sector to target first and why
-- **Sales motion:** Direct / partner / channel — and how it fits Softograph's current BD capacity
+- **Sales motion:** Direct / partner / channel — and how it fits Team's current BD capacity
 - **Pricing model:** Recommended pricing structure (per user, per deployment, outcome-based) with rationale
 - **Launch approach:** Pilot client strategy — how to find the first 2–3 reference clients
 - **Positioning statement:** One sentence: "[Product] helps [buyer type] [achieve outcome] by [how], unlike [alternative]"

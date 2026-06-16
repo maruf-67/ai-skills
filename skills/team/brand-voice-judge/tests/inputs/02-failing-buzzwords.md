@@ -1,4 +1,4 @@
-Softograph is the leading provider of cutting-edge AI solutions that are revolutionizing the way businesses operate. Our disruptive technology is seamless, next-gen, and world-class.
+Team is the leading provider of cutting-edge AI solutions that are revolutionizing the way businesses operate. Our disruptive technology is seamless, next-gen, and world-class.
 
 We're thrilled to announce our latest game-changing product that will transform your business overnight. Don't miss out on this limited time opportunity to leverage our innovative ecosystem!
 

@@ -37,7 +37,7 @@ Generate the complete proposal document in a single pass. All required informati
 9. **Evaluation criteria:** Technical approach 40%, Team 25%, Cost 20%, Timeline 15%
 10. **Decision makers:** BFDC Managing Director, Head of Operations
 11. **Competitors:** Unknown
-12. **Softograph edge:** Prior experience with government/institutional inventory systems, Proggya analytics platform for dashboards, proven SAP integration capability
+12. **Team edge:** Prior experience with government/institutional inventory systems, Proggya analytics platform for dashboards, proven SAP integration capability
 
 ## Pricing Parameters
 

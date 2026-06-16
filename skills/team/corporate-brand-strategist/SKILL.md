@@ -1,17 +1,17 @@
 ---
 name: corporate-brand-strategist
-description: "Annual and quarterly corporate brand marketing planning for Softograph. Use when: (1) Drafting or reviewing the annual marketing plan, (2) Breaking strategy into quarterly tasks, (3) Checking pillar coverage balance across Channels/Assets/Partnership-Networking/Offline, (4) Classifying campaigns as integrated vs standalone, (5) Auditing what's missing from the current plan. Triggers on: 'marketing plan', 'annual plan', 'quarterly plan', 'pillar coverage', 'what are we missing in marketing', 'plan for the year'."
-source: softograph-custom
-context: softograph
+description: "Annual and quarterly corporate brand marketing planning for Team. Use when: (1) Drafting or reviewing the annual marketing plan, (2) Breaking strategy into quarterly tasks, (3) Checking pillar coverage balance across Channels/Assets/Partnership-Networking/Offline, (4) Classifying campaigns as integrated vs standalone, (5) Auditing what's missing from the current plan. Triggers on: 'marketing plan', 'annual plan', 'quarterly plan', 'pillar coverage', 'what are we missing in marketing', 'plan for the year'."
+source: team-custom
+context: team
 version: 1.0.0
 added: 2026-03-28
 ---
 
 # Corporate Brand Strategist
 
-Plans and structures Softograph's corporate brand marketing across all four pillars. The team drafts; Tawhid approves. This skill structures the draft.
+Plans and structures Team's corporate brand marketing across all four pillars. The team drafts; Tawhid approves. This skill structures the draft.
 
-**Scope:** Corporate brand building — creating a strong, consistent identity. This is distinct from product GTM (handled by b2b-marketing-cmo skill). Corporate brand success means: when anyone searches "Softograph", they find what we intend.
+**Scope:** Corporate brand building — creating a strong, consistent identity. This is distinct from product GTM (handled by b2b-marketing-cmo skill). Corporate brand success means: when anyone searches "Team", they find what we intend.
 
 ---
 
@@ -22,7 +22,7 @@ Every marketing plan must address all four:
 | Pillar | What it covers | Goal |
 |---|---|---|
 | **Channels** | Facebook/Instagram, LinkedIn, SEO/Blog, Medium/Substack, Forums, YouTube | Consistent presence across owned digital channels |
-| **Assets** | Blog (insights.softograph.com), Podcast (AI-powered voice) | Owned content that builds authority |
+| **Assets** | Blog (insights.team.com), Podcast (AI-powered voice) | Owned content that builds authority |
 | **Partnership/Networking** | Newsletters, PR, Publications | Earned media and relationship-driven reach |
 | **Offline Campaign** | Internal Achievements, Networking, Events/Seminars, Awards | Physical presence and industry credibility |
 
@@ -68,7 +68,7 @@ Before planning forward, audit current state:
 
 ```
 PILLAR COVERAGE AUDIT
-─────────────────────
+  
 Channels:              [What's active / What's missing]
 Assets:                [Blog cadence / Podcast status]
 Partnership/Networking:[Active PR / Publications / Newsletters]
@@ -117,7 +117,7 @@ Structure the approved campaigns into quarterly execution:
 
 ```
 Q[N] MARKETING PLAN — [Year]
-═════════════════════════════
+ 
 
 STRATEGIC THEME: [What this quarter is about]
 
@@ -175,7 +175,7 @@ Format as a document the team can act from immediately after approval.
 
 ## CEO Leverage — Identify These Opportunities
 
-One of the most missed opportunities in Softograph's marketing is under-using Tawhid's voice and presence. Flag these explicitly in every plan:
+One of the most missed opportunities in Team's marketing is under-using Tawhid's voice and presence. Flag these explicitly in every plan:
 
 - **CEO thought leadership** — Substack articles that can be pitched to national dailies
 - **Speaking opportunities** — events where Tawhid could speak on AI/tech/entrepreneurship
@@ -196,4 +196,4 @@ Before presenting the plan:
 - [ ] Roster action items are flagged with responsible owner
 - [ ] Awards with deadlines in next 90 days are highlighted
 - [ ] Plan is achievable given team size (4-person execution team)
-- [ ] Each campaign has a clear owner (by role) and timeline
+- [ ] Each campaign has a owner (by role) and timeline

@@ -19,7 +19,7 @@ First, determine the **input type**:
 - [ ] Contains a team section with named roles
 - [ ] Contains a timeline with milestones
 - [ ] Contains a financial proposal with cost breakdown
-- [ ] Contains a "Why Softograph" or differentiator section
+- [ ] Contains a "Why Team" or differentiator section
 
 ### Content Checks
 - [ ] References the client by name and their specific requirements

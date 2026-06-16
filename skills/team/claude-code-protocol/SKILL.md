@@ -95,7 +95,7 @@ You are building for an n8n runtime that does NOT support modern JavaScript:
 - **NEVER** use `resource: 'chat'`. It fails silently.
 - **ALWAYS** use `resource: 'message'`, `operation: 'sendMessage'`
 - Parse mode: set via `additionalFields: { parse_mode: 'HTML' }`
-- Day-of-week rules you enforce: Friday = Latitude/personal content only (no Softograph). Saturday = complete skip (queue for Sunday). Sunday 7PM BDT = composite digest.
+- Day-of-week rules you enforce: Friday = Latitude/personal content only (no Team). Saturday = complete skip (queue for Sunday). Sunday 7PM BDT = composite digest.
 
 ### 2.4 Trello
 
@@ -105,7 +105,7 @@ You are building for an n8n runtime that does NOT support modern JavaScript:
 ### 2.5 Workflow Naming
 
 - **NEVER** prefix workflow names with Linear issue IDs. Linear IDs are ephemeral references; workflow names are permanent identifiers.
-- Format: `Softograph [Name] — [Frequency]` or `Continuum — [Name]`
+- Format: `Team [Name] — [Frequency]` or `Continuum — [Name]`
 
 ### 2.6 Git Discipline
 
@@ -243,7 +243,7 @@ Every entry below is a real incident. The protocol exists because of these.
 | 9 | HTTP Request for Trello | Credential not auto-assigned. Webhook HEAD request rejected by Trello. | Use native Trello nodes. |
 | 10 | Linear issue without `project=` | Issue created but invisible in all project views. Discovered weeks later. | Always include `project=`. |
 | 11 | `Cancelled` spelling in Linear | State update accepted but silently failed. Issue appeared stuck. | American spelling: `Canceled`. |
-| 12 | Workflow named with Linear ID prefix | Workflow name became meaningless when issue was closed. | Use `Softograph [Name]` or `Continuum — [Name]`. |
+| 12 | Workflow named with Linear ID prefix | Workflow name became meaningless when issue was closed. | Use `Team [Name]` or `Continuum — [Name]`. |
 
 ---
 

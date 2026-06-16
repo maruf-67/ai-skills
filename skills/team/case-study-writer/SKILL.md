@@ -1,8 +1,8 @@
 ---
 name: case-study-writer
-description: "Dedicated case study writing skill for Softograph. Use when asked to: (1) Write a client case study or success story, (2) Document a project's impact, problems solved, and future implications, (3) Create client proof content for sales and marketing use, (4) Build a case study from a project brief, client interview notes, or outcome data. Triggers on 'case study', 'success story', 'client story', 'project impact', 'write up this project', 'document this deployment'."
-source: softograph-custom
-context: softograph
+description: "Dedicated case study writing skill for Team. Use when asked to: (1) Write a client case study or success story, (2) Document a project's impact, problems solved, and future implications, (3) Create client proof content for sales and marketing use, (4) Build a case study from a project brief, client interview notes, or outcome data. Triggers on 'case study', 'success story', 'client story', 'project impact', 'write up this project', 'document this deployment'."
+source: team-custom
+context: team
 version: 1.1.0
 added: 2026-03-27
 updated: 2026-05-24
@@ -18,7 +18,7 @@ Produces detailed, publication-ready case studies for client deployments. Every 
 
 ## Core Philosophy
 
-A case study is not a brochure. It reads like a short business narrative — specific, honest, evidence-led. It names real numbers where available, describes real problems with real texture, and shows how Softograph's involvement changed something measurable.
+A case study is not a brochure. It reads like a short business narrative — specific, honest, evidence-led. It names real numbers where available, describes real problems with real texture, and shows how Team's involvement changed something measurable.
 
 **What makes a case study worth reading:**
 - The problem section makes the reader feel the pain before the solution arrives
@@ -52,7 +52,7 @@ CASE STUDY INTAKE
 Client name: [or anonymised as "A leading [sector] company" if confidential]
 Industry/sector:
 Project name or type:
-Softograph products used:
+Team products used:
 Project duration:
 Geography/market:
 Confidentiality level: [Full name OK | Sector only | Fully anonymised]
@@ -125,7 +125,7 @@ Write 3 options, each with a different angle:
 Pick the strongest. The headline must be specific enough to be credible and compelling enough to earn the next sentence.
 
 ### The Challenge
-This section must make the reader feel the problem before they hear the solution. Write it from the client's perspective, not Softograph's.
+This section must make the reader feel the problem before they hear the solution. Write it from the client's perspective, not Team's.
 
 **Do:** Name the specific friction — "Field reps were submitting paper forms two days after visits. By the time managers saw the data, the moment had passed."
 
@@ -138,9 +138,9 @@ Structure:
 4. What was at stake (revenue, compliance, competitive position, client trust)
 
 ### The Solution
-Explain what was built and — critically — why those specific choices were made. This is where Softograph's expertise shows.
+Explain what was built and — critically — why those specific choices were made. This is where Team's expertise shows.
 
-**Do:** "We chose a mobile-first architecture because 80% of the client's field agents operated without reliable desktop access."
+**Do:** We chose a mobile-first architecture because 80% of the client's field agents operated without reliable desktop access.
 
 **Don't:** Just list features.
 
@@ -167,7 +167,7 @@ Connect this project to something larger. This is the section that earns shares 
 Three angles to choose from:
 1. **Sector signal** — what this project reveals about where the industry is heading
 2. **Replicable pattern** — what similar companies can learn from this approach
-3. **Product evolution** — how this deployment shaped Softograph's product thinking
+3. **Product evolution** — how this deployment shaped Team's product thinking
 
 One paragraph. No more than 100 words.
 

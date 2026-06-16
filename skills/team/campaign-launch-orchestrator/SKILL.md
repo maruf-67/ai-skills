@@ -1,8 +1,8 @@
 ---
 name: campaign-launch-orchestrator
-description: "Step-by-step campaign launch orchestrator for Softograph's marketing team. Guides the team through a full campaign from brief to launch checklist, one step at a time, prompting the next task automatically. Use when launching any marketing campaign — channel content, case study promotion, product announcement, or integrated brand campaign. Triggers on: 'launch a campaign', 'run a campaign', 'campaign orchestrator', 'help me run this campaign', 'plan and execute this campaign'."
-source: softograph-custom
-context: softograph
+description: "Step-by-step campaign launch orchestrator for Team's marketing team. Guides the team through a full campaign from brief to launch checklist, one step at a time, prompting the next task automatically. Use when launching any marketing campaign — channel content, case study promotion, product announcement, or integrated brand campaign. Triggers on: 'launch a campaign', 'run a campaign', 'campaign orchestrator', 'help me run this campaign', 'plan and execute this campaign'."
+source: team-custom
+context: team
 version: 1.0.0
 added: 2026-03-28
 ---
@@ -135,7 +135,7 @@ Produce:
 - Ready-to-use copy for each channel:
   - LinkedIn post (150–250 words, hook + body + close, no CTA)
   - Facebook/Instagram caption (shorter, visual-first framing)
-  - Blog post outline for insights.softograph.com (headline, 5 section headers, intro paragraph)
+  - Blog post outline for insights.team.com (headline, 5 section headers, intro paragraph)
   - Email/newsletter teaser (2–3 sentences)
 - Visual brief: what images or graphics are needed for each piece
 

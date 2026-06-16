@@ -29,7 +29,7 @@ This skill automates the "Fix-Test-Repeat" cycle, ensuring code correctness befo
 
 ### 4. Apply Fix
 - Apply a targeted, surgical edit to fix the identified bug.
-- Ensure the fix adheres to the "Softograph Architecture" (Actions, DTOs, etc.).
+- Ensure the fix adheres to the "Team Architecture" (Actions, DTOs, etc.).
 
 ### 5. Verify & Loop
 - Re-run the tests.

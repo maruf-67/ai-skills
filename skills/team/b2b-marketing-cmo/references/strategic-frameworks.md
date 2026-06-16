@@ -69,7 +69,7 @@ Geographic Focus:
   Future: [markets]
 
 Delivery Mechanism:
-  □ Cloud-hosted (Softograph infrastructure)
+  □ Cloud-hosted (Team infrastructure)
   □ Client cloud (AWS/Azure/GCP)
   □ On-premise deployment
   □ Hybrid
@@ -211,7 +211,7 @@ Competitive Factors:
   Barriers to Entry: ___/5 (5 = high barriers favor incumbents)
   Differentiation Opportunity: ___/5
 
-Softograph Fit:
+Team Fit:
   Product Fit: ___/5
   Relationship Access: ___/5
   Capability Match: ___/5
@@ -375,7 +375,7 @@ Product/Market: [specify]
 Date: [date]
 
 1. COMPETITIVE RIVALRY (Force Strength: □ Low □ Medium □ High)
-─────────────────────
+  
 Number of Competitors: [count]
 Key Competitors: [list]
 Market Growth Rate: [slow/medium/fast]
@@ -386,12 +386,12 @@ Switching Costs: [low/medium/high]
 Assessment:
 [Narrative assessment of competitive intensity]
 
-Implications for Softograph:
+Implications for Team:
 [What this means for strategy]
 
 
 2. THREAT OF NEW ENTRANTS (Force Strength: □ Low □ Medium □ High)
-──────────────────────────
+  
 Capital Requirements: [low/medium/high]
 Economies of Scale: [low/medium/high]
 Access to Distribution: [easy/moderate/difficult]
@@ -402,12 +402,12 @@ Brand Loyalty: [low/medium/high]
 Assessment:
 [Narrative assessment]
 
-Implications for Softograph:
+Implications for Team:
 [What this means for strategy]
 
 
 3. THREAT OF SUBSTITUTES (Force Strength: □ Low □ Medium □ High)
-────────────────────────
+  
 Available Substitutes: [list]
 Price-Performance of Substitutes: [inferior/comparable/superior]
 Switching Costs to Substitutes: [low/medium/high]
@@ -416,12 +416,12 @@ Buyer Propensity to Substitute: [low/medium/high]
 Assessment:
 [Narrative assessment]
 
-Implications for Softograph:
+Implications for Team:
 [What this means for strategy]
 
 
 4. BARGAINING POWER OF BUYERS (Force Strength: □ Low □ Medium □ High)
-──────────────────────────────
+  
 Buyer Concentration: [fragmented/moderate/concentrated]
 Buyer Information: [low/medium/high]
 Switching Costs: [low/medium/high]
@@ -431,12 +431,12 @@ Threat of Backward Integration: [low/medium/high]
 Assessment:
 [Narrative assessment]
 
-Implications for Softograph:
+Implications for Team:
 [What this means for strategy]
 
 
 5. BARGAINING POWER OF SUPPLIERS (Force Strength: □ Low □ Medium □ High)
-────────────────────────────────
+  
 Supplier Concentration: [fragmented/moderate/concentrated]
 Switching Costs: [low/medium/high]
 Importance of Volume to Supplier: [low/medium/high]
@@ -446,7 +446,7 @@ Threat of Forward Integration: [low/medium/high]
 Assessment:
 [Narrative assessment]
 
-Implications for Softograph:
+Implications for Team:
 [What this means for strategy]
 
 
@@ -488,7 +488,7 @@ POLITICAL FACTORS
 Key Factors:
 [List relevant factors]
 
-Impact on Softograph:
+Impact on Team:
 □ Positive  □ Neutral  □ Negative
 [Assessment narrative]
 
@@ -506,7 +506,7 @@ ECONOMIC FACTORS
 Key Factors:
 [List relevant factors]
 
-Impact on Softograph:
+Impact on Team:
 □ Positive  □ Neutral  □ Negative
 [Assessment narrative]
 
@@ -523,7 +523,7 @@ SOCIAL FACTORS
 Key Factors:
 [List relevant factors]
 
-Impact on Softograph:
+Impact on Team:
 □ Positive  □ Neutral  □ Negative
 [Assessment narrative]
 
@@ -540,7 +540,7 @@ TECHNOLOGICAL FACTORS
 Key Factors:
 [List relevant factors]
 
-Impact on Softograph:
+Impact on Team:
 □ Positive  □ Neutral  □ Negative
 [Assessment narrative]
 
@@ -557,7 +557,7 @@ LEGAL FACTORS
 Key Factors:
 [List relevant factors]
 
-Impact on Softograph:
+Impact on Team:
 □ Positive  □ Neutral  □ Negative
 [Assessment narrative]
 
@@ -573,7 +573,7 @@ ENVIRONMENTAL FACTORS
 Key Factors:
 [List relevant factors]
 
-Impact on Softograph:
+Impact on Team:
 □ Positive  □ Neutral  □ Negative
 [Assessment narrative]
 

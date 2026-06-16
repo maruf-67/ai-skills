@@ -1,8 +1,8 @@
 ---
 name: marketing-progress-tracker
-description: "Weekly and monthly marketing accountability for Softograph's corporate brand team. Use when: (1) Reviewing what the team completed vs the quarterly plan, (2) Identifying gaps and late tasks, (3) Getting a priority nudge for the next week, (4) Assessing outcomes and recommending plan adjustments. Triggers on: 'marketing update', 'progress review', 'what's behind', 'what should we focus on', 'weekly review', 'monthly check-in', 'how are we doing on the plan'."
-source: softograph-custom
-context: softograph
+description: "Weekly and monthly marketing accountability for Team's corporate brand team. Use when: (1) Reviewing what the team completed vs the quarterly plan, (2) Identifying gaps and late tasks, (3) Getting a priority nudge for the next week, (4) Assessing outcomes and recommending plan adjustments. Triggers on: 'marketing update', 'progress review', 'what's behind', 'what should we focus on', 'weekly review', 'monthly check-in', 'how are we doing on the plan'."
+source: team-custom
+context: team
 version: 1.0.0
 added: 2026-03-28
 ---
@@ -193,6 +193,6 @@ Regardless of what the team reports, always verify:
 
 - **Awards deadline check:** Any awards in the roster with submission deadlines in the next 30 days?
 - **Event registration check:** Any events in the calendar with registration deadlines in the next 14 days?
-- **Blog cadence:** Is the team on track for at least one post per month on insights.softograph.com?
+- **Blog cadence:** Is the team on track for at least one post per month on insights.team.com?
 - **ISO/certification:** Any renewals flagged in the certification tracker?
 - **CEO leverage:** Has Tawhid produced anything this period that should have been amplified but wasn't?

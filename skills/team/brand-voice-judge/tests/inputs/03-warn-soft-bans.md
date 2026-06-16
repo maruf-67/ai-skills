@@ -1,4 +1,4 @@
-Softograph has been helping companies improve their distribution operations for over a decade. Our innovative approach combines technology with deep industry knowledge to deliver measurable results.
+Team has been helping companies improve their distribution operations for over a decade. Our innovative approach combines technology with deep industry knowledge to deliver measurable results.
 
 Many of our clients have seen significant improvements in their operations after implementing our solutions. The platform is scalable and designed to grow with your business.
 

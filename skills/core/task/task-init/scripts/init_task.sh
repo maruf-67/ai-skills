@@ -138,7 +138,7 @@ $FULL_BRANCH_NAME
 ## Type
 $CAP_TASK_TYPE
 ## PR Target
-$PROD_BRANCH
+dev
 
 ## Goal
 Short objective.
@@ -170,4 +170,4 @@ touch "$TASK_CONTEXT_DIR/references.md"
 echo "✅ Task initialization complete!"
 echo "Current branch: $(git branch --show-current)"
 echo "Task workspace: .ai/tasks/$TASK_DIR_NAME/"
-echo "PR Target: $PROD_BRANCH"
+echo "PR Target: dev"
