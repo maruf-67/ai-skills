@@ -71,7 +71,9 @@ PLAYBOOK_FILE="$PROJECT_ROOT/.ai/playbook/PROGRESS.md"
 if [ -f "$PLAYBOOK_FILE" ]; then
     echo "📝 Updating PROGRESS.md..."
     # Mark tasks corresponding to current branch as completed if listed
-    sed -i "s/- \[ \] .*$CURRENT_BRANCH.*/- \[x\] Completed task on $CURRENT_BRANCH/g" "$PLAYBOOK_FILE" || true
+    # Escape / in branch name to avoid breaking sed delimiter
+    BRANCH_SAFE=$(echo "$CURRENT_BRANCH" | sed 's/\//\\\//g')
+    sed -i "s/- \[ \] .*$BRANCH_SAFE.*/- \[x\] Completed task on $CURRENT_BRANCH/g" "$PLAYBOOK_FILE" || true
 fi
 
 echo "✅ Task finish script completed successfully!"
