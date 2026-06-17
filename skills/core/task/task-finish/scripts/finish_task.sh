@@ -39,16 +39,26 @@ fi
 
 echo "📦 Detected stack: $STACK"
 
-# Run stack-specific linting/quality check if tools are available
+# ── Quality Gate 1.25: Lint + TypeScript + Tests ──
+echo "🔍 Running Quality Gate 1.25..."
+
 if [ "$STACK" = "laravel" ]; then
     if [ -f "vendor/bin/pint" ]; then
-        echo "🔧 Running Pint code formatter..."
-        vendor/bin/pint --dirty --format agent || echo "⚠️ Pint found issues but completed."
+        echo "🔧 Running Pint..."
+        vendor/bin/pint --dirty --format agent || echo "⚠️ Pint found issues."
     fi
 elif [ "$STACK" = "nextjs" ] || [ "$STACK" = "node" ]; then
-    if [ -f "node_modules/.bin/eslint" ]; then
-        echo "🔧 Running ESLint..."
-        npx eslint --ext .ts,.tsx,.js --max-warnings 0 src/ || echo "⚠️ ESLint found warnings."
+    echo "🔧 Running pnpm lint..."
+    npx --no-install pnpm lint 2>/dev/null || pnpm lint 2>/dev/null || npx eslint --ext .ts,.tsx,.js --max-warnings 0 src/ || echo "⚠️ Lint found issues."
+
+    if [ -f "tsconfig.json" ]; then
+        echo "🔧 Running tsc --noEmit..."
+        npx tsc --noEmit || echo "⚠️ TypeScript found issues."
+    fi
+
+    if [ -f "node_modules/.bin/vitest" ]; then
+        echo "🧪 Running vitest..."
+        npx vitest run || echo "⚠️ Tests failed."
     fi
 fi
 
