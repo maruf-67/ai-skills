@@ -1,8 +1,8 @@
 ---
 name: pr-media-relations
 description: "PR and media relations for corporate brand. Use when: (1) Writing a press release for a significant announcement, (2) Pitching a story to a national daily or trade publication, (3) Drafting an award nomination entry, (4) Writing editor/journalist outreach, (5) Preparing a PR brief from a completed project. Triggers on: 'press release', 'PR', 'media pitch', 'award entry', 'national daily', 'Daily Star', 'The Business Standard', 'journalist', 'publication', 'earned media'."
-source: team-custom
-context: team
+source: ai-os-custom
+context: both
 version: 1.1.0
 added: 2026-03-28
 ---

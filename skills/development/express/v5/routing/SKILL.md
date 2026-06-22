@@ -1,4 +1,3 @@
-```skill
 ---
 name: express-v5-routing
 description: Use this when creating routes/controllers and enforcing middleware order in Express v5.
@@ -36,4 +35,3 @@ router.get(
 - Repeating `(req as any).user` in controllers.
 - Running validation inside service logic.
 - Returning custom one-off response shapes per endpoint.
-```

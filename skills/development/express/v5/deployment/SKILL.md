@@ -1,4 +1,3 @@
-```skill
 ---
 name: express-v5-deployment
 description: Use this when preparing production deployment topology, env config, and runtime process setup.
@@ -32,4 +31,3 @@ Use this when preparing production runs, environment config, or runtime topology
 - Deploying with missing critical env variables.
 - Divergent production config that bypasses documented startup paths.
 - Manual post-deploy patching that is not codified in config/scripts.
-```

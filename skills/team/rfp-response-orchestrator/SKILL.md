@@ -1,8 +1,8 @@
 ---
 name: rfp-response-orchestrator
 description: "Step-by-step RFP response orchestrator for Team's sales team. Guides the team through a full proposal from RFP analysis to final review, one step at a time. Use when responding to any RFP, RFQ, or formal procurement request. Triggers on: 'rfp response', 'respond to this rfp', 'write a proposal', 'rfp orchestrator', 'help me respond to this tender'."
-source: team-custom
-context: team
+source: ai-os-custom
+context: both
 version: 1.1.0
 added: 2026-03-28
 ---

@@ -1,4 +1,3 @@
-```skill
 ---
 name: express-v5-database
 description: Use this when designing Prisma/PostgreSQL or Mongoose/MongoDB models, indexes, and query patterns in Express v5 services.
@@ -72,4 +71,3 @@ export const myService = {
 - Unbounded queries without pagination.
 - Silent schema drift by using loosely typed fields.
 - Query composition directly inside controllers.
-```

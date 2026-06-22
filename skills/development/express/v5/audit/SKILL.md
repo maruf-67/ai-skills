@@ -1,4 +1,3 @@
-```skill
 ---
 name: express-v5-audit
 description: Use this when implementing request-context-based auditing and actor metadata trails in Express v5 with Prisma or Mongoose.
@@ -96,4 +95,3 @@ export function auditPlugin(schema: Schema) {
 - Manually passing actor/metadata payloads through every service layer call.
 - Partial implementation where only some write operations are tracked.
 - Inconsistent key naming that degrades query/search capabilities.
-```

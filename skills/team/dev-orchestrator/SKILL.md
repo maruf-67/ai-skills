@@ -1,5 +1,5 @@
 ---
-source: team-custom
+source: ai-os-custom
 context: both
 version: 1.0
 name: dev-orchestrator

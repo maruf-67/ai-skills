@@ -1,8 +1,8 @@
 ---
 name: corporate-brand-strategist
 description: "Annual and quarterly corporate brand marketing planning for Team. Use when: (1) Drafting or reviewing the annual marketing plan, (2) Breaking strategy into quarterly tasks, (3) Checking pillar coverage balance across Channels/Assets/Partnership-Networking/Offline, (4) Classifying campaigns as integrated vs standalone, (5) Auditing what's missing from the current plan. Triggers on: 'marketing plan', 'annual plan', 'quarterly plan', 'pillar coverage', 'what are we missing in marketing', 'plan for the year'."
-source: team-custom
-context: team
+source: ai-os-custom
+context: both
 version: 1.0.0
 added: 2026-03-28
 ---

@@ -1,8 +1,8 @@
 ---
 name: brand-marketing-orchestrator
 description: "Quarterly brand marketing orchestrator for Team's marketing team. Runs the full 4-pillar brand marketing cycle in a single session — quarterly planning, cross-pillar opportunity mapping, PR and earned media, events strategy, and weekly accountability tracking. One Gem handles everything. Use when starting a new quarter, planning a brand push, or running the Monday review. Triggers on: 'brand marketing', 'quarterly brand plan', 'brand orchestrator', 'marketing planning', 'brand planning cycle', 'Monday review'."
-source: team-custom
-context: team
+source: ai-os-custom
+context: both
 version: 2.0.0
 added: 2026-03-28
 updated: 2026-03-30

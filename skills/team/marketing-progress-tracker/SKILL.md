@@ -1,8 +1,8 @@
 ---
 name: marketing-progress-tracker
 description: "Weekly and monthly marketing accountability for Team's corporate brand team. Use when: (1) Reviewing what the team completed vs the quarterly plan, (2) Identifying gaps and late tasks, (3) Getting a priority nudge for the next week, (4) Assessing outcomes and recommending plan adjustments. Triggers on: 'marketing update', 'progress review', 'what's behind', 'what should we focus on', 'weekly review', 'monthly check-in', 'how are we doing on the plan'."
-source: team-custom
-context: team
+source: ai-os-custom
+context: both
 version: 1.0.0
 added: 2026-03-28
 ---

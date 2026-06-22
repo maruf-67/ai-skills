@@ -1,4 +1,3 @@
-```skill
 ---
 name: express-v5-seeders
 description: Use this when designing idempotent database seeders and startup data initialization flows.
@@ -32,4 +31,3 @@ Use this when initializing baseline data, environment fixtures, or controlled up
 - Non-idempotent bulk inserts.
 - Hidden side effects that mutate unrelated collections.
 - Hardcoding sensitive credentials in seed payloads.
-```

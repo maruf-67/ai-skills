@@ -1,8 +1,8 @@
 ---
 name: events-networking
 description: "Events strategy and networking for Team's offline brand presence. Use when: (1) Planning which events to attend, speak at, or sponsor, (2) Preparing for a specific event (who to meet, what to say), (3) Writing a speaker proposal or topic pitch, (4) Drafting networking outreach to chamber contacts or industry association members, (5) Documenting internal achievements for external use, (6) Preparing an award entry. Triggers on: 'event', 'conference', 'seminar', 'networking', 'chamber', 'attend', 'speak', 'award entry', 'internal achievement', 'BASIS', 'DCCI', 'MCCI'."
-source: team-custom
-context: team
+source: ai-os-custom
+context: both
 version: 1.0.0
 added: 2026-03-28
 ---

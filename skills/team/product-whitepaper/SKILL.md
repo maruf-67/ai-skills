@@ -1,6 +1,6 @@
 ---
-source: team-custom
-context: team
+source: ai-os-custom
+context: both
 version: 1.0
 name: product-whitepaper
 description: "Generate comprehensive product whitepapers and concept notes for Limited. Use when asked to: (1) Create a product whitepaper or concept note, (2) Document a new product idea, (3) Write a product brief for internal strategy or client proposals, (4) Develop market research documentation for a product concept. Supports two modes: internal (strategy documents) and external (client-facing proposals with client research and benefits analysis)."

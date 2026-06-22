@@ -1,4 +1,3 @@
-```skill
 ---
 name: express-v5-caching
 description: Use this when adding Redis-backed caching and invalidation to Express v5 service flows.
@@ -35,4 +34,3 @@ const data = await getCachedOrFetch(
 - Infinite TTL for mutable entities.
 - Cache keys that ignore user/tenant scope.
 - Failing closed when Redis is temporarily unavailable.
-```

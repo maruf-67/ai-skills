@@ -1,8 +1,8 @@
 ---
 name: proposal-writer
 description: "Use for writing complete technical/financial proposals and RFP responses, including intake, pricing strategy, and submission-ready drafting."
-source: team-custom
-context: team
+source: ai-os-custom
+context: both
 version: 1.2.0
 ---
 

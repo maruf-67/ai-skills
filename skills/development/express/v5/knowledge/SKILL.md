@@ -1,4 +1,3 @@
-```skill
 ---
 name: express-v5-knowledge
 description: Use this when building access-controlled content modules with file processing in Express v5.
@@ -32,4 +31,3 @@ Use this when building content modules with access control, file processing, and
 - Controller-level access branching duplicated across endpoints.
 - Unsafe path joins when serving extracted assets.
 - Loading all records and filtering in memory.
-```

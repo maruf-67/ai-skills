@@ -1,8 +1,8 @@
 ---
 name: cross-pillar-ideation
 description: "Detects downstream brand opportunities from any completed work. Use when: (1) A project, deployment, or milestone has just been completed, (2) The team has published something and wants to know what else it can become, (3) Tawhid has written or spoken somewhere and the team should amplify it, (4) A certification was renewed or awarded, (5) You want to turn a standalone action into an integrated campaign. Triggers on: 'what else can we do with this', 'what can we publish from this', 'amplify this', 'cross-pillar', 'what are we missing', 'turn this into a campaign'."
-source: team-custom
-context: team
+source: ai-os-custom
+context: both
 version: 1.0.0
 added: 2026-03-28
 ---

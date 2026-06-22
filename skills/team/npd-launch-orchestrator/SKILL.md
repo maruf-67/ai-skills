@@ -1,8 +1,8 @@
 ---
 name: npd-launch-orchestrator
 description: "Cross-functional pre-launch orchestrator for consumer products (Borof Pani, ICE, and future consumer/cross-market products). Guides the full team — product, marketing, engineering, legal, operations — through all 7 pre-launch sections of Team's NPD checklist, one phase at a time. Use when preparing a consumer product for launch. Triggers on: 'product launch', 'npd', 'launch checklist', 'pre-launch', 'launch orchestrator', 'borof pani launch', 'consumer product launch', 'app launch'."
-source: team-custom
-context: team
+source: ai-os-custom
+context: both
 version: 1.0.0
 added: 2026-03-28
 ---

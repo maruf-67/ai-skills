@@ -1,8 +1,8 @@
 ---
 name: product-brief-orchestrator
 description: "Step-by-step product brief orchestrator for B2B products. Guides the team from concept or requirement through a complete product brief ready for engineering or client proposal. Use for B2B products (Proggya, Data Dialogue, ICE Enterprise, Inspecto, Callibrio, TradeEye, Talent Pulse). For consumer products with mobile/app store launches, use npd-launch-orchestrator instead. Triggers on: 'product brief', 'write a product brief', 'document this product idea', 'product orchestrator', 'help me spec this product'."
-source: team-custom
-context: team
+source: ai-os-custom
+context: both
 version: 1.0.0
 added: 2026-03-28
 ---

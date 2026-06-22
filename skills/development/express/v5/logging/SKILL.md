@@ -1,4 +1,3 @@
-```skill
 ---
 name: express-v5-logging
 description: Use this when implementing structured logging and consistent error handling in Express v5 APIs with Winston or Pino.
@@ -72,4 +71,3 @@ export const globalErrorHandler = (err: Error, req: Request, res: Response, next
 - Mixing direct `console.log` statements with structured loggers.
 - Exposing raw system stack traces in production HTTP responses.
 - Inconsistent error structures across different API modules.
-```

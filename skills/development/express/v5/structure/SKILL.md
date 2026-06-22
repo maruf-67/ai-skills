@@ -1,4 +1,3 @@
-```skill
 ---
 name: express-v5-structure
 description: Use this when defining or reviewing Express v5 project/module structure and layering rules.
@@ -47,4 +46,3 @@ src/
 - Putting business rules in controllers.
 - Bypassing validation middleware.
 - Defining one-off response formats per module.
-```
