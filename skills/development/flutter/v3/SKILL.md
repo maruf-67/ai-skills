@@ -19,6 +19,12 @@ description: Use this when building or reviewing Flutter Android and iOS apps wi
 - data fetching: `./data-fetching/SKILL.md`
 - styling: `./styling/SKILL.md`
 - responsive: `./responsive/SKILL.md`
+- widget testing: `./widget-test/SKILL.md`
+- integration testing: `./integration-test/SKILL.md`
+- widget preview: `./widget-preview/SKILL.md`
+- layout fixing: `./layout-fixing/SKILL.md`
+- serialization: `./serialization/SKILL.md`
+- localization: `./localization/SKILL.md`
 
 ## Auth Routing
 

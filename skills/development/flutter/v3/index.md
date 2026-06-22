@@ -12,6 +12,12 @@
 - `data-fetching/SKILL.md`
 - `styling/SKILL.md`
 - `responsive/SKILL.md`
+- `widget-test/SKILL.md`
+- `integration-test/SKILL.md`
+- `widget-preview/SKILL.md`
+- `layout-fixing/SKILL.md`
+- `serialization/SKILL.md`
+- `localization/SKILL.md`
 - `auth-sanctum/SKILL.md`
 - `auth-jwt/SKILL.md`
 
