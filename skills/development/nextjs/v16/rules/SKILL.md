@@ -1,44 +1,42 @@
 ---
 name: rules
-description: Core coding standards, naming conventions, and validation rules for Next.js 16.
+description: Core coding standards, naming conventions, import boundaries, feature isolation rules, and validation rules for Next.js 16.
 ---
 
 # General Rules & Patterns
 
-## Project Standards
+## Project Standards & Imports
 
 - **Source Root**: All application code must be inside `src/`.
+- **Absolute Path Aliases**: Usage of absolute path aliases (e.g., `@/components/`) is MANDATORY.
+- **Parent-Relative Imports**: Parent-relative imports (`../`, `../../`) are strictly FORBIDDEN.
 - **Naming**: 
   - Components: `PascalCase.tsx`
   - Hooks: `useCamelCase.ts`
-  - Services: `camelCase.service.ts`
-- **Aliases**: Strictly use `@/*` for internal imports.
+  - Services/API: `camelCase.ts` or `camelCase.service.ts`
 
-## Technical Requirements
+## Shared vs. Feature Matrix (The Rule of Three)
 
-- **TypeScript**: 
-  - Strict mode enabled.
-  - No `any`; use specific interfaces or `unknown`.
-  - Use `type` for simple data structures, `interface` for extendable objects.
-- **Validation**: 
-  - All form schemas must use `Zod`.
-  - API responses should be validated or typed using `Zod` or explicit interfaces.
-- **Forms**: 
-  - Powered by `React Hook Form`.
-  - Use `zodResolver` for validation bridging.
-  - Use shared form controls from `src/components/ui/*` for consistent UX.
-  - For dropdowns, use the shared `Select`/`Async*Select` wrappers; avoid native `<select>` in feature modules.
+- **Default Scope:** All UI components, hooks, constants, types, and schemas MUST originate within `src/features/[feature]/`.
+- **Promotion:** Any logic or component requested by 2 different features MUST be promoted to the global shared layer (e.g., `src/components/`, `src/hooks/`, `src/schemas/`).
+- **Cross-Import Ban:** Direct imports between features are FORBIDDEN. Communication between features must happen through the shared layer or via prop-drilling at the page level.
 
-## Styling Guidelines
+## Code Segregation (Helpers vs. Lib)
 
-- **Tailwind CSS v4**: CSS-first configuration.
-- **Conditional Classes**: Use the `cn()` utility (`clsx` + `tailwind-merge`).
-- **Brand Consistency**: 
-  - Reference `surfaceBaseClasses`, `cardClasses`, etc., from `src/lib/utils.ts`.
-  - Use CSS variables for brand colors (`--color-primary-*`).
+- **Helpers:** Pure TypeScript functions that transform input to output without side effects. Helpers MUST NOT contain any package imports (e.g., `isBrowser()`).
+- **Lib:** Contains configured instances of external libraries (axios, date-fns). Any custom functions or setups containing package imports belong in `src/lib/` (e.g., `isToday()` using date-fns).
+- **Zod Schemas:** Feature-specific validation schemas must be placed in `features/[feature]/schemas/`. Both API/action layers and UI elements must import from this single source to prevent duplication.
 
-## State Management Ethics
+## Technical Requirements & Boundaries
 
-- **Local State**: Use `useState` for UI-only state.
-- **Global State**: Use Context API for `Auth`, `Theme`, `Notifications`.
-- **URL State**: Use `useSearchParams` for filterable list views to support bookmarking.
+- **TypeScript**: Strict mode enabled. No `any`. Use specific interfaces or `unknown`.
+- **No HTTP in UI:** The UI layer is FORBIDDEN from using `axios` or `fetch` directly. Components must only consume API hooks or actions defined inside the `features/[feature]/` layer.
+- **Secret Isolation:** Use the `server-only` package in API, repository, and database files to prevent accidental leakages to the client.
+
+## Quality & Automation Workflows (productivity scripts)
+
+Leverage the standard automation tools configured in the boilerplate:
+- **`pnpm run lint:fix`** (or `pnpm lint:fix`): Auto-fixes linting and formatting. Run this before committing.
+- **`pnpm run knip`** (or `pnpm knip`): Automatically detects unused dependencies, files, and exports. Run periodically to reduce bundle size.
+- **`pnpm run analyze`** (or `pnpm analyze`): Run bundle size analysis to optimize client-side weights.
+- **`pnpm run commit`** (or `pnpm commit`): Use the Conventional Commits CLI to keep changelogs clean and automated.

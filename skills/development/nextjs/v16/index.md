@@ -8,6 +8,7 @@ This guide covers standardized patterns for Next.js 16 projects using the App Ro
 - [Core Skill (trigger-based)](./SKILL.md)
 - [General Rules & Patterns](./rules/SKILL.md)
 - [Data Fetching & Services](./fetching/SKILL.md)
+- [Caching & Cache Components](./cache/SKILL.md)
 - [Component Architecture](./components/SKILL.md)
 - [Authentication (Sanctum SPA Session)](./auth/SKILL.md)
 - [Authentication (JWT / Bearer)](./auth-jwt/SKILL.md)

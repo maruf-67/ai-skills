@@ -45,9 +45,7 @@ Leverage the centralized Axios instance for all requests.
 - Always use `unwrapResponse<T>()` from `@/lib/api` to handle standardized `ApiResponse` wrappers.
 - Define explicit interfaces in `@/types` for all domain entities.
 
-## App Router Cache Controls
-- Use explicit fetch policies in server components:
-    - static data: default/`force-cache`
-    - dynamic data: `cache: 'no-store'`
-    - revalidated data: `next: { revalidate: number }`
-- For route handlers, keep request-time data behavior explicit and avoid implicit stale behavior.
+## Next.js 16 Cache Components
+- For Next.js 16 App Router caching (such as partial rendering, server action revalidation, and standard page/component caching), strictly use the modern Cache Components API.
+- Do not use legacy options like `unstable_cache` or old `force-cache` headers unless maintaining legacy routes.
+- Refer to [Cache Components (cache/SKILL.md)](../cache/SKILL.md) for directives (`'use cache'`), cache life, tags, and invalidations.

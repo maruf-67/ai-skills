@@ -21,45 +21,55 @@ description: Use this when building or reviewing Next.js v16 App Router projects
   }
   ```
 - **Error Handling**: Prefer segment-level `error.tsx` and `not-found.tsx` for precise failure boundaries.
-- **Client-Side Navigation**: Use `useParams` and `useRouter` from `next/navigation` in `'use client'` components.
+## Required Subskill Routing
 
-### Data Fetching & Cache Conventions
-- Default fetch caching is static-friendly; opt into dynamic when needed:
-  - `cache: 'no-store'` for request-time dynamic data.
-  - `next: { revalidate: N }` for time-based revalidation.
-  - keep cache policy explicit for non-trivial routes.
+- rules: `./rules/SKILL.md`
+- fetching: `./fetching/SKILL.md`
+- cache: `./cache/SKILL.md`
+- components: `./components/SKILL.md`
+- routing: `./routing/SKILL.md`
+- state: `./state/SKILL.md`
+- styling: `./styling/SKILL.md`
+- auth-sanctum: `./auth/SKILL.md`
+- auth-jwt: `./auth-jwt/SKILL.md`
 
-## Component Architecture
+## Component Architecture & Boundaries
 
-### Domain-Driven Features (`src/components/features/`)
-Each domain feature (e.g., `knowledge`, `prototypes`) must be isolated in its own directory following this strict structure:
-- `index.ts`: Public API, exporting the main components and types.
-- `[Feature]List.tsx`: Data display using the generic `DataTable`.
-- `[Feature]Form.tsx`: Creation/Editing logic using `React Hook Form` and `Zod`.
-- `[Feature]Card.tsx`: Grid/List preview component.
-- `types.ts`: Domain-specific TypeScript interfaces.
-- `use[Feature].ts`: Custom hook for state and API orchestration.
+### Project Layout (`src/`)
+- **App Router (`src/app`)**: Strictly for routing and layouts. All business logic, UI components, and domain hooks MUST reside in `src/features`.
+- **Feature Modules (`src/features/[feature-name]/`)**: Domain modules must isolate all internal concerns:
+  - `api/`: API integration and fetching functions (no raw axios in UI).
+  - `components/`: Feature-specific views and widgets.
+  - `constants/`: Feature-specific static data or configuration.
+  - `data/`: Static mock data or configuration values.
+  - `helpers/`: Pure functions (no package imports).
+  - `hooks/`: Domain React hooks (e.g. TanStack Query calls).
+  - `schemas/`: Zod validation schemas.
+  - `stores/`: Zustand stores.
+  - `types/`: Domain-specific types.
+  - `index.ts`: The feature's public API. All other internals are private.
 
-### Generic UI Library (`src/components/ui/`)
-- **Base Components**: Reusable pieces (Button, Input, Modal) styled with `class-variance-authority` (CVA).
-- **DataTable**: A powerful, generic table component supporting client/server pagination, sorting, and custom row actions.
-- **Form Controls**: Specialized components like `AsyncMultiSelect` (React Select), `RichTextEditor` (TipTap), and `ImageUpload`.
+### Reusable UI (`src/components/`)
+- **Base Components**: Logic-less components styled with CVA (e.g. Button, Input). Keep shadcn/ui base elements in `components/ui/` and custom reusable UI components outside of it.
+- **DataTable**: Centralized table component.
 
 ### Styling & Theming
 - **Tailwind CSS v4**: CSS-first configuration using `@theme inline` in `globals.css`.
-- **Brand Tokens**: Leverage centralized color tokens (`--color-primary-*`, `--color-brand-*`) and utility class groups in `src/lib/utils.ts`.
+- **Brand Tokens**:centralized CSS variables (`--color-primary-*`) and utility class groups in `src/lib/utils.ts`.
 - **Utility-First**: Use `cn()` helper for merging Tailwind classes safely.
 
 ## Data Management
 
-### Service Layer (`src/services/`)
-- **Encapsulation**: All API communication is abstracted into service objects.
-- **Request Deduplication**: Use typed in-flight caches to prevent redundant calls during rapid re-renders.
+### Server Actions
+- All mutations MUST use Server Actions defined in dedicated `actions.ts` files within `src/features`.
+- Direct database access inside actions is forbidden; actions must call the API layer only.
+- Inline Server Actions inside components are strictly FORBIDDEN.
+- CSRF: Verify Origin/Referer headers in Server Actions. Use `action.bind` to lock IDs on the server-side.
 
 ### API Client (`src/lib/api.ts`)
-- **Axios Instance**: Configured with `withCredentials: true`.
-- **Auth Interceptors**: Automatically inject JWT from cookies.
-- **Token Refresh**: Robust 401/403 handling that queues failed requests, refreshes the token, and retries the queue.
+- Configured Axios instance with `withCredentials: true`.
+- Interceptors handle JWT injection.
+- Secret Isolation: Use the `server-only` package in API and database files.
 
 ### State Management
 - **Context API**: Preferred for global states like `Auth`, `Theme`, and `Notifications`.
@@ -69,6 +79,10 @@ Each domain feature (e.g., `knowledge`, `prototypes`) must be isolated in its ow
 - **TypeScript**: Strict typing is mandatory. Prefer `unknown` or specific interfaces over `any`.
 - **Validation**: `Zod` is the source of truth for both form validation and API response typing.
 - **Forms**: Managed by `React Hook Form`. Use `Controller` for complex third-party inputs.
+- **React 19 / Next.js 16 Rules**:
+  - Do not use `forwardRef`. Standard component functions now accept `ref` directly as a prop.
+  - Use `use(Context)` instead of `useContext` for dynamic context consumption in conditional blocks.
+  - Prefer async `params` and `searchParams` extraction (e.g. `const { slug } = await params`).
 
 ## Reusable New-Feature Flow
 1. Define feature types/contracts.

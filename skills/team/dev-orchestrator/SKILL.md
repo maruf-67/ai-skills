@@ -357,8 +357,8 @@ Each feature gets a playbook file in `playbook/features/`:
 > "Run linting, fix any issues, add error handling for edge cases."
 
 **Validation:**
-- [ ] `npm run lint` passes
-- [ ] `npm run test` passes
+- [ ] `pnpm  run lint` passes
+- [ ] `pnpm  run test` passes
 - [ ] Manual smoke test works
 ```
 
@@ -442,10 +442,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
-      - run: npm ci
-      - run: npm run typecheck
-      - run: npm run lint
-      - run: npm run test
+      - run: pnpm  ci
+      - run: pnpm  run typecheck
+      - run: pnpm  run lint
+      - run: pnpm  run test
 ```
 
 ### 4.4 Observability
@@ -475,9 +475,9 @@ See `references/deployment-guide.md` for checklists.
 ## Quick Reference
 - **Type:** {archetype}
 - **Stack:** {tech summary}
-- **Run Dev:** `npm run dev`
-- **Run Tests:** `npm run test`
-- **Lint:** `npm run lint`
+- **Run Dev:** `pnpm  run dev`
+- **Run Tests:** `pnpm  run test`
+- **Lint:** `pnpm  run lint`
 
 ## Architecture
 {Brief overview - link to specs/ARCHITECTURE.md for details}
@@ -612,7 +612,7 @@ Auto-format code after every write/edit. Add to `~/.claude/settings.json`:
         "hooks": [
           {
             "type": "command",
-            "command": "npm run format || true"
+            "command": "pnpm  run format || true"
           }
         ]
       }
@@ -649,7 +649,7 @@ Configure `~/.claude/settings.json` to avoid permission prompts:
 {
   "permissions": {
     "allow": [
-      "Bash(npm run *)",
+      "Bash(pnpm  run *)",
       "Bash(bun run *)",
       "Bash(git *)",
       "Bash(cat *)",

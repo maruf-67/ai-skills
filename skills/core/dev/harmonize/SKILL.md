@@ -17,7 +17,7 @@ This skill ensures that the codebase is visually and structurally unified, as if
 
 ### 1. Run Standard Linters
 - Backend: Run `./vendor/bin/pint` (or equivalent).
-- Frontend: Run `npm run lint` or `npx eslint --fix`.
+- Frontend: Run `pnpm run lint` or `npx eslint --fix`.
 
 ### 2. Architectural Audit
 - Scan newly created or modified files.

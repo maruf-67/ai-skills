@@ -17,7 +17,7 @@ This skill automates the "Fix-Test-Repeat" cycle, ensuring code correctness befo
 
 ### 1. Run Tests
 - Identify the relevant test file (e.g., `tests/Feature/Actions/CreateExpenseTest.php`).
-- Execute the test runner (e.g., `./vendor/bin/pest [path]` or `npm run test [path]`).
+- Execute the test runner (e.g., `./vendor/bin/pest [path]` or `pnpm run test [path]`).
 
 ### 2. Capture Failure
 - Analyze the output log for error messages, stack traces, and line numbers.
