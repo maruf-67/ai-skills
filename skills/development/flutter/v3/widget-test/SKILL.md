@@ -1,31 +1,50 @@
 ---
 name: flutter-widget-test
-description: Micro-skill for writing component-level widget tests in Flutter using WidgetTester, finders, and matchers.
+description: Implement a component-level test using `WidgetTester` to verify UI rendering and user interactions. Use when validating that a specific widget displays correct data and responds to events as expected.
+metadata:
+  model: models/gemini-3.1-pro-preview
+  last_modified: 2026-06-23
+  source: merged(flutter/skills@main + local)
 ---
 
 # Writing Flutter Widget Tests
 
-## When to use
+## Contents
+- [Setup & Configuration](#setup--configuration)
+- [Core Components](#core-components)
+- [Workflow: Implementing a Widget Test](#workflow-implementing-a-widget-test)
+- [Interaction & State Management](#interaction--state-management)
 
-Use when writing unit-like component tests to verify UI rendering, layout presence, and user interactions (taps, text input, scrolling) in isolation.
+## Setup & Configuration
 
-## Do
+1. Add `flutter_test` to `dev_dependencies` in `pubspec.yaml` (included by default in new Flutter projects).
+2. Place all test files in the `test/` directory at the project root.
+3. Suffix all test file names with `_test.dart` (e.g., `counter_test.dart`).
 
-- Put all test files in the `test/` directory at the project root, named with the `_test.dart` suffix.
-- Add `flutter_test` dependency to the `dev_dependencies` section of your `pubspec.yaml`.
-- Use the `testWidgets` function to configure and run the widget test environment, which provides a `WidgetTester` instance.
-- Wrap the widget under test in parent widgets if it requires inherited data (e.g. `MaterialApp`, `MediaQuery`, or state providers).
-- Use `find` selectors (e.g., `find.byKey`, `find.text`, `find.byType`) to locate elements.
-- Rebuild the widget tree using `await tester.pump()` after standard events (like button taps) or `await tester.pumpAndSettle()` for animations/transitions.
-- Scroll to off-screen elements in scrollable lists using `await tester.scrollUntilVisible(itemFinder, 500.0, scrollable: listFinder)` to ensure they mount.
+## Core Components
 
-## Don't
+- **`WidgetTester`**: Primary interface for building and interacting with widgets in the test environment. Provided by `testWidgets()`.
+- **`Finder`**: Locates widgets in the test environment.
+  - `find.text('Submit')` — by visible text
+  - `find.byType(TextField)` — by widget type
+  - `find.byKey(const Key('submit_btn'))` — by key (most stable)
+  - `find.byWidgetPredicate((w) => w is Text && w.data!.startsWith('A'))` — by predicate
+- **`Matcher`**: Verifies widget presence/state.
+  - `findsOneWidget` — exactly one match
+  - `findsNothing` — no matches
+  - `findsNWidgets(2)` — exactly N matches
+  - `matchesGoldenFile('snapshot.png')` — pixel comparison
 
-- Do not perform real network or platform channel operations; mock or isolate dependencies using state overrides or mocks.
-- Do not forget to call `tester.pump()` or `tester.pumpAndSettle()` after simulating an interaction, otherwise the UI state change will not be processed.
-- Do not write overly broad integration tests in widget tests; keep them component-focused.
+## Workflow: Implementing a Widget Test
 
-## Minimal Correct Pattern
+**Task Progress:**
+- [ ] Step 1: Define the test using `testWidgets('description', ...)`.
+- [ ] Step 2: Build the widget with `await tester.pumpWidget(MyWidget())`.
+- [ ] Step 3: Locate elements using `Finder` objects.
+- [ ] Step 4: Verify initial state with `expect(finder, matcher)`.
+- [ ] Step 5: Simulate interactions (tap, scroll, enter text).
+- [ ] Step 6: Rebuild the tree with `await tester.pump()` or `pumpAndSettle()`.
+- [ ] Step 7: Verify updated state.
 
 ```dart
 import 'package:flutter/material.dart';
@@ -54,3 +73,36 @@ void main() {
   });
 }
 ```
+
+## Interaction & State Management
+
+```dart
+// Scrolling to off-screen elements
+await tester.scrollUntilVisible(
+  find.text('Item 50'),
+  500.0,
+  scrollable: find.byType(Scrollable),
+);
+
+// Entering text
+await tester.enterText(find.byType(TextField), 'Hello World');
+await tester.pump();
+
+// Drag
+await tester.drag(find.byKey(const Key('list')), const Offset(0, -300));
+await tester.pumpAndSettle();
+```
+
+## Do
+
+- Wrap widget under test in `MaterialApp` or `Directionality` if it needs inherited data.
+- Use `await tester.pump()` after standard events; `pumpAndSettle()` for animations/transitions.
+- Use `ValueKey`s for the most robust element targeting.
+- Mock or isolate dependencies — never perform real network or platform channel operations.
+- Scroll to off-screen elements in scrollable lists before asserting on them.
+
+## Don't
+
+- Do not perform real network or platform channel operations in widget tests.
+- Do not forget to call `pump()` or `pumpAndSettle()` after interaction — UI state changes will not be processed.
+- Do not write integration-level flows in widget tests — keep them component-focused.

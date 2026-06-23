@@ -2,10 +2,27 @@
 
 This guide covers standardized patterns for Next.js 16 projects using the App Router with a domain-driven, modular architecture.
 
+## Package Manager
+
+**Always use `pnpm`** — never npm or yarn.
+
+```bash
+pnpm install          # install dependencies
+pnpm add <package>    # add a package
+pnpm dlx <tool>       # run one-shot tool (replaces npx)
+pnpm dev              # start dev server
+pnpm build            # production build
+```
+
+## New Project Bootstrap
+
+For **new projects**, start from the ViraStack production boilerplate:
+- [Boilerplate Scaffold](./boilerplate/SKILL.md) — clone, configure, and go
 
 ## Contents
 
 - [Core Skill (trigger-based)](./SKILL.md)
+- [New Project Boilerplate](./boilerplate/SKILL.md)
 - [General Rules & Patterns](./rules/SKILL.md)
 - [Data Fetching & Services](./fetching/SKILL.md)
 - [Caching & Cache Components](./cache/SKILL.md)
@@ -15,6 +32,7 @@ This guide covers standardized patterns for Next.js 16 projects using the App Ro
 - [Page Routing](./routing/SKILL.md)
 - [State Management](./state/SKILL.md)
 - [Styling & Theming](./styling/SKILL.md)
+- [Reader Module](./reader/SKILL.md)
 
 ## Subskill Support Files
 

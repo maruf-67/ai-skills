@@ -1,15 +1,22 @@
 ---
 name: flutter-v3
-description: Use this when building or reviewing Flutter Android and iOS apps with feature-layer architecture, Riverpod state, go_router navigation, and adaptive responsive UI.
+description: Use this when building or reviewing Flutter Android and iOS apps with feature-layer architecture, Riverpod state, go_router navigation, and adaptive responsive UI. Supports MCP-driven interactive testing and widget exploration.
+metadata:
+  model: models/gemini-3.1-pro-preview
+  last_modified: 2026-06-23
+  source: merged(flutter/skills@main + local)
 ---
 
 # Flutter 3 (Android and iOS)
 
 ## Core Architecture (Version-Locked)
 
-- Use layered flow: Feature -> Controller/Notifier -> Engine/Service -> Repository -> API/Storage.
+- Use layered flow: Feature → ViewModels/Notifiers → Repositories → Services → API/Storage.
 - Keep widgets presentation-focused; no business or entitlement logic in UI.
 - Keep one codebase for Android and iOS with adaptive behavior.
+- Use **Riverpod** (`AsyncNotifier`, `Notifier`) for state management.
+- Use **go_router** for declarative routing and deep linking.
+- Use **Dio** for HTTP (preferred) or `http` package for lightweight networking.
 
 ## Required Micro-skill Routing
 
@@ -28,8 +35,17 @@ description: Use this when building or reviewing Flutter Android and iOS apps wi
 
 ## Auth Routing
 
-- Laravel backend with Sanctum PAT -> `./auth-sanctum/SKILL.md`
-- Express/JWT backend -> `./auth-jwt/SKILL.md`
+- Laravel backend with Sanctum PAT → `./auth-sanctum/SKILL.md`
+- Express/JWT backend → `./auth-jwt/SKILL.md`
+
+## MCP Server Integration
+
+Use the Dart/Flutter MCP server for interactive development:
+- **`launch_app`**: Start the app and acquire DTD URI for testing.
+- **`get_widget_tree`**: Inspect widget hierarchy, discover `Key`s and types.
+- **`tap`**, **`enter_text`**, **`scroll`**: Simulate user interactions.
+- **`waitFor`** / **`get_health`**: Ensure stability before assertions.
+- **`scrollIntoView`**: Force lazy-loaded widgets to mount before interacting.
 
 ## Do
 

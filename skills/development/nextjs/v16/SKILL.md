@@ -23,6 +23,7 @@ description: Use this when building or reviewing Next.js v16 App Router projects
 - **Error Handling**: Prefer segment-level `error.tsx` and `not-found.tsx` for precise failure boundaries.
 ## Required Subskill Routing
 
+- **new project scaffold**: `./boilerplate/SKILL.md` ← start here for new projects
 - rules: `./rules/SKILL.md`
 - fetching: `./fetching/SKILL.md`
 - cache: `./cache/SKILL.md`
@@ -32,6 +33,18 @@ description: Use this when building or reviewing Next.js v16 App Router projects
 - styling: `./styling/SKILL.md`
 - auth-sanctum: `./auth/SKILL.md`
 - auth-jwt: `./auth-jwt/SKILL.md`
+- reader: `./reader/SKILL.md`
+
+## Package Manager
+
+**Always use `pnpm`** for all package management operations. Never use `npm` or `yarn`.
+```bash
+pnpm install         # install deps
+pnpm add <pkg>       # add a package
+pnpm dlx <tool>      # run one-shot tool (replaces npx)
+pnpm dev             # start dev server
+pnpm build           # production build
+```
 
 ## Component Architecture & Boundaries
 

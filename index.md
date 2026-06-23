@@ -2,6 +2,19 @@
 
 This directory contains version-locked coding skills and reusable patterns for framework-specific AI implementation.
 
+## Package Manager Standard
+
+**Always use `pnpm`** for all JavaScript/TypeScript projects (Next.js, Express.js, Nuxt).
+- Use `pnpm install` instead of `npm install`
+- Use `pnpm add <pkg>` instead of `npm install <pkg>`
+- Use `pnpm dlx <tool>` instead of `npx <tool>`
+- Laravel uses Composer; Flutter uses `flutter pub`
+
+## New Project Bootstrap
+
+For **new Next.js projects**, use the ViraStack boilerplate:
+→ See [nextjs/v16/boilerplate/SKILL.md](./nextjs/v16/boilerplate/SKILL.md)
+
 ## Copilot-Native Entry Points
 
 Directly discoverable GitHub Copilot skills are available in `.github/skills/`:
@@ -36,7 +49,7 @@ For the full micro-wrapper list, see `.github/skills/README.md`.
 | Laravel v13 | Flutter Android/iOS | `laravel/v13/auth-sanctum/SKILL.md` + `flutter/v3/auth-sanctum/SKILL.md` |
 | Express v5 | Next.js v16 | `express/v5/auth/SKILL.md` + `nextjs/v16/auth-jwt/SKILL.md` |
 | Express v5 | Flutter Android/iOS | `express/v5/auth/SKILL.md` + `flutter/v3/auth-jwt/SKILL.md` |
-| Mixed Laravel + Express | Next.js v16 | Apply auth mode per service boundary (don’t merge patterns) |
+| Mixed Laravel + Express | Next.js v16 | Apply auth mode per service boundary (don't merge patterns) |
 
 ## Usage Order
 1. Choose stack + major version first.

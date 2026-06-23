@@ -3,6 +3,20 @@
 Version-locked guidance for Express 5 + TypeScript backends.
 Primary alignment target: `portal-api`, but rules are written to be reusable in new projects.
 
+## Package Manager
+
+**Always use `pnpm`** — never npm or yarn.
+
+```bash
+pnpm install          # install dependencies
+pnpm add <package>    # add a package
+pnpm dev              # start dev server
+pnpm build            # production build
+pnpm type-check       # run TypeScript type check
+pnpm lint             # run ESLint
+pnpm test             # run tests
+```
+
 ## Start Here
 - [Core Skill (trigger-based)](./SKILL.md)
 
