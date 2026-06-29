@@ -1,10 +1,22 @@
 ---
 name: campaign-launch-orchestrator
-description: "Step-by-step campaign launch orchestrator for Team's marketing team. Guides the team through a full campaign from brief to launch checklist, one step at a time, prompting the next task automatically. Use when launching any marketing campaign — channel content, case study promotion, product announcement, or integrated brand campaign. Triggers on: 'launch a campaign', 'run a campaign', 'campaign orchestrator', 'help me run this campaign', 'plan and execute this campaign'."
+description: "Step-by-step campaign launch orchestrator for Team's marketing team.\
+  \ Guides the team through a full campaign from brief to launch checklist, one step\
+  \ at a time, prompting the next task automatically. Use when launching any marketing\
+  \ campaign \u2014 channel content, case study promotion, product announcement, or\
+  \ integrated brand campaign. Triggers on: 'launch a campaign', 'run a campaign',\
+  \ 'campaign orchestrator', 'help me run this campaign', 'plan and execute this campaign'."
 source: ai-os-custom
 context: both
 version: 1.0.0
 added: 2026-03-28
+type: Skill
+title: campaign-launch-orchestrator
+resource: file:///home/almaruf67/Codes/ai-skills/skills/team/campaign-launch-orchestrator/SKILL.md
+tags:
+- team
+- campaign-launch-orchestrator
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Campaign Launch Orchestrator

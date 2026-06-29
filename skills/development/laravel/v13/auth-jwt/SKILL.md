@@ -1,6 +1,16 @@
 ---
 name: auth-jwt
-description: Use this for Laravel v13 token-first authentication where API clients authenticate using JWT/Bearer tokens rather than Sanctum SPA sessions.
+description: Use this for Laravel v13 token-first authentication where API clients
+  authenticate using JWT/Bearer tokens rather than Sanctum SPA sessions.
+type: Skill
+title: auth-jwt
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/laravel/v13/auth-jwt/SKILL.md
+tags:
+- development
+- laravel
+- v13
+- auth-jwt
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Laravel v13 Authentication (JWT / Bearer)

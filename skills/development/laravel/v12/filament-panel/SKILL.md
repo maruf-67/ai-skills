@@ -1,6 +1,16 @@
 ---
 name: filament-panel
-description: Filament v5 panel configuration patterns for Laravel v12. Use this for AdminPanelProvider setup, middleware/auth, discovery, and panel-level access rules.
+description: Filament v5 panel configuration patterns for Laravel v12. Use this for
+  AdminPanelProvider setup, middleware/auth, discovery, and panel-level access rules.
+type: Skill
+title: filament-panel
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/laravel/v12/filament-panel/SKILL.md
+tags:
+- development
+- laravel
+- v12
+- filament-panel
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Laravel v12 Filament Panel (v5)

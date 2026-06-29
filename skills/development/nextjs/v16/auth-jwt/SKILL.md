@@ -1,6 +1,16 @@
 ---
 name: auth-jwt
-description: Use this when implementing JWT / Bearer-token authentication in Next.js v16 (typically with Express or other token-first APIs).
+description: Use this when implementing JWT / Bearer-token authentication in Next.js
+  v16 (typically with Express or other token-first APIs).
+type: Skill
+title: auth-jwt
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/nextjs/v16/auth-jwt/SKILL.md
+tags:
+- development
+- nextjs
+- v16
+- auth-jwt
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Authentication (JWT / Bearer Mode)

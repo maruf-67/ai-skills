@@ -1,6 +1,16 @@
 ---
 name: express-v5-audit
-description: Use this when implementing request-context-based auditing and actor metadata trails in Express v5 with Prisma or Mongoose.
+description: Use this when implementing request-context-based auditing and actor metadata
+  trails in Express v5 with Prisma or Mongoose.
+type: Skill
+title: express-v5-audit
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/express/v5/audit/SKILL.md
+tags:
+- development
+- express
+- v5
+- audit
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Audit System

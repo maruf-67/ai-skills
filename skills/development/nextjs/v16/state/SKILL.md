@@ -1,6 +1,15 @@
 ---
 name: state
 description: Micro-skill for global state management using React Context API.
+type: Skill
+title: state
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/nextjs/v16/state/SKILL.md
+tags:
+- development
+- nextjs
+- v16
+- state
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # State Management

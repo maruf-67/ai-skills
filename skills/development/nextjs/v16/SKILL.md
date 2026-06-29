@@ -1,6 +1,16 @@
 ---
 name: nextjs-v16
-description: Use this when building or reviewing Next.js v16 App Router projects with TypeScript. Covers server/client boundaries, data fetching/caching, routing contracts, and feature-layer architecture.
+description: Use this when building or reviewing Next.js v16 App Router projects with
+  TypeScript. Covers server/client boundaries, data fetching/caching, routing contracts,
+  and feature-layer architecture.
+type: Skill
+title: nextjs-v16
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/nextjs/v16/SKILL.md
+tags:
+- development
+- nextjs
+- v16
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Next.js v16 (App Router) Skills

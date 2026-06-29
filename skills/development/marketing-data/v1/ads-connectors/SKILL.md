@@ -1,6 +1,16 @@
 ---
 name: marketing-ads-connectors
-description: Use for Meta Ads and Google Ads API connectors, normalized campaign schemas, incremental sync, and rate-limit-safe extraction.
+description: Use for Meta Ads and Google Ads API connectors, normalized campaign schemas,
+  incremental sync, and rate-limit-safe extraction.
+type: Skill
+title: marketing-ads-connectors
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/marketing-data/v1/ads-connectors/SKILL.md
+tags:
+- development
+- marketing-data
+- v1
+- ads-connectors
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Meta/Google Ads API Connectors

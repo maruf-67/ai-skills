@@ -1,7 +1,16 @@
 ---
 name: sync
-version: "1.0.0"
-description: "Synchronizes the project documentation (/docs/) with the actual state of the code by analyzing git diffs. Triggers on /ai-os:doc-sync."
+version: 1.0.0
+description: Synchronizes the project documentation (/docs/) with the actual state
+  of the code by analyzing git diffs. Triggers on /ai-os:doc-sync.
+type: Skill
+title: sync
+resource: file:///home/almaruf67/Codes/ai-skills/skills/core/doc/sync/SKILL.md
+tags:
+- core
+- doc
+- sync
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Documentation Agent: Sync

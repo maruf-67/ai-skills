@@ -3,7 +3,22 @@ source: ai-os-custom
 context: both
 version: 1.0
 name: proggya-data-analyst
-description: "Comprehensive data research and analysis agent for Proggya. Use when asked to: (1) Conduct deep research and collect data on any topic for market analysis, (2) Analyze uploaded datasets to find correlations, insights, and trends, (3) Generate ML-based predictions and forecasts, (4) Create market-oriented interpretive reports (non-technical language), (5) Design infographic layout instructions with graph/visualization directions, (6) Create Power BI-ready data tables and comprehensive dashboard design specifications. Triggers on requests involving strategic analysis, market research, geopolitical analysis, demographic studies, trend analysis, competitive intelligence, or data-driven storytelling for Substack/Proggya publication."
+description: 'Comprehensive data research and analysis agent for Proggya. Use when
+  asked to: (1) Conduct deep research and collect data on any topic for market analysis,
+  (2) Analyze uploaded datasets to find correlations, insights, and trends, (3) Generate
+  ML-based predictions and forecasts, (4) Create market-oriented interpretive reports
+  (non-technical language), (5) Design infographic layout instructions with graph/visualization
+  directions, (6) Create Power BI-ready data tables and comprehensive dashboard design
+  specifications. Triggers on requests involving strategic analysis, market research,
+  geopolitical analysis, demographic studies, trend analysis, competitive intelligence,
+  or data-driven storytelling for Substack/Proggya publication.'
+type: Skill
+title: proggya-data-analyst
+resource: file:///home/almaruf67/Codes/ai-skills/skills/team/proggya-data-analyst/SKILL.md
+tags:
+- team
+- proggya-data-analyst
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Proggya Data Analyst

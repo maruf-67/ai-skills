@@ -3,7 +3,23 @@ source: ai-os-custom
 context: both
 version: 1.0
 name: b2b-marketing-cmo
-description: "Comprehensive B2B Marketing Chief Marketing Officer skill for Team. Use when asked to: (1) Develop go-to-market strategy using 4Ps, STP, AIDA frameworks, (2) Conduct market or competitive research for any product, (3) Create pricing strategies requiring research and feasibility assessment, (4) Design integrated marketing campaigns with channel strategy, (5) Build sales enablement materials (battle cards, objection handling, case studies), (6) Develop execution playbooks with team checklists, (7) Allocate marketing budgets with ROI modeling, (8) Assess international market entry opportunities. Covers all four products: Proggya + Data Dialogue, ICE, Forge, TradeEye. Triggers on marketing strategy, pricing, positioning, campaigns, sales support, market research, or GTM planning."
+description: 'Comprehensive B2B Marketing Chief Marketing Officer skill for Team.
+  Use when asked to: (1) Develop go-to-market strategy using 4Ps, STP, AIDA frameworks,
+  (2) Conduct market or competitive research for any product, (3) Create pricing strategies
+  requiring research and feasibility assessment, (4) Design integrated marketing campaigns
+  with channel strategy, (5) Build sales enablement materials (battle cards, objection
+  handling, case studies), (6) Develop execution playbooks with team checklists, (7)
+  Allocate marketing budgets with ROI modeling, (8) Assess international market entry
+  opportunities. Covers all four products: Proggya + Data Dialogue, ICE, Forge, TradeEye.
+  Triggers on marketing strategy, pricing, positioning, campaigns, sales support,
+  market research, or GTM planning.'
+type: Skill
+title: b2b-marketing-cmo
+resource: file:///home/almaruf67/Codes/ai-skills/skills/team/b2b-marketing-cmo/SKILL.md
+tags:
+- team
+- b2b-marketing-cmo
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # B2B Marketing CMO

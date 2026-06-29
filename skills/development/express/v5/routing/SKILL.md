@@ -1,6 +1,16 @@
 ---
 name: express-v5-routing
-description: Use this when creating routes/controllers and enforcing middleware order in Express v5.
+description: Use this when creating routes/controllers and enforcing middleware order
+  in Express v5.
+type: Skill
+title: express-v5-routing
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/express/v5/routing/SKILL.md
+tags:
+- development
+- express
+- v5
+- routing
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Routing & Controllers

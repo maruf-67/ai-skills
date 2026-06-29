@@ -1,7 +1,16 @@
 ---
 name: harmonize
-version: "1.0.0"
-description: "Runs native linters and performs an 'Architectural Polish' to ensure unified coding style across Laravel and Nuxt. Triggers on /ai-os:dev-harmonize."
+version: 1.0.0
+description: Runs native linters and performs an 'Architectural Polish' to ensure
+  unified coding style across Laravel and Nuxt. Triggers on /ai-os:dev-harmonize.
+type: Skill
+title: harmonize
+resource: file:///home/almaruf67/Codes/ai-skills/skills/core/dev/harmonize/SKILL.md
+tags:
+- core
+- dev
+- harmonize
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Developer Agent: Harmonize (Style Guardian)

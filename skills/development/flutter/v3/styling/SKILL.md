@@ -1,6 +1,16 @@
 ---
 name: flutter-styling
-description: Micro-skill for Flutter design token usage, theme layering, and reusable UI component consistency.
+description: Micro-skill for Flutter design token usage, theme layering, and reusable
+  UI component consistency.
+type: Skill
+title: flutter-styling
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/flutter/v3/styling/SKILL.md
+tags:
+- development
+- flutter
+- v3
+- styling
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Flutter Styling

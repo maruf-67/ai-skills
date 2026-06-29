@@ -1,6 +1,16 @@
 ---
 name: nuxt-v3-styling
-description: Guidelines for styling in Nuxt v3 including Tailwind v4 configuration, brand tokens, and theme transitions.
+description: Guidelines for styling in Nuxt v3 including Tailwind v4 configuration,
+  brand tokens, and theme transitions.
+type: Skill
+title: nuxt-v3-styling
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/nuxt/v3/styling/SKILL.md
+tags:
+- development
+- nuxt
+- v3
+- styling
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Nuxt v3 Styling & UI Theme

@@ -1,10 +1,21 @@
 ---
 name: flutter-data-fetching
-description: Use the `http` or `Dio` package to execute GET, POST, PUT, or DELETE requests. Use when fetching from or sending data to a REST API, implementing repository-based API access, background isolate parsing, and typed responses.
+description: Use the `http` or `Dio` package to execute GET, POST, PUT, or DELETE
+  requests. Use when fetching from or sending data to a REST API, implementing repository-based
+  API access, background isolate parsing, and typed responses.
 metadata:
   model: models/gemini-3.1-pro-preview
   last_modified: 2026-06-23
   source: merged(flutter/skills@main + local)
+type: Skill
+title: flutter-data-fetching
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/flutter/v3/data-fetching/SKILL.md
+tags:
+- development
+- flutter
+- v3
+- data-fetching
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Flutter Data Fetching and Networking

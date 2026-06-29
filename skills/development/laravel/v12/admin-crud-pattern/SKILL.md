@@ -1,7 +1,18 @@
 ---
 name: admin-crud-pattern
-version: "1.0.0"
-description: "Generates admin CRUD files following the established Inventory pattern. Activates when adding CRUD operations, controllers, routes, DTOs, Orchestrators, or Form Requests to existing Modules. Triggers on /ai-os:laravel-admin-crud-pattern."
+version: 1.0.0
+description: Generates admin CRUD files following the established Inventory pattern.
+  Activates when adding CRUD operations, controllers, routes, DTOs, Orchestrators,
+  or Form Requests to existing Modules. Triggers on /ai-os:laravel-admin-crud-pattern.
+type: Skill
+title: admin-crud-pattern
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/laravel/v12/admin-crud-pattern/SKILL.md
+tags:
+- development
+- laravel
+- v12
+- admin-crud-pattern
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Admin Module CRUD Pattern

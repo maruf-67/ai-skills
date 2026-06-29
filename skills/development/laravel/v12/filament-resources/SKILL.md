@@ -1,6 +1,16 @@
 ---
 name: filament-resources
-description: Filament v5 resource, form, table, and action patterns for Laravel v12. Use this for admin CRUD, relation managers, and policy-aligned actions.
+description: Filament v5 resource, form, table, and action patterns for Laravel v12.
+  Use this for admin CRUD, relation managers, and policy-aligned actions.
+type: Skill
+title: filament-resources
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/laravel/v12/filament-resources/SKILL.md
+tags:
+- development
+- laravel
+- v12
+- filament-resources
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Laravel v12 Filament Resources & Actions (v5)

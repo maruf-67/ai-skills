@@ -1,7 +1,16 @@
 ---
 name: auto-fix
-version: "1.0.0"
-description: "Implements a self-correction loop by running tests, capturing failures, and applying surgical fixes. Triggers on /ai-os:qa-auto-fix."
+version: 1.0.0
+description: Implements a self-correction loop by running tests, capturing failures,
+  and applying surgical fixes. Triggers on /ai-os:qa-auto-fix.
+type: Skill
+title: auto-fix
+resource: file:///home/almaruf67/Codes/ai-skills/skills/core/qa/auto-fix/SKILL.md
+tags:
+- core
+- qa
+- auto-fix
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # QA Agent: Auto-Fix (Self-Correction Loop)

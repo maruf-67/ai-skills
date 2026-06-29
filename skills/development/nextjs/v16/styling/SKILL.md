@@ -1,6 +1,15 @@
 ---
 name: styling
 description: Micro-skill for Next.js 16 styling
+type: Skill
+title: styling
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/nextjs/v16/styling/SKILL.md
+tags:
+- development
+- nextjs
+- v16
+- styling
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Styling & Theming

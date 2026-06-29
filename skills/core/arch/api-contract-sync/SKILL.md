@@ -1,7 +1,17 @@
 ---
 name: api-contract-sync
-version: "1.0.0"
-description: "Automatically generates TypeScript interfaces for the Nuxt frontend based on Laravel DTOs and API Resources. Use to maintain 100% type-safety across the stack. Triggers on /ai-os:arch-api-contract-sync."
+version: 1.0.0
+description: Automatically generates TypeScript interfaces for the Nuxt frontend based
+  on Laravel DTOs and API Resources. Use to maintain 100% type-safety across the stack.
+  Triggers on /ai-os:arch-api-contract-sync.
+type: Skill
+title: api-contract-sync
+resource: file:///home/almaruf67/Codes/ai-skills/skills/core/arch/api-contract-sync/SKILL.md
+tags:
+- core
+- arch
+- api-contract-sync
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Architecture Agent: API Contract Sync

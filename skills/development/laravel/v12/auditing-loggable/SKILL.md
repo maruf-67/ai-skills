@@ -1,6 +1,16 @@
 ---
 name: laravel-v12-auditing-loggable
-description: Automatic auditing and activity logging using the Loggable trait. Use this when creating or modifying models that need to track creation and updates.
+description: Automatic auditing and activity logging using the Loggable trait. Use
+  this when creating or modifying models that need to track creation and updates.
+type: Skill
+title: laravel-v12-auditing-loggable
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/laravel/v12/auditing-loggable/SKILL.md
+tags:
+- development
+- laravel
+- v12
+- auditing-loggable
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Laravel v12 Auditing (Loggable)

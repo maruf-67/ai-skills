@@ -1,10 +1,21 @@
 ---
 name: flutter-routing
-description: Configure `MaterialApp.router` using `go_router` for URL-based navigation, deep linking, route guards, and nested/shell navigation. Use when developing apps that require specific deep linking and browser history support.
+description: Configure `MaterialApp.router` using `go_router` for URL-based navigation,
+  deep linking, route guards, and nested/shell navigation. Use when developing apps
+  that require specific deep linking and browser history support.
 metadata:
   model: models/gemini-3.1-pro-preview
   last_modified: 2026-06-23
   source: merged(flutter/skills@main + local)
+type: Skill
+title: flutter-routing
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/flutter/v3/routing/SKILL.md
+tags:
+- development
+- flutter
+- v3
+- routing
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Flutter Routing and Deep Linking (go_router)

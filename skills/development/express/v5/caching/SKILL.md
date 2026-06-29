@@ -1,6 +1,16 @@
 ---
 name: express-v5-caching
-description: Use this when adding Redis-backed caching and invalidation to Express v5 service flows.
+description: Use this when adding Redis-backed caching and invalidation to Express
+  v5 service flows.
+type: Skill
+title: express-v5-caching
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/express/v5/caching/SKILL.md
+tags:
+- development
+- express
+- v5
+- caching
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Caching & Redis

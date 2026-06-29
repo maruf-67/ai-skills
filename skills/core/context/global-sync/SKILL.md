@@ -1,7 +1,16 @@
 ---
 name: global-sync
-version: "1.0.0"
-description: "Extracts architectural lessons, technical debt, and bug fixes from the local project and syncs them to the Global AI OS Knowledge Base. Triggers on /ai-os:context-global-sync."
+version: 1.0.0
+description: Extracts architectural lessons, technical debt, and bug fixes from the
+  local project and syncs them to the Global AI OS Knowledge Base. Triggers on /ai-os:context-global-sync.
+type: Skill
+title: global-sync
+resource: file:///home/almaruf67/Codes/ai-skills/skills/core/context/global-sync/SKILL.md
+tags:
+- core
+- context
+- global-sync
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Context Manager: Global Sync

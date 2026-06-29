@@ -1,6 +1,16 @@
 ---
 name: express-v5-knowledge
-description: Use this when building access-controlled content modules with file processing in Express v5.
+description: Use this when building access-controlled content modules with file processing
+  in Express v5.
+type: Skill
+title: express-v5-knowledge
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/express/v5/knowledge/SKILL.md
+tags:
+- development
+- express
+- v5
+- knowledge
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Knowledge Module

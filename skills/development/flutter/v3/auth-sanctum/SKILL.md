@@ -1,6 +1,16 @@
 ---
 name: flutter-auth-sanctum
-description: Micro-skill for Flutter mobile integration with Laravel Sanctum PAT authentication and protected API usage.
+description: Micro-skill for Flutter mobile integration with Laravel Sanctum PAT authentication
+  and protected API usage.
+type: Skill
+title: flutter-auth-sanctum
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/flutter/v3/auth-sanctum/SKILL.md
+tags:
+- development
+- flutter
+- v3
+- auth-sanctum
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Flutter Auth (Sanctum PAT)

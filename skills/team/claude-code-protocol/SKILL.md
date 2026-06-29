@@ -1,7 +1,21 @@
 ---
 name: claude-code-protocol
 version: 1.0.0
-description: Mandatory session discipline protocol for every agentic build session. YOU (the AI) are the technical project manager — you enforce this protocol, the human follows your lead. Triggers AUTOMATICALLY at the start of any session involving file creation, n8n workflows, agents, skills, application code, or system changes. Also triggers on phrases like "build", "create workflow", "new skill", "new agent", "ship", "deploy", "code this", "start a build session". If you are about to write a file, create a commit, or modify any system — this protocol governs you.
+description: "Mandatory session discipline protocol for every agentic build session.\
+  \ YOU (the AI) are the technical project manager \u2014 you enforce this protocol,\
+  \ the human follows your lead. Triggers AUTOMATICALLY at the start of any session\
+  \ involving file creation, n8n workflows, agents, skills, application code, or system\
+  \ changes. Also triggers on phrases like \"build\", \"create workflow\", \"new skill\"\
+  , \"new agent\", \"ship\", \"deploy\", \"code this\", \"start a build session\"\
+  . If you are about to write a file, create a commit, or modify any system \u2014\
+  \ this protocol governs you."
+type: Skill
+title: claude-code-protocol
+resource: file:///home/almaruf67/Codes/ai-skills/skills/team/claude-code-protocol/SKILL.md
+tags:
+- team
+- claude-code-protocol
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Claude Code Workflow Protocol

@@ -1,7 +1,17 @@
 ---
 name: task-finish
-version: "1.0.0"
-description: Orchestrates the full task closure workflow — generates PR content via pr-generator, saves documentation, updates changelog and playbook, submits the PR, and handles review/merge. Triggers on /ai-os:task-finish.
+version: 1.0.0
+description: "Orchestrates the full task closure workflow \u2014 generates PR content\
+  \ via pr-generator, saves documentation, updates changelog and playbook, submits\
+  \ the PR, and handles review/merge. Triggers on /ai-os:task-finish."
+type: Skill
+title: task-finish
+resource: file:///home/almaruf67/Codes/ai-skills/skills/core/task/task-finish/SKILL.md
+tags:
+- core
+- task
+- task-finish
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Task Finish

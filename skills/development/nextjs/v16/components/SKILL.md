@@ -1,6 +1,16 @@
 ---
 name: components
-description: Micro-skill for component architecture, React composition patterns, CVA styling, React 19 rules, and Plop component generation.
+description: Micro-skill for component architecture, React composition patterns, CVA
+  styling, React 19 rules, and Plop component generation.
+type: Skill
+title: components
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/nextjs/v16/components/SKILL.md
+tags:
+- development
+- nextjs
+- v16
+- components
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Component Architecture & Composition

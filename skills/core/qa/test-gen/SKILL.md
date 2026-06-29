@@ -1,7 +1,16 @@
 ---
 name: test-gen
-version: "1.0.0"
-description: "Automatically generates Pest (PHP) or Vitest (Vue) tests for Laravel Actions or Nuxt Components. Triggers on /ai-os:qa-test-gen."
+version: 1.0.0
+description: Automatically generates Pest (PHP) or Vitest (Vue) tests for Laravel
+  Actions or Nuxt Components. Triggers on /ai-os:qa-test-gen.
+type: Skill
+title: test-gen
+resource: file:///home/almaruf67/Codes/ai-skills/skills/core/qa/test-gen/SKILL.md
+tags:
+- core
+- qa
+- test-gen
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # QA Agent: Test Generator

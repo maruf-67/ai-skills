@@ -1,7 +1,19 @@
 ---
 name: project-init
-version: "1.0.0"
-description: Initialize a project workflow based on current workspace state. Detects whether the workspace is empty or partially ready, decides the initialization path (White-Paper, BRD, or Codebase Analysis), and generates a structured execution plan including BRD, PRD, and task breakdowns. Use when starting a new project or taking over an existing codebase.
+version: 1.0.0
+description: Initialize a project workflow based on current workspace state. Detects
+  whether the workspace is empty or partially ready, decides the initialization path
+  (White-Paper, BRD, or Codebase Analysis), and generates a structured execution plan
+  including BRD, PRD, and task breakdowns. Use when starting a new project or taking
+  over an existing codebase.
+type: Skill
+title: project-init
+resource: file:///home/almaruf67/Codes/ai-skills/skills/core/task/project-init/SKILL.md
+tags:
+- core
+- task
+- project-init
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Project Initialization Agent (project)

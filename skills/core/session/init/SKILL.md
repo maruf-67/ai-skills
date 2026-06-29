@@ -1,7 +1,16 @@
 ---
 name: session-init
-version: "1.0.0"
-description: "Orients the AI at session start by reading playbook, context, and git state to determine where to resume work. Triggers on /ai-os:session-init."
+version: 1.0.0
+description: Orients the AI at session start by reading playbook, context, and git
+  state to determine where to resume work. Triggers on /ai-os:session-init.
+type: Skill
+title: session-init
+resource: file:///home/almaruf67/Codes/ai-skills/skills/core/session/init/SKILL.md
+tags:
+- core
+- session
+- init
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Session Init Agent

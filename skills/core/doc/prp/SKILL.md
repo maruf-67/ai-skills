@@ -1,7 +1,17 @@
 ---
 name: prp
-version: "1.0.0"
-description: "Generates a single Product Requirement Package (PRP) — the technical implementation plan for one feature. Use after the Feature Catalogue exists. Triggers on /ai-os:doc-prp."
+version: 1.0.0
+description: "Generates a single Product Requirement Package (PRP) \u2014 the technical\
+  \ implementation plan for one feature. Use after the Feature Catalogue exists. Triggers\
+  \ on /ai-os:doc-prp."
+type: Skill
+title: prp
+resource: file:///home/almaruf67/Codes/ai-skills/skills/core/doc/prp/SKILL.md
+tags:
+- core
+- doc
+- prp
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # PRP Generator (Single Feature)

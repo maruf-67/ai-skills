@@ -1,6 +1,16 @@
 ---
 name: auth
-description: Use this when implementing token auth, OAuth flows, and permission-safe request handling in Express v5.
+description: Use this when implementing token auth, OAuth flows, and permission-safe
+  request handling in Express v5.
+type: Skill
+title: auth
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/express/v5/auth/SKILL.md
+tags:
+- development
+- express
+- v5
+- auth
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Authentication & Security

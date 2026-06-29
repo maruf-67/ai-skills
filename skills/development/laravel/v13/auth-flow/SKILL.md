@@ -1,6 +1,16 @@
 ---
 name: auth-flow
-description: Laravel Sanctum SPA + Token auth for digital-library. Covers cookie-based web auth and token-based mobile API auth with Next.js and Flutter clients.
+description: Laravel Sanctum SPA + Token auth for digital-library. Covers cookie-based
+  web auth and token-based mobile API auth with Next.js and Flutter clients.
+type: Skill
+title: auth-flow
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/laravel/v13/auth-flow/SKILL.md
+tags:
+- development
+- laravel
+- v13
+- auth-flow
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Auth Flow — Laravel Sanctum (API Side)

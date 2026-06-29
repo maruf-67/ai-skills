@@ -1,6 +1,16 @@
 ---
 name: express-v5-core
-description: Use this when implementing or reviewing Node backend APIs with Express.js v5 and TypeScript. Covers route layering, validation, error handling, auth, and module-safe feature delivery.
+description: Use this when implementing or reviewing Node backend APIs with Express.js
+  v5 and TypeScript. Covers route layering, validation, error handling, auth, and
+  module-safe feature delivery.
+type: Skill
+title: express-v5-core
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/express/v5/SKILL.md
+tags:
+- development
+- express
+- v5
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Express.js v5 Core Skill

@@ -1,6 +1,16 @@
 ---
 name: laravel-v13-domain-architecture
-description: Modular Domain architecture for Laravel v13. Use this to maintain strict separation of concerns in app/Domains.
+description: Modular Domain architecture for Laravel v13. Use this to maintain strict
+  separation of concerns in app/Domains.
+type: Skill
+title: laravel-v13-domain-architecture
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/laravel/v13/domain-architecture/SKILL.md
+tags:
+- development
+- laravel
+- v13
+- domain-architecture
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Laravel v13 Domain Architecture

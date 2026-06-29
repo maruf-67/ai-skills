@@ -1,10 +1,21 @@
 ---
 name: flutter-architecture
-description: Architects a Flutter application using the recommended layered approach (UI, Logic, Data) with MVVM, Riverpod state, and Repository pattern. Use when structuring a new project or refactoring for scalability.
+description: Architects a Flutter application using the recommended layered approach
+  (UI, Logic, Data) with MVVM, Riverpod state, and Repository pattern. Use when structuring
+  a new project or refactoring for scalability.
 metadata:
   model: models/gemini-3.1-pro-preview
   last_modified: 2026-06-23
   source: merged(flutter/skills@main + local)
+type: Skill
+title: flutter-architecture
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/flutter/v3/architecture/SKILL.md
+tags:
+- development
+- flutter
+- v3
+- architecture
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Flutter Architecture (MVVM + Layered)

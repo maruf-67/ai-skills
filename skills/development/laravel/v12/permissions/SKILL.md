@@ -1,6 +1,16 @@
 ---
 name: laravel-v12-permissions
-description: Patterns for implementing RBAC, Permissions, and User Types. Use this for role assignment, permission checks, and authorization middleware.
+description: Patterns for implementing RBAC, Permissions, and User Types. Use this
+  for role assignment, permission checks, and authorization middleware.
+type: Skill
+title: laravel-v12-permissions
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/laravel/v12/permissions/SKILL.md
+tags:
+- development
+- laravel
+- v12
+- permissions
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Laravel v12 Permissions & RBAC

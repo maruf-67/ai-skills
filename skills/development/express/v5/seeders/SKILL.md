@@ -1,6 +1,16 @@
 ---
 name: express-v5-seeders
-description: Use this when designing idempotent database seeders and startup data initialization flows.
+description: Use this when designing idempotent database seeders and startup data
+  initialization flows.
+type: Skill
+title: express-v5-seeders
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/express/v5/seeders/SKILL.md
+tags:
+- development
+- express
+- v5
+- seeders
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Database Seeders

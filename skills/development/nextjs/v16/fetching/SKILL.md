@@ -1,6 +1,15 @@
 ---
 name: fetching
 description: Micro-skill for data fetching and service layer patterns in Next.js 16.
+type: Skill
+title: fetching
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/nextjs/v16/fetching/SKILL.md
+tags:
+- development
+- nextjs
+- v16
+- fetching
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Data Fetching & Services

@@ -1,10 +1,24 @@
 ---
 name: events-networking
-description: "Events strategy and networking for Team's offline brand presence. Use when: (1) Planning which events to attend, speak at, or sponsor, (2) Preparing for a specific event (who to meet, what to say), (3) Writing a speaker proposal or topic pitch, (4) Drafting networking outreach to chamber contacts or industry association members, (5) Documenting internal achievements for external use, (6) Preparing an award entry. Triggers on: 'event', 'conference', 'seminar', 'networking', 'chamber', 'attend', 'speak', 'award entry', 'internal achievement', 'BASIS', 'DCCI', 'MCCI'."
+description: 'Events strategy and networking for Team''s offline brand presence. Use
+  when: (1) Planning which events to attend, speak at, or sponsor, (2) Preparing for
+  a specific event (who to meet, what to say), (3) Writing a speaker proposal or topic
+  pitch, (4) Drafting networking outreach to chamber contacts or industry association
+  members, (5) Documenting internal achievements for external use, (6) Preparing an
+  award entry. Triggers on: ''event'', ''conference'', ''seminar'', ''networking'',
+  ''chamber'', ''attend'', ''speak'', ''award entry'', ''internal achievement'', ''BASIS'',
+  ''DCCI'', ''MCCI''.'
 source: ai-os-custom
 context: both
 version: 1.0.0
 added: 2026-03-28
+type: Skill
+title: events-networking
+resource: file:///home/almaruf67/Codes/ai-skills/skills/team/events-networking/SKILL.md
+tags:
+- team
+- events-networking
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Events & Networking

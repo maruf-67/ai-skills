@@ -1,10 +1,21 @@
 ---
 name: flutter-serialization
-description: Create model classes with `fromJson` and `toJson` methods using `dart:convert`. Use when manually mapping JSON keys to class properties, handling API responses, or implementing type-safe data models.
+description: Create model classes with `fromJson` and `toJson` methods using `dart:convert`.
+  Use when manually mapping JSON keys to class properties, handling API responses,
+  or implementing type-safe data models.
 metadata:
   model: models/gemini-3.1-pro-preview
   last_modified: 2026-06-23
   source: merged(flutter/skills@main + local)
+type: Skill
+title: flutter-serialization
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/flutter/v3/serialization/SKILL.md
+tags:
+- development
+- flutter
+- v3
+- serialization
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Serializing JSON in Flutter

@@ -1,6 +1,16 @@
 ---
 name: realtime
-description: Digital Library realtime notifications — Ably integration, notification system, push notifications. Use when implementing or debugging realtime features.
+description: "Digital Library realtime notifications \u2014 Ably integration, notification\
+  \ system, push notifications. Use when implementing or debugging realtime features."
+type: Skill
+title: realtime
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/nextjs/v16/realtime/SKILL.md
+tags:
+- development
+- nextjs
+- v16
+- realtime
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Realtime Notifications — Digital Library

@@ -1,11 +1,23 @@
 ---
 name: case-study-writer
-description: "Dedicated case study writing skill for Team. Use when asked to: (1) Write a client case study or success story, (2) Document a project's impact, problems solved, and future implications, (3) Create client proof content for sales and marketing use, (4) Build a case study from a project brief, client interview notes, or outcome data. Triggers on 'case study', 'success story', 'client story', 'project impact', 'write up this project', 'document this deployment'."
+description: 'Dedicated case study writing skill for Team. Use when asked to: (1)
+  Write a client case study or success story, (2) Document a project''s impact, problems
+  solved, and future implications, (3) Create client proof content for sales and marketing
+  use, (4) Build a case study from a project brief, client interview notes, or outcome
+  data. Triggers on ''case study'', ''success story'', ''client story'', ''project
+  impact'', ''write up this project'', ''document this deployment''.'
 source: ai-os-custom
 context: both
 version: 1.1.0
 added: 2026-03-27
 updated: 2026-05-24
+type: Skill
+title: case-study-writer
+resource: file:///home/almaruf67/Codes/ai-skills/skills/team/case-study-writer/SKILL.md
+tags:
+- team
+- case-study-writer
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Case Study Writer

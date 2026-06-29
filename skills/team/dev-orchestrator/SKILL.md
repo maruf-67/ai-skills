@@ -3,7 +3,20 @@ source: ai-os-custom
 context: both
 version: 1.0
 name: dev-orchestrator
-description: Transforms product ideas and whitepapers into production-ready projects for AI-assisted development. Use when the user wants to (1) take an idea/whitepaper to production using Claude Code, (2) generate development documentation and specs for a new project, (3) create a step-by-step playbook for building an app/game/platform, (4) prepare handoff materials for Claude Code sessions. Triggers on phrases like "build this idea", "take this to production", "create a project from this whitepaper", "generate specs for Claude Code", "help me ship this app", "prepare for Claude Code".
+description: Transforms product ideas and whitepapers into production-ready projects
+  for AI-assisted development. Use when the user wants to (1) take an idea/whitepaper
+  to production using Claude Code, (2) generate development documentation and specs
+  for a new project, (3) create a step-by-step playbook for building an app/game/platform,
+  (4) prepare handoff materials for Claude Code sessions. Triggers on phrases like
+  "build this idea", "take this to production", "create a project from this whitepaper",
+  "generate specs for Claude Code", "help me ship this app", "prepare for Claude Code".
+type: Skill
+title: dev-orchestrator
+resource: file:///home/almaruf67/Codes/ai-skills/skills/team/dev-orchestrator/SKILL.md
+tags:
+- team
+- dev-orchestrator
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Claude Code Orchestrator

@@ -1,6 +1,16 @@
 ---
 name: nuxt-v3-state
-description: Best practices for state management in Nuxt v3 including Pinia setup stores, state hydration, and useState.
+description: Best practices for state management in Nuxt v3 including Pinia setup
+  stores, state hydration, and useState.
+type: Skill
+title: nuxt-v3-state
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/nuxt/v3/state/SKILL.md
+tags:
+- development
+- nuxt
+- v3
+- state
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Nuxt v3 State Management

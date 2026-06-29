@@ -1,6 +1,16 @@
 ---
 name: laravel-v13-api-responses
-description: Standardized API response patterns using BaseController and JsonResponse. Use this for consistent formatting and centralized error codes.
+description: Standardized API response patterns using BaseController and JsonResponse.
+  Use this for consistent formatting and centralized error codes.
+type: Skill
+title: laravel-v13-api-responses
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/laravel/v13/api-responses/SKILL.md
+tags:
+- development
+- laravel
+- v13
+- api-responses
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Laravel v13 API Responses

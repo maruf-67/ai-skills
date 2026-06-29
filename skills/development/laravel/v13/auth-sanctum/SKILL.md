@@ -1,6 +1,16 @@
 ---
 name: auth-sanctum
-description: Use this for Laravel v13 authentication when web clients are SPA frontends and should use Sanctum session cookies, with PAT endpoints for mobile/desktop clients.
+description: Use this for Laravel v13 authentication when web clients are SPA frontends
+  and should use Sanctum session cookies, with PAT endpoints for mobile/desktop clients.
+type: Skill
+title: auth-sanctum
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/laravel/v13/auth-sanctum/SKILL.md
+tags:
+- development
+- laravel
+- v13
+- auth-sanctum
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Laravel v13 Authentication (Sanctum)

@@ -1,6 +1,16 @@
 ---
 name: flutter-state
-description: Micro-skill for Riverpod state architecture with AsyncNotifier, AsyncValue rendering, and side-effect boundaries.
+description: Micro-skill for Riverpod state architecture with AsyncNotifier, AsyncValue
+  rendering, and side-effect boundaries.
+type: Skill
+title: flutter-state
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/flutter/v3/state/SKILL.md
+tags:
+- development
+- flutter
+- v3
+- state
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Flutter State (Riverpod)

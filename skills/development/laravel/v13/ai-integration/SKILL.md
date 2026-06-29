@@ -1,6 +1,16 @@
 ---
 name: laravel-v13-ai-integration
-description: Advanced LLM integration using Prism. Use this for generating medical advice, structured data, and handling multi-modal LLM tasks.
+description: Advanced LLM integration using Prism. Use this for generating medical
+  advice, structured data, and handling multi-modal LLM tasks.
+type: Skill
+title: laravel-v13-ai-integration
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/laravel/v13/ai-integration/SKILL.md
+tags:
+- development
+- laravel
+- v13
+- ai-integration
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Laravel v13 AI Integration (Prism)

@@ -1,7 +1,16 @@
 ---
 name: audit-policy
-version: "1.0.0"
-description: "Audits Laravel Controllers and Actions for correct authorization (Policies/Middleware) by cross-referencing the PRD Permission Matrix. Triggers on /ai-os:sec-audit-policy."
+version: 1.0.0
+description: Audits Laravel Controllers and Actions for correct authorization (Policies/Middleware)
+  by cross-referencing the PRD Permission Matrix. Triggers on /ai-os:sec-audit-policy.
+type: Skill
+title: audit-policy
+resource: file:///home/almaruf67/Codes/ai-skills/skills/core/sec/audit-policy/SKILL.md
+tags:
+- core
+- sec
+- audit-policy
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Security Agent: Policy Auditor

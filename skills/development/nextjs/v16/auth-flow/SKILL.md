@@ -1,6 +1,17 @@
 ---
 name: auth-flow
-description: Cross-platform auth flow — Next.js (Sanctum SPA) ↔ Laravel (Sanctum) ↔ Flutter (Sanctum token). Use when implementing or debugging authentication across the digital-library stack.
+description: "Cross-platform auth flow \u2014 Next.js (Sanctum SPA) \u2194 Laravel\
+  \ (Sanctum) \u2194 Flutter (Sanctum token). Use when implementing or debugging authentication\
+  \ across the digital-library stack."
+type: Skill
+title: auth-flow
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/nextjs/v16/auth-flow/SKILL.md
+tags:
+- development
+- nextjs
+- v16
+- auth-flow
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Auth Flow — Digital Library (Cross-Platform)

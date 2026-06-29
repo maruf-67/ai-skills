@@ -1,7 +1,16 @@
 ---
 name: branch-status
-version: "1.0.0"
-description: Provides a diagnostic report of master, dev, and remote synchronization status.
+version: 1.0.0
+description: Provides a diagnostic report of master, dev, and remote synchronization
+  status.
+type: Skill
+title: branch-status
+resource: file:///home/almaruf67/Codes/ai-skills/skills/core/task/branch-status/SKILL.md
+tags:
+- core
+- task
+- branch-status
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Branch Status Skill (branch-status)

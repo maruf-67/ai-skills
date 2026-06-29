@@ -1,6 +1,16 @@
 ---
 name: express-v5-database
-description: Use this when designing Prisma/PostgreSQL or Mongoose/MongoDB models, indexes, and query patterns in Express v5 services.
+description: Use this when designing Prisma/PostgreSQL or Mongoose/MongoDB models,
+  indexes, and query patterns in Express v5 services.
+type: Skill
+title: express-v5-database
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/express/v5/database/SKILL.md
+tags:
+- development
+- express
+- v5
+- database
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Database & Models

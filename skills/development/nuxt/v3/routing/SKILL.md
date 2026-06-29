@@ -1,6 +1,16 @@
 ---
 name: nuxt-v3-routing
-description: Guidelines for page routing, parameter binding, dynamic segments, custom layouts, and route middleware in Nuxt v3.
+description: Guidelines for page routing, parameter binding, dynamic segments, custom
+  layouts, and route middleware in Nuxt v3.
+type: Skill
+title: nuxt-v3-routing
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/nuxt/v3/routing/SKILL.md
+tags:
+- development
+- nuxt
+- v3
+- routing
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Nuxt v3 Page Routing & Pages

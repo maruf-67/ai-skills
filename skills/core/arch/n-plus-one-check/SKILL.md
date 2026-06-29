@@ -1,7 +1,16 @@
 ---
 name: n-plus-one-check
-version: "1.0.0"
-description: "Scans Laravel Actions and Controllers for potential N+1 query issues in Eloquent relationships. Triggers on /ai-os:arch-n-plus-one-check."
+version: 1.0.0
+description: Scans Laravel Actions and Controllers for potential N+1 query issues
+  in Eloquent relationships. Triggers on /ai-os:arch-n-plus-one-check.
+type: Skill
+title: n-plus-one-check
+resource: file:///home/almaruf67/Codes/ai-skills/skills/core/arch/n-plus-one-check/SKILL.md
+tags:
+- core
+- arch
+- n-plus-one-check
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Architecture Agent: N+1 Watchdog

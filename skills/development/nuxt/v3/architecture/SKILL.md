@@ -1,6 +1,16 @@
 ---
 name: nuxt-v3-architecture
-description: Guidelines for setting up directories, layered folders, auto-imports, and server APIs in Nuxt v3.
+description: Guidelines for setting up directories, layered folders, auto-imports,
+  and server APIs in Nuxt v3.
+type: Skill
+title: nuxt-v3-architecture
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/nuxt/v3/architecture/SKILL.md
+tags:
+- development
+- nuxt
+- v3
+- architecture
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Nuxt v3 Project Architecture & Layers

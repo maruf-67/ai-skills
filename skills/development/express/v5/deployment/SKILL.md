@@ -1,6 +1,16 @@
 ---
 name: express-v5-deployment
-description: Use this when preparing production deployment topology, env config, and runtime process setup.
+description: Use this when preparing production deployment topology, env config, and
+  runtime process setup.
+type: Skill
+title: express-v5-deployment
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/express/v5/deployment/SKILL.md
+tags:
+- development
+- express
+- v5
+- deployment
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Deployment

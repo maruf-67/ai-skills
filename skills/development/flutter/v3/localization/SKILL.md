@@ -1,10 +1,21 @@
 ---
 name: flutter-localization
-description: Add `flutter_localizations` and `intl` dependencies, enable "generate true" in `pubspec.yaml`, and create `l10n.yaml` configuration. Use when initializing or extending localization (i18n/l10n) support in a Flutter project.
+description: Add `flutter_localizations` and `intl` dependencies, enable "generate
+  true" in `pubspec.yaml`, and create `l10n.yaml` configuration. Use when initializing
+  or extending localization (i18n/l10n) support in a Flutter project.
 metadata:
   model: models/gemini-3.1-pro-preview
   last_modified: 2026-06-23
   source: merged(flutter/skills@main + local)
+type: Skill
+title: flutter-localization
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/flutter/v3/localization/SKILL.md
+tags:
+- development
+- flutter
+- v3
+- localization
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Internationalizing Flutter Applications

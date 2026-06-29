@@ -1,6 +1,16 @@
 ---
 name: routing
-description: Micro-skill for Next.js 16 routing patterns, focusing on async params and App Router conventions.
+description: Micro-skill for Next.js 16 routing patterns, focusing on async params
+  and App Router conventions.
+type: Skill
+title: routing
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/nextjs/v16/routing/SKILL.md
+tags:
+- development
+- nextjs
+- v16
+- routing
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Page Routing

@@ -1,10 +1,21 @@
 ---
 name: flutter-widget-test
-description: Implement a component-level test using `WidgetTester` to verify UI rendering and user interactions. Use when validating that a specific widget displays correct data and responds to events as expected.
+description: Implement a component-level test using `WidgetTester` to verify UI rendering
+  and user interactions. Use when validating that a specific widget displays correct
+  data and responds to events as expected.
 metadata:
   model: models/gemini-3.1-pro-preview
   last_modified: 2026-06-23
   source: merged(flutter/skills@main + local)
+type: Skill
+title: flutter-widget-test
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/flutter/v3/widget-test/SKILL.md
+tags:
+- development
+- flutter
+- v3
+- widget-test
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Writing Flutter Widget Tests

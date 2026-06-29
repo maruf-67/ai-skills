@@ -1,6 +1,16 @@
 ---
 name: nuxt-v3
-description: Use this when building or reviewing Nuxt v3 projects with Vue 3 and TypeScript. Covers project structure, server/client directories, SSR compatibility, auto-imports, and feature boundaries.
+description: Use this when building or reviewing Nuxt v3 projects with Vue 3 and TypeScript.
+  Covers project structure, server/client directories, SSR compatibility, auto-imports,
+  and feature boundaries.
+type: Skill
+title: nuxt-v3
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/nuxt/v3/SKILL.md
+tags:
+- development
+- nuxt
+- v3
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Nuxt v3 Core Skills

@@ -1,6 +1,16 @@
 ---
 name: flutter-auth-jwt
-description: Micro-skill for Flutter mobile JWT bearer authentication flows with refresh strategy and protected endpoint contracts.
+description: Micro-skill for Flutter mobile JWT bearer authentication flows with refresh
+  strategy and protected endpoint contracts.
+type: Skill
+title: flutter-auth-jwt
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/flutter/v3/auth-jwt/SKILL.md
+tags:
+- development
+- flutter
+- v3
+- auth-jwt
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Flutter Auth (JWT)

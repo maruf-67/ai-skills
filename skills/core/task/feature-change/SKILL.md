@@ -1,7 +1,17 @@
 ---
 name: feature-change
-version: "1.0.0"
-description: Orchestrates feature changes (add / modify / remove) by auditing documents (BRD, PRD, PRP), analyzing codebase impact, and updating relevant sections while maintaining traceability.
+version: 1.0.0
+description: Orchestrates feature changes (add / modify / remove) by auditing documents
+  (BRD, PRD, PRP), analyzing codebase impact, and updating relevant sections while
+  maintaining traceability.
+type: Skill
+title: feature-change
+resource: file:///home/almaruf67/Codes/ai-skills/skills/core/task/feature-change/SKILL.md
+tags:
+- core
+- task
+- feature-change
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Feature Change Orchestrator

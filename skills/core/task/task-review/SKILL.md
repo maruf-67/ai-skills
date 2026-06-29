@@ -1,7 +1,17 @@
 ---
 name: task-review
-version: "1.0.0"
-description: Perform a comprehensive pre-submission review of the current task. Audits code quality, architectural alignment, security, and test coverage. Triggers as the final gate before running task-finish.
+version: 1.0.0
+description: Perform a comprehensive pre-submission review of the current task. Audits
+  code quality, architectural alignment, security, and test coverage. Triggers as
+  the final gate before running task-finish.
+type: Skill
+title: task-review
+resource: file:///home/almaruf67/Codes/ai-skills/skills/core/task/task-review/SKILL.md
+tags:
+- core
+- task
+- task-review
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Task Review Agent (review)

@@ -1,6 +1,16 @@
 ---
 name: nuxt-v3-fetching
-description: SSR-safe data fetching patterns in Nuxt v3 including useFetch, useAsyncData, keys, and event-based requests.
+description: SSR-safe data fetching patterns in Nuxt v3 including useFetch, useAsyncData,
+  keys, and event-based requests.
+type: Skill
+title: nuxt-v3-fetching
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/nuxt/v3/fetching/SKILL.md
+tags:
+- development
+- nuxt
+- v3
+- fetching
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Nuxt v3 Data Fetching & Services

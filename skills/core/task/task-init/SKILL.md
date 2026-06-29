@@ -1,7 +1,17 @@
 ---
 name: task-init
-version: "1.0.0"
-description: Initialize a new development task following the master -> dev -> task workflow. Checks git state, syncs dev with master, creates a branch, and sets up task context.
+version: 1.0.0
+description: Initialize a new development task following the master -> dev -> task
+  workflow. Checks git state, syncs dev with master, creates a branch, and sets up
+  task context.
+type: Skill
+title: task-init
+resource: file:///home/almaruf67/Codes/ai-skills/skills/core/task/task-init/SKILL.md
+tags:
+- core
+- task
+- task-init
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Task Initialization Agent (init)

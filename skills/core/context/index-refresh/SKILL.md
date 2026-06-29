@@ -1,7 +1,16 @@
 ---
 name: index-refresh
-version: "1.0.0"
-description: "Scans the project and updates AI indexing maps (API, database, components) to maintain accurate project memory. Triggers on /ai-os:context-index-refresh."
+version: 1.0.0
+description: Scans the project and updates AI indexing maps (API, database, components)
+  to maintain accurate project memory. Triggers on /ai-os:context-index-refresh.
+type: Skill
+title: index-refresh
+resource: file:///home/almaruf67/Codes/ai-skills/skills/core/context/index-refresh/SKILL.md
+tags:
+- core
+- context
+- index-refresh
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Context Manager: Index Refresh

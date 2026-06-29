@@ -1,10 +1,21 @@
 ---
 name: rfp-response-orchestrator
-description: "Step-by-step RFP response orchestrator for Team's sales team. Guides the team through a full proposal from RFP analysis to final review, one step at a time. Use when responding to any RFP, RFQ, or formal procurement request. Triggers on: 'rfp response', 'respond to this rfp', 'write a proposal', 'rfp orchestrator', 'help me respond to this tender'."
+description: 'Step-by-step RFP response orchestrator for Team''s sales team. Guides
+  the team through a full proposal from RFP analysis to final review, one step at
+  a time. Use when responding to any RFP, RFQ, or formal procurement request. Triggers
+  on: ''rfp response'', ''respond to this rfp'', ''write a proposal'', ''rfp orchestrator'',
+  ''help me respond to this tender''.'
 source: ai-os-custom
 context: both
 version: 1.1.0
 added: 2026-03-28
+type: Skill
+title: rfp-response-orchestrator
+resource: file:///home/almaruf67/Codes/ai-skills/skills/team/rfp-response-orchestrator/SKILL.md
+tags:
+- team
+- rfp-response-orchestrator
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # RFP Response Orchestrator

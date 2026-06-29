@@ -1,6 +1,16 @@
 ---
 name: marketing-looker-studio-bigquery
-description: Use for Looker Studio delivery with BigQuery semantic views, parameterized reporting, and performance-safe dashboard design.
+description: Use for Looker Studio delivery with BigQuery semantic views, parameterized
+  reporting, and performance-safe dashboard design.
+type: Skill
+title: marketing-looker-studio-bigquery
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/marketing-data/v1/looker-studio-bigquery/SKILL.md
+tags:
+- development
+- marketing-data
+- v1
+- looker-studio-bigquery
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Looker Studio Delivery + BigQuery

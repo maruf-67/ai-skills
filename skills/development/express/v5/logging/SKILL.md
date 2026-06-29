@@ -1,6 +1,16 @@
 ---
 name: express-v5-logging
-description: Use this when implementing structured logging and consistent error handling in Express v5 APIs with Winston or Pino.
+description: Use this when implementing structured logging and consistent error handling
+  in Express v5 APIs with Winston or Pino.
+type: Skill
+title: express-v5-logging
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/express/v5/logging/SKILL.md
+tags:
+- development
+- express
+- v5
+- logging
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Logging & Error Handling

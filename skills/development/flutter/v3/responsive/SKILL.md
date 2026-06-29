@@ -1,10 +1,21 @@
 ---
 name: flutter-responsive
-description: Use `LayoutBuilder`, `MediaQuery`, or `Expanded/Flexible` to create adaptive layouts for mobile, tablet, and desktop. Use when building UI that must adapt to different screen sizes and window dimensions.
+description: Use `LayoutBuilder`, `MediaQuery`, or `Expanded/Flexible` to create adaptive
+  layouts for mobile, tablet, and desktop. Use when building UI that must adapt to
+  different screen sizes and window dimensions.
 metadata:
   model: models/gemini-3.1-pro-preview
   last_modified: 2026-06-23
   source: merged(flutter/skills@main + local)
+type: Skill
+title: flutter-responsive
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/flutter/v3/responsive/SKILL.md
+tags:
+- development
+- flutter
+- v3
+- responsive
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Flutter Responsive and Adaptive UI

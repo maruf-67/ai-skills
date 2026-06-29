@@ -1,7 +1,17 @@
 ---
 name: ui-scaffold
-version: "1.0.0"
-description: "Generates production-grade Nuxt UI v4 pages: searchable tables, forms, and layouts. Triggers on /ai-os:nuxt-ui-scaffold."
+version: 1.0.0
+description: 'Generates production-grade Nuxt UI v4 pages: searchable tables, forms,
+  and layouts. Triggers on /ai-os:nuxt-ui-scaffold.'
+type: Skill
+title: ui-scaffold
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/nuxt/v3/ui-scaffold/SKILL.md
+tags:
+- development
+- nuxt
+- v3
+- ui-scaffold
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Nuxt Agent: UI Scaffold

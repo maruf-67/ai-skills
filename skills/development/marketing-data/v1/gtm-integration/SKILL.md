@@ -1,6 +1,16 @@
 ---
 name: marketing-gtm-integration
-description: Use for GTM-aligned event contract design across GA4, Ads, and CRM pipelines to preserve attribution and conversion integrity.
+description: Use for GTM-aligned event contract design across GA4, Ads, and CRM pipelines
+  to preserve attribution and conversion integrity.
+type: Skill
+title: marketing-gtm-integration
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/marketing-data/v1/gtm-integration/SKILL.md
+tags:
+- development
+- marketing-data
+- v1
+- gtm-integration
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # GTM Integration

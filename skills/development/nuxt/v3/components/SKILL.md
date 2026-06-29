@@ -1,6 +1,16 @@
 ---
 name: nuxt-v3-components
-description: Guidelines for Single File Components (SFC), typed props/emits, and clean feature components in Nuxt v3.
+description: Guidelines for Single File Components (SFC), typed props/emits, and clean
+  feature components in Nuxt v3.
+type: Skill
+title: nuxt-v3-components
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/nuxt/v3/components/SKILL.md
+tags:
+- development
+- nuxt
+- v3
+- components
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Nuxt v3 Component Architecture

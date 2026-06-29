@@ -21,12 +21,19 @@ Maintain a version-locked, framework-correct, reusable skill system for AI-assis
 
 ## Skill Contracts
 
-Each skill must include:
-
-- clear trigger conditions
-- do and don't rules
-- minimal correct pattern
-- related skill links
+Each skill must conform to the **Open Knowledge Format (OKF)** and include:
+- A YAML frontmatter section with:
+  - `type: Skill` (REQUIRED)
+  - `title`: Display name (maps to legacy `name`)
+  - `description`: A clear, one-sentence summary
+  - `resource`: Canonical URI on disk (e.g. `file:///...`)
+  - `tags`: Classification tags derived from the path
+  - `timestamp`: Creation/modification timestamp
+  - `name` & `version`: Retained for backward compatibility
+- Clear trigger conditions
+- Do and don't rules
+- Minimal correct pattern
+- Related skill links (use relative markdown path syntax to support link-graph traversal)
 
 ## Auth Contracts
 
@@ -38,12 +45,13 @@ Each skill must include:
 ## Structure Contract
 
 - Canonical stack docs: `nextjs/`, `express/`, `laravel/`, `flutter/`, `marketing-data/`
-- Copilot wrappers: `.github/skills/`
-- Discovery docs: `index.md`, `context.md`, stack-level `index.md`
+- Copilot wrappers: `.github/skills/` (using `type: SkillWrapper`)
+- Discovery docs: `index.md` (using `type: Index` to structure progressive disclosure), `context.md`
 
 ## Quality Gate
 
-- Frontmatter is valid and searchable.
-- Wrapper `name` and folder naming are aligned.
-- All new skills are indexed and discoverable.
+- Frontmatter conforms to the OKF schema and is valid.
+- Wrapper `title` and folder naming are aligned.
+- All new skills are indexed and discoverable via OKF `index.md` files.
+- Relative links are verified and walk-safe.
 - No cross-version rule contamination.

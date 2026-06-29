@@ -1,4 +1,14 @@
 ---
+type: Skill
+title: Proggya Analytics Briefer
+description: OKF concept for Proggya Analytics Briefer
+resource: file:///home/almaruf67/Codes/ai-skills/skills/team/proggya-analytics-briefer/SKILL.md
+tags:
+- team
+- proggya-analytics-briefer
+timestamp: '2026-06-29T19:13:46Z'
+---
+---
 name: Proggya Analytics Briefer
 description: Generates a complete Power BI working brief for a Proggya BI analyst. Input: topic name from the Proggya Topics Sheet. Output: exact dataset, download steps, columns to use, analysis to run, Power BI chart specs, DAX measures, and the narrative the data tells. Designed for daily use by a BI designer. Use this skill when you have a specific topic to execute — not for open-ended research.
 version: 1.0.0

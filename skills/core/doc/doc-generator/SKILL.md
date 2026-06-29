@@ -1,7 +1,17 @@
 ---
 name: doc-generator
-version: "1.0.0"
-description: "Atomic generator for single-stage documentation artifacts (BRD or PRD). For the full 5-stage pipeline (Source → BRD → PRD → Features → PRPs → Tasks) use /ai-os:product-pipeline instead. Triggers on /ai-os:doc-generator."
+version: 1.0.0
+description: "Atomic generator for single-stage documentation artifacts (BRD or PRD).\
+  \ For the full 5-stage pipeline (Source \u2192 BRD \u2192 PRD \u2192 Features \u2192\
+  \ PRPs \u2192 Tasks) use /ai-os:product-pipeline instead. Triggers on /ai-os:doc-generator."
+type: Skill
+title: doc-generator
+resource: file:///home/almaruf67/Codes/ai-skills/skills/core/doc/doc-generator/SKILL.md
+tags:
+- core
+- doc
+- doc-generator
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Documentation Generator (Atomic)

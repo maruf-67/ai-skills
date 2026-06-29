@@ -1,7 +1,16 @@
 ---
 name: check
-version: "1.0.0"
-description: "Performs a diagnostic health-check on the AI Engineering OS workstation to ensure all agents, docs, and git states are healthy. Triggers on /ai-os:workstation-check."
+version: 1.0.0
+description: Performs a diagnostic health-check on the AI Engineering OS workstation
+  to ensure all agents, docs, and git states are healthy. Triggers on /ai-os:workstation-check.
+type: Skill
+title: check
+resource: file:///home/almaruf67/Codes/ai-skills/skills/core/workstation/check/SKILL.md
+tags:
+- core
+- workstation
+- check
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Workstation Agent: Health Check

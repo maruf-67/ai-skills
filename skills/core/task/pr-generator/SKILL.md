@@ -1,7 +1,17 @@
 ---
 name: pr-generator
-version: "1.0.0"
-description: Generates standardized PR descriptions using git diff data and a template. Returns PR title, description body, and filename for use by the caller. Triggers on /ai-os:task-pr-generator.
+version: 1.0.0
+description: Generates standardized PR descriptions using git diff data and a template.
+  Returns PR title, description body, and filename for use by the caller. Triggers
+  on /ai-os:task-pr-generator.
+type: Skill
+title: pr-generator
+resource: file:///home/almaruf67/Codes/ai-skills/skills/core/task/pr-generator/SKILL.md
+tags:
+- core
+- task
+- pr-generator
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # PR Generator

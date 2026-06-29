@@ -1,6 +1,16 @@
 ---
 name: laravel-v12-routing
-description: Patterns for defining API routes, versioning, and middleware configuration in Laravel v12. Use this for adding or modifying endpoints.
+description: Patterns for defining API routes, versioning, and middleware configuration
+  in Laravel v12. Use this for adding or modifying endpoints.
+type: Skill
+title: laravel-v12-routing
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/laravel/v12/routing/SKILL.md
+tags:
+- development
+- laravel
+- v12
+- routing
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Laravel v12 Routing & Middleware

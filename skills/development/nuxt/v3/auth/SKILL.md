@@ -1,6 +1,16 @@
 ---
 name: nuxt-v3-auth
-description: Auth patterns for Nuxt v3 including middleware guards, Laravel Sanctum cookies, and JWT storage.
+description: Auth patterns for Nuxt v3 including middleware guards, Laravel Sanctum
+  cookies, and JWT storage.
+type: Skill
+title: nuxt-v3-auth
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/nuxt/v3/auth/SKILL.md
+tags:
+- development
+- nuxt
+- v3
+- auth
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Nuxt v3 Authentication & Security

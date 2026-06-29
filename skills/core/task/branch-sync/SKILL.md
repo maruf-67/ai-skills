@@ -1,7 +1,16 @@
 ---
 name: branch-sync
-version: "1.0.0"
-description: Aligns master and dev branches by performing a full bidirectional synchronization. Ensures production and integration branches are identical.
+version: 1.0.0
+description: Aligns master and dev branches by performing a full bidirectional synchronization.
+  Ensures production and integration branches are identical.
+type: Skill
+title: branch-sync
+resource: file:///home/almaruf67/Codes/ai-skills/skills/core/task/branch-sync/SKILL.md
+tags:
+- core
+- task
+- branch-sync
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Branch Synchronization Skill (branch-sync)

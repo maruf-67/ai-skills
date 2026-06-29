@@ -1,6 +1,17 @@
 ---
 name: reader
-description: Digital Library reader module — EPUB (epub.js), PDF (pdfjs-dist), TTS (EasySpeech), annotations, security. Use when implementing or modifying the ebook reader.
+description: "Digital Library reader module \u2014 EPUB (epub.js), PDF (pdfjs-dist),\
+  \ TTS (EasySpeech), annotations, security. Use when implementing or modifying the\
+  \ ebook reader."
+type: Skill
+title: reader
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/nextjs/v16/reader/SKILL.md
+tags:
+- development
+- nextjs
+- v16
+- reader
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Reader Module — Digital Library

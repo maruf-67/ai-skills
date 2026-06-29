@@ -1,7 +1,17 @@
 ---
 name: action-factory
-version: "1.0.0"
-description: "Generates the Laravel 'Service Layer' boilerplate: Action class, DTO, and Form Request in one shot. Triggers on /ai-os:laravel-action-factory."
+version: 1.0.0
+description: 'Generates the Laravel ''Service Layer'' boilerplate: Action class, DTO,
+  and Form Request in one shot. Triggers on /ai-os:laravel-action-factory.'
+type: Skill
+title: action-factory
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/laravel/v12/action-factory/SKILL.md
+tags:
+- development
+- laravel
+- v12
+- action-factory
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Laravel Agent: Action Factory

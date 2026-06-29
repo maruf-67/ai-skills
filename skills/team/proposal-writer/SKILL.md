@@ -1,9 +1,17 @@
 ---
 name: proposal-writer
-description: "Use for writing complete technical/financial proposals and RFP responses, including intake, pricing strategy, and submission-ready drafting."
+description: Use for writing complete technical/financial proposals and RFP responses,
+  including intake, pricing strategy, and submission-ready drafting.
 source: ai-os-custom
 context: both
 version: 1.2.0
+type: Skill
+title: proposal-writer
+resource: file:///home/almaruf67/Codes/ai-skills/skills/team/proposal-writer/SKILL.md
+tags:
+- team
+- proposal-writer
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Proposal Writer — Limited

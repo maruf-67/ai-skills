@@ -1,6 +1,16 @@
 ---
 name: nuxt-v3-responsive
-description: Best practices for implementing mobile-first layouts, adaptive navigation, and SSR-safe viewport checks in Nuxt v3.
+description: Best practices for implementing mobile-first layouts, adaptive navigation,
+  and SSR-safe viewport checks in Nuxt v3.
+type: Skill
+title: nuxt-v3-responsive
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/nuxt/v3/responsive/SKILL.md
+tags:
+- development
+- nuxt
+- v3
+- responsive
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Nuxt v3 Responsive Design & viewports

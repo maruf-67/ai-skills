@@ -1,7 +1,16 @@
 ---
 name: flush
-version: "1.0.0"
-description: "Summarizes the current session, updates system-context.md, and prepares the AI for a fresh, cost-effective session. Triggers on /ai-os:context-flush."
+version: 1.0.0
+description: Summarizes the current session, updates system-context.md, and prepares
+  the AI for a fresh, cost-effective session. Triggers on /ai-os:context-flush.
+type: Skill
+title: flush
+resource: file:///home/almaruf67/Codes/ai-skills/skills/core/context/flush/SKILL.md
+tags:
+- core
+- context
+- flush
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Context Manager: Flush (Memory Management)

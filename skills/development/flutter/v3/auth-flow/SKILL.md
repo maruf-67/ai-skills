@@ -1,6 +1,16 @@
 ---
 name: auth-flow
-description: Flutter Sanctum token-based auth for digital-library mobile app. Use when implementing or debugging mobile authentication against the Laravel API.
+description: Flutter Sanctum token-based auth for digital-library mobile app. Use
+  when implementing or debugging mobile authentication against the Laravel API.
+type: Skill
+title: auth-flow
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/flutter/v3/auth-flow/SKILL.md
+tags:
+- development
+- flutter
+- v3
+- auth-flow
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Auth Flow — Flutter Mobile (Sanctum Token)

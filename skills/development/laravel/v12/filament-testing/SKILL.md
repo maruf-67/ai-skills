@@ -1,6 +1,16 @@
 ---
 name: filament-testing
-description: Pest and Filament testing patterns for Laravel v12. Use this for panel access, resource CRUD flows, validation, and action authorization coverage.
+description: Pest and Filament testing patterns for Laravel v12. Use this for panel
+  access, resource CRUD flows, validation, and action authorization coverage.
+type: Skill
+title: filament-testing
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/laravel/v12/filament-testing/SKILL.md
+tags:
+- development
+- laravel
+- v12
+- filament-testing
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Laravel v12 Filament Testing (Pest)

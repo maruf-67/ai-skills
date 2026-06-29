@@ -1,10 +1,21 @@
 ---
 name: flutter-widget-preview
-description: Adds interactive widget previews using the `@Preview` annotation system. Use when creating new UI components or updating existing screens to ensure consistent design and interactive isolated testing.
+description: Adds interactive widget previews using the `@Preview` annotation system.
+  Use when creating new UI components or updating existing screens to ensure consistent
+  design and interactive isolated testing.
 metadata:
   model: models/gemini-3.1-pro-preview
   last_modified: 2026-06-23
   source: merged(flutter/skills@main + local)
+type: Skill
+title: flutter-widget-preview
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/flutter/v3/widget-preview/SKILL.md
+tags:
+- development
+- flutter
+- v3
+- widget-preview
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Previewing Flutter Widgets

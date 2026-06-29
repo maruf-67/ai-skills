@@ -1,6 +1,16 @@
 ---
 name: marketing-crm-integration
-description: Use for HubSpot/Salesforce integration patterns, object association mapping, incremental sync, and revenue attribution-ready modeling.
+description: Use for HubSpot/Salesforce integration patterns, object association mapping,
+  incremental sync, and revenue attribution-ready modeling.
+type: Skill
+title: marketing-crm-integration
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/marketing-data/v1/crm-integration/SKILL.md
+tags:
+- development
+- marketing-data
+- v1
+- crm-integration
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # HubSpot/Salesforce Integration

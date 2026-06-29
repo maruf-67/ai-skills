@@ -1,6 +1,16 @@
 ---
 name: express-v5-structure
-description: Use this when defining or reviewing Express v5 project/module structure and layering rules.
+description: Use this when defining or reviewing Express v5 project/module structure
+  and layering rules.
+type: Skill
+title: express-v5-structure
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/express/v5/structure/SKILL.md
+tags:
+- development
+- express
+- v5
+- structure
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Project Structure

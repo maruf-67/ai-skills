@@ -1,7 +1,16 @@
 ---
 name: session-flush
-version: "1.0.0"
-description: "Before session close, updates playbook, system-context, CHANGELOG, and records resume point for next session. Triggers on /ai-os:session-flush."
+version: 1.0.0
+description: Before session close, updates playbook, system-context, CHANGELOG, and
+  records resume point for next session. Triggers on /ai-os:session-flush.
+type: Skill
+title: session-flush
+resource: file:///home/almaruf67/Codes/ai-skills/skills/core/session/flush/SKILL.md
+tags:
+- core
+- session
+- flush
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Session Flush Agent

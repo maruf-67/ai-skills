@@ -1,7 +1,16 @@
 ---
 name: consistency-check
-version: "1.0.0"
-description: Audit a codebase for naming, namespace, and structural consistency. Produces a Consistent / Inconsistent report with a recommended standard. Triggers on /ai-os:arch-consistency-check.
+version: 1.0.0
+description: Audit a codebase for naming, namespace, and structural consistency. Produces
+  a Consistent / Inconsistent report with a recommended standard. Triggers on /ai-os:arch-consistency-check.
+type: Skill
+title: consistency-check
+resource: file:///home/almaruf67/Codes/ai-skills/skills/core/arch/consistency-check/SKILL.md
+tags:
+- core
+- arch
+- consistency-check
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Architecture Agent: Consistency Check

@@ -1,6 +1,16 @@
 ---
 name: cache
-description: Micro-skill for Next.js 16 Cache Components API, use cache directive, cache invalidation, and custom cache profiles.
+description: Micro-skill for Next.js 16 Cache Components API, use cache directive,
+  cache invalidation, and custom cache profiles.
+type: Skill
+title: cache
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/nextjs/v16/cache/SKILL.md
+tags:
+- development
+- nextjs
+- v16
+- cache
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Next.js 16 Caching & Cache Components

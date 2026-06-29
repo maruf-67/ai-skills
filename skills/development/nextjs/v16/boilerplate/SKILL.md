@@ -1,9 +1,21 @@
 ---
 name: nextjs-boilerplate
-description: Scaffold a new Next.js 16+ project using the ViraStack production-ready boilerplate (virastack/nextjs-boilerplate). Use when starting a new Next.js project from scratch to avoid repetitive setup. Includes Tailwind CSS v4, TanStack Query 5, Zustand, Zod, next-intl, shadcn/ui, ESLint 9, Husky, Knip, and AI-ready architecture.
+description: Scaffold a new Next.js 16+ project using the ViraStack production-ready
+  boilerplate (virastack/nextjs-boilerplate). Use when starting a new Next.js project
+  from scratch to avoid repetitive setup. Includes Tailwind CSS v4, TanStack Query
+  5, Zustand, Zod, next-intl, shadcn/ui, ESLint 9, Husky, Knip, and AI-ready architecture.
 metadata:
   source: virastack/nextjs-boilerplate
   last_modified: 2026-06-23
+type: Skill
+title: nextjs-boilerplate
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/nextjs/v16/boilerplate/SKILL.md
+tags:
+- development
+- nextjs
+- v16
+- boilerplate
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # ViraStack Next.js Boilerplate

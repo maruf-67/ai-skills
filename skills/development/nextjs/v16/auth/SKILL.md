@@ -1,6 +1,16 @@
 ---
 name: auth
-description: Use this when implementing Sanctum SPA session authentication in Next.js v16 with App Router (Laravel + Next.js web clients).
+description: Use this when implementing Sanctum SPA session authentication in Next.js
+  v16 with App Router (Laravel + Next.js web clients).
+type: Skill
+title: auth
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/nextjs/v16/auth/SKILL.md
+tags:
+- development
+- nextjs
+- v16
+- auth
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Authentication

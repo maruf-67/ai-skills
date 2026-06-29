@@ -1,6 +1,16 @@
 ---
 name: realtime
-description: Laravel realtime notifications — Ably broadcasting, event system, notification publishing. Use when implementing or debugging backend realtime features.
+description: "Laravel realtime notifications \u2014 Ably broadcasting, event system,\
+  \ notification publishing. Use when implementing or debugging backend realtime features."
+type: Skill
+title: realtime
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/laravel/v12/realtime/SKILL.md
+tags:
+- development
+- laravel
+- v12
+- realtime
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Realtime Notifications — Laravel Backend

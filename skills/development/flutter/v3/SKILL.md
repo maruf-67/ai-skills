@@ -1,10 +1,20 @@
 ---
 name: flutter-v3
-description: Use this when building or reviewing Flutter Android and iOS apps with feature-layer architecture, Riverpod state, go_router navigation, and adaptive responsive UI. Supports MCP-driven interactive testing and widget exploration.
+description: Use this when building or reviewing Flutter Android and iOS apps with
+  feature-layer architecture, Riverpod state, go_router navigation, and adaptive responsive
+  UI. Supports MCP-driven interactive testing and widget exploration.
 metadata:
   model: models/gemini-3.1-pro-preview
   last_modified: 2026-06-23
   source: merged(flutter/skills@main + local)
+type: Skill
+title: flutter-v3
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/flutter/v3/SKILL.md
+tags:
+- development
+- flutter
+- v3
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Flutter 3 (Android and iOS)

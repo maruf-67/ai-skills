@@ -1,6 +1,16 @@
 ---
 name: social-login
-description: Patterns for implementing social authentication using Laravel Socialite. Use this when working on Google login or adding new providers.
+description: Patterns for implementing social authentication using Laravel Socialite.
+  Use this when working on Google login or adding new providers.
+type: Skill
+title: social-login
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/laravel/v12/social-login/SKILL.md
+tags:
+- development
+- laravel
+- v12
+- social-login
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Laravel v12 Social Login

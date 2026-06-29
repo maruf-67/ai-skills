@@ -1,6 +1,16 @@
 ---
 name: rules
-description: Core coding standards, naming conventions, import boundaries, feature isolation rules, and validation rules for Next.js 16.
+description: Core coding standards, naming conventions, import boundaries, feature
+  isolation rules, and validation rules for Next.js 16.
+type: Skill
+title: rules
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/nextjs/v16/rules/SKILL.md
+tags:
+- development
+- nextjs
+- v16
+- rules
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # General Rules & Patterns

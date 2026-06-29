@@ -1,7 +1,20 @@
 ---
 name: product-pipeline
-version: "1.0.0"
-description: "Full 5-stage product documentation orchestrator (Source → BRD → PRD → Features → PRPs → Tasks). Use this skill whenever the user wants to convert a white-paper, research doc, or existing codebase analysis into structured product artifacts — BRD, PRD, Features, PRPs, or Tasks — in any combination or sequence. Runs the chain end-to-end when invoked as `/ai-os:product-pipeline full`. Triggers on /ai-os:product-pipeline."
+version: 1.0.0
+description: "Full 5-stage product documentation orchestrator (Source \u2192 BRD \u2192\
+  \ PRD \u2192 Features \u2192 PRPs \u2192 Tasks). Use this skill whenever the user\
+  \ wants to convert a white-paper, research doc, or existing codebase analysis into\
+  \ structured product artifacts \u2014 BRD, PRD, Features, PRPs, or Tasks \u2014\
+  \ in any combination or sequence. Runs the chain end-to-end when invoked as `/ai-os:product-pipeline\
+  \ full`. Triggers on /ai-os:product-pipeline."
+type: Skill
+title: product-pipeline
+resource: file:///home/almaruf67/Codes/ai-skills/skills/core/product/pipeline/SKILL.md
+tags:
+- core
+- product
+- pipeline
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Product Documentation Pipeline Skill

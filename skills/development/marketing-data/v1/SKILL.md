@@ -1,6 +1,15 @@
 ---
 name: marketing-data-v1-core
-description: Use for end-to-end marketing data stack delivery across GA4, BigQuery, Looker Studio, Ads APIs, CRM, and GTM with robust data contracts.
+description: Use for end-to-end marketing data stack delivery across GA4, BigQuery,
+  Looker Studio, Ads APIs, CRM, and GTM with robust data contracts.
+type: Skill
+title: marketing-data-v1-core
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/marketing-data/v1/SKILL.md
+tags:
+- development
+- marketing-data
+- v1
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Marketing Data v1 Core Skill

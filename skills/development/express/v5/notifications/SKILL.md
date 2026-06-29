@@ -1,6 +1,16 @@
 ---
 name: express-v5-notifications
-description: Use this when implementing real-time Socket.IO notifications or queue-based messaging integrations in an Express v5 backend.
+description: Use this when implementing real-time Socket.IO notifications or queue-based
+  messaging integrations in an Express v5 backend.
+type: Skill
+title: express-v5-notifications
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/express/v5/notifications/SKILL.md
+tags:
+- development
+- express
+- v5
+- notifications
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Real-time Notifications & Integrations

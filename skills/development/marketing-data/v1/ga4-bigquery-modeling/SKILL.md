@@ -1,6 +1,16 @@
 ---
 name: marketing-ga4-bigquery-modeling
-description: Use for GA4 extraction patterns and BigQuery-first modeling, including incremental loads, session/user attribution, and reusable marts.
+description: Use for GA4 extraction patterns and BigQuery-first modeling, including
+  incremental loads, session/user attribution, and reusable marts.
+type: Skill
+title: marketing-ga4-bigquery-modeling
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/marketing-data/v1/ga4-bigquery-modeling/SKILL.md
+tags:
+- development
+- marketing-data
+- v1
+- ga4-bigquery-modeling
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # GA4 Extraction + BigQuery Modeling

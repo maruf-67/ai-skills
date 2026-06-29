@@ -1,8 +1,19 @@
 ---
 version: 1.0.0
 name: frontend-design
-description: "Create distinctive, production-grade frontend interfaces with high design quality. Generates creative, polished code that avoids generic AI aesthetics. Use when the user asks to build web components, pages, artifacts, posters, or applications, or when any design skill requires project context."
-license: Apache 2.0. Based on Anthropic's frontend-design skill. See NOTICE.md for attribution.
+description: Create distinctive, production-grade frontend interfaces with high design
+  quality. Generates creative, polished code that avoids generic AI aesthetics. Use
+  when the user asks to build web components, pages, artifacts, posters, or applications,
+  or when any design skill requires project context.
+license: Apache 2.0. Based on Anthropic's frontend-design skill. See NOTICE.md for
+  attribution.
+type: Skill
+title: frontend-design
+resource: file:///home/almaruf67/Codes/ai-skills/skills/team/frontend-design/SKILL.md
+tags:
+- team
+- frontend-design
+timestamp: '2026-06-29T19:13:46Z'
 ---
 This skill guides creation of distinctive, production-grade frontend interfaces that avoid generic "AI slop" aesthetics. Implement real working code with exceptional attention to aesthetic details and creative choices.
 

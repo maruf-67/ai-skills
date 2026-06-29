@@ -1,6 +1,16 @@
 ---
 name: payment
-description: Digital Library payment flow — cart, bKash checkout, entitlements. Use when implementing or modifying purchase/payment features.
+description: "Digital Library payment flow \u2014 cart, bKash checkout, entitlements.\
+  \ Use when implementing or modifying purchase/payment features."
+type: Skill
+title: payment
+resource: file:///home/almaruf67/Codes/ai-skills/skills/development/nextjs/v16/payment/SKILL.md
+tags:
+- development
+- nextjs
+- v16
+- payment
+timestamp: '2026-06-29T19:13:46Z'
 ---
 
 # Payment Flow — Digital Library
