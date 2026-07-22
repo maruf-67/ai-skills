@@ -1,11 +1,11 @@
-# Nuxt v3 Skills
+# Nuxt Skills
 
-Version-locked guidance for Nuxt 3 + Vue 3 + TypeScript frontends.
+Version-locked guidance for Nuxt + Vue 3 + TypeScript frontends.
 
-## Start Here
+## Versions
+
+### Nuxt v3 (Legacy)
 - [Core Skill (trigger-based)](./v3/SKILL.md)
-
-## Skill Modules
 - [Project Structure](./v3/architecture/SKILL.md)
 - [Routing & Pages](./v3/routing/SKILL.md)
 - [State Management](./v3/state/SKILL.md)
@@ -14,6 +14,17 @@ Version-locked guidance for Nuxt 3 + Vue 3 + TypeScript frontends.
 - [Styling & UI](./v3/styling/SKILL.md)
 - [Responsive Design](./v3/responsive/SKILL.md)
 - [Authentication](./v3/auth/SKILL.md)
+
+### Nuxt v4+ (Latest)
+- [Core Skill (trigger-based)](./v4/SKILL.md)
+- [Project Setup & Testing](./v4/references/project-setup.md)
+- [Routing & Pages](./v4/references/routing.md)
+- [Composables & Data Fetching](./v4/references/nuxt-composables.md)
+- [Middleware & Plugins](./v4/references/middleware-plugins.md)
+- [Server Routes & Nitro](./v4/references/server.md)
+- [Components & Rendering](./v4/references/nuxt-components.md)
+- [Configuration](./v4/references/nuxt-config.md)
+- [Authentication (Sanctum + JWT)](./v4/auth/SKILL.md)
 
 ## Feature Delivery Checklist (Reusable)
 1. Confirm page/component contract and validation schema.
