@@ -1,0 +1,38 @@
+---
+name: cmd-model-route
+description: "Recommend the best model tier for the current task based on complexity, risk, and budget."
+type: Skill
+title: model-route
+resource: file:///home/almaruf67/Codes/ai-os/ECC/commands/model-route.md
+tags:
+- ecc
+- command
+timestamp: '2026-07-23T07:08:12Z'
+---
+
+# Model Route Command
+
+Recommend the best model tier for the current task by complexity and budget.
+
+## Usage
+
+`/model-route [task-description] [--budget low|med|high]`
+
+## Routing Heuristic
+
+- `haiku`: deterministic, low-risk mechanical changes
+- `sonnet`: default for implementation and refactors
+- `opus`: architecture, deep review, ambiguous requirements
+
+## Required Output
+
+- recommended model
+- confidence level
+- why this model fits
+- fallback model if first attempt fails
+
+## Arguments
+
+$ARGUMENTS:
+- `[task-description]` optional free-text
+- `--budget low|med|high` optional
