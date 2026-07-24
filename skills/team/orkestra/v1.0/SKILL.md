@@ -2,7 +2,8 @@
 name: orkestra
 version: 1.0.0
 description: Cross-platform developer workspace manager CLI - register projects with local
-  domains, HTTPS, process management, logging, health monitoring, shell, and completions
+  domains, HTTPS, process management, logging, health monitoring, shell, completions,
+  and smart installer
 type: Skill
 title: Orkestra
 resource: file:///home/almaruf67/Codes/ai-skills/skills/team/orkestra/v1.0/SKILL.md
@@ -14,14 +15,15 @@ tags:
 - logging
 - health
 - completions
-timestamp: '2026-07-25T00:30:00Z'
+- cross-platform
+timestamp: '2026-07-25T05:00:00Z'
 source: ai-os-custom
 context: both
 ---
 
 # Orkestra Skill
 
-Cross-platform, framework-agnostic developer workspace manager CLI. Orchestrates runtime managers, reverse proxies, hosts files, and service managers behind provider interfaces.
+Cross-platform, framework-agnostic developer workspace manager CLI. Works on Linux, macOS, and Windows with automatic tool installation.
 
 ## Purpose
 
@@ -36,7 +38,6 @@ Register development projects with local domains (`.dev.com`), HTTPS via mkcert,
 - "view server logs"
 - "open project shell"
 - "generate shell completions"
-- "orkestra" commands
 - "local HTTPS development"
 - "dev workspace setup"
 
@@ -44,13 +45,32 @@ Register development projects with local domains (`.dev.com`), HTTPS via mkcert,
 
 Development → DevOps → Local Environment Setup
 
+## Quick Start
+
+```bash
+npm i -g orkestra
+
+cd ~/Projects/my-app
+orkestra init        # Creates config, registers, installs tools if needed
+orkestra up          # Starts server
+orkestra status      # Shows project status
+```
+
 ## Commands Reference
 
 ### `orkestra init`
-Initialize a project with `.orkestra.yml` config file.
+Initialize and register project with proxy, hosts, and SSL.
 
-### `orkestra register`
-Register project with hosts, proxy, and SSL.
+```bash
+orkestra init                    # Interactive setup
+orkestra init --port 3007        # Specify port
+orkestra init --domain my.dev    # Specify domain
+```
+
+**Smart Installer:**
+- Detects missing tools (Caddy, mkcert)
+- Offers to install with user permission
+- Platform-aware: brew (macOS), apt/dnf (Linux), choco (Windows)
 
 ### `orkestra up`
 Start dev server with auto-registration, log capture, and health monitoring.
@@ -87,7 +107,6 @@ orkestra logs                  # Show last 100 entries
 orkestra logs -f               # Follow logs in real-time
 orkestra logs --since 5m       # Show logs from last 5 minutes
 orkestra logs --stream stderr  # Show only stderr
-orkestra logs --list           # List available log files
 ```
 
 ### `orkestra shell`
@@ -98,48 +117,52 @@ orkestra shell                 # Open shell in project directory
 ```
 
 **Environment Variables:**
-- `ORKESTRA_PROJECT` — Project name
-- `ORKESTRA_DIR` — Project directory
-- `ORKESTRA_DOMAIN` — Project domain
-- `ORKESTRA_PORT` — Dev server port
-- `ORKESTRA_FRAMEWORK` — Detected framework
-- `ORKESTRA_PROXY` — Proxy provider
-- `ORKESTRA_PID` — Server PID (if running)
-- `ORKESTRA_START_COMMAND` — Configured start command
+- `ORKESTRA_PROJECT`, `ORKESTRA_DIR`, `ORKESTRA_DOMAIN`
+- `ORKESTRA_PORT`, `ORKESTRA_FRAMEWORK`, `ORKESTRA_PROXY`
 
 ### `orkestra completions`
 Generate shell completion scripts.
 
 ```bash
-orkestra completions --shell zsh   # ZSH completions
-orkestra completions --shell bash  # Bash completions
-orkestra completions --shell fish  # Fish completions
+orkestra completions --shell zsh > ~/.zfunc/_orkestra
+orkestra completions --shell bash > /etc/bash_completion.d/orkestra
+orkestra completions --shell fish > ~/.config/fish/completions/orkestra.fish
+orkestra completions --shell powershell > $PROFILE
 ```
-
-**Installation:**
-
-```bash
-# ZSH
-orkestra completions zsh > ~/.zfunc/_orkestra
-
-# Bash
-orkestra completions bash > /etc/bash_completion.d/orkestra
-
-# Fish
-orkestra completions fish > ~/.config/fish/completions/orkestra.fish
-```
-
-### `orkestra doctor`
-Check prerequisites (Caddy, mkcert, Node.js).
 
 ### `orkestra remove`
-Clean up project (hosts, proxy, certs, config, state).
+Clean up project completely.
 
-### `orkestra list`
-List all registered projects.
+```bash
+orkestra remove                # Remove everything
+```
 
-### `orkestra open`
-Open project in browser.
+**Removes:** hosts entry, proxy config, SSL certs, logs, .orkestra directory, .orkestra.yml
+
+### `orkestra doctor`
+Check prerequisites and show recommendations.
+
+## Platform Support
+
+| Platform | Proxy | SSL | Completions |
+|----------|-------|-----|-------------|
+| Linux | Caddy/Apache/Nginx | mkcert | bash/zsh/fish |
+| macOS | Caddy/Apache/Nginx | mkcert | bash/zsh/fish |
+| Windows | Caddy | mkcert | PowerShell |
+
+## Smart Installer
+
+When tools are missing, orkestra offers to install them:
+
+```
+⚠ No proxy detected (Caddy, Nginx, Apache, or Traefik)
+? Caddy is not installed. Install it now? (Y/n)
+```
+
+**Installation methods:**
+- macOS: `brew install caddy`
+- Linux: `apt install caddy` / `dnf install caddy`
+- Windows: `choco install caddy`
 
 ## Configuration
 
@@ -162,46 +185,22 @@ When running in background mode, servers are automatically monitored:
 - **Health check interval:** 10 seconds
 - **Auto-restart:** On unexpected process exit
 - **Max restart attempts:** 3
-- **Restart delay:** 2 seconds
-- **Log capture:** All stdout/stderr captured to files
 
-## Logging
+## Graceful Degradation
 
-- **Location:** `.orkestra/logs/<project-name>.log`
-- **Format:** `[ISO timestamp] [stdout|stderr] message`
-- **Rotation:** Automatic at 10MB per file
-- **Foreground mode:** No log capture
-
-## Mandates
-
-1. **Always use `.dev.com` suffix**
-2. **SSL via mkcert**
-3. **Show defaults in prompts**
-4. **Sudo with stdio: "inherit"**
-5. **Clean up on remove**
-
-## Quick Start
-
-```bash
-npm i -g orkestra
-
-cd ~/Projects/my-app
-orkestra init
-orkestra up
-
-orkestra status -v
-orkestra logs -f
-orkestra shell
-
-orkestra down
-```
+| Scenario | Behavior |
+|----------|----------|
+| No proxy | Offers to install Caddy |
+| No mkcert | Offers to install mkcert |
+| No framework | Suggests startCommand config |
+| No package manager | Shows install instructions |
 
 ## Version History
 
 | Version | Features |
 |---------|----------|
-| **1.0.0** | Shell completions, documentation, polish |
-| **0.4.0** | Health monitoring, multi-project, shell, status enhancements |
-| **0.3.0** | Log capture, --follow, --since, --foreground |
-| **0.2.0** | Process management (up, down, status), auto-registration |
-| **0.1.0** | Initial release (register, remove, list, doctor, init) |
+| **1.0.0** | Smart installer, cross-platform, PowerShell completions |
+| **0.4.0** | Health monitoring, multi-project, shell |
+| **0.3.0** | Log capture, --follow, --since |
+| **0.2.0** | Process management, auto-registration |
+| **0.1.0** | Initial release |
