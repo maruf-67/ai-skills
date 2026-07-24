@@ -9,6 +9,7 @@ timestamp: '2026-07-24T23:00:00Z'
 
 ## Version History
 
+- [v1.0](./v1.0/SKILL.md) — Shell completions, documentation, polish (Stable Release)
 - [v0.4](./v0.4/SKILL.md) — Health monitoring, multi-project, shell, status enhancements
 - [v0.3](./v0.3/SKILL.md) — Logs & monitoring (file capture, --follow, --since, --foreground)
 - [v0.2](./v0.2/SKILL.md) — Process management (up, down, status) + auto-registration
@@ -18,7 +19,8 @@ timestamp: '2026-07-24T23:00:00Z'
 
 | Version | Status | Features |
 |---------|--------|----------|
-| v0.4.0 | Current | health monitoring, up --all, status --json/--verbose/--watch, shell |
+| v1.0.0 | Current | shell completions (ZSH/Bash/Fish), documentation, polish |
+| v0.4.0 | Stable | health monitoring, up --all, status --json/--verbose/--watch, shell |
 | v0.3.0 | Stable | logs (--follow, --since, --stream, --list), up --foreground, log rotation |
 | v0.2.0 | Stable | up, down, status, auto-registration, startCommand config |
 | v0.1.0 | Stable | register, remove, list, doctor, init |
