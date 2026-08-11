@@ -7,7 +7,7 @@ resource: file:///home/almaruf67/Codes/ai-os/ECC/agents/typescript-reviewer.md
 tags:
 - ecc
 - agent
-timestamp: '2026-07-23T07:08:11Z'
+timestamp: '2026-08-03T21:09:42Z'
 ---
 
 ## Prompt Defense Baseline

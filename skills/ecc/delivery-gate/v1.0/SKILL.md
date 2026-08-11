@@ -7,7 +7,7 @@ resource: file:///home/almaruf67/Codes/ai-os/ECC/skills/delivery-gate/SKILL.md
 tags:
 - ecc
 - general
-timestamp: '2026-07-23T07:08:11Z'
+timestamp: '2026-08-03T21:09:41Z'
 ---
 
 # Delivery Gate — Mechanical Quality Gate for Claude Code

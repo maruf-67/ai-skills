@@ -7,7 +7,7 @@ resource: file:///home/almaruf67/Codes/ai-os/ECC/skills/continuous-learning-v2/S
 tags:
 - ecc
 - general
-timestamp: '2026-07-23T07:08:11Z'
+timestamp: '2026-08-03T21:09:41Z'
 ---
 
 # Continuous Learning v2.1 - Instinct
@@ -132,7 +132,7 @@ Session Activity (in a git repo)
 
 The system automatically detects your current project:
 
-1. **`CLAUDE_PROJECT_DIR` env var** (highest priority)
+1. **`CLAUDE_PROJECT_DIR` env var** (highest priority) -- honored as an explicit override even when the directory is not a git repo (hashed by its absolute path)
 2. **`git remote get-url origin`** -- hashed to create a portable project ID (same repo on different machines gets the same ID)
 3. **`git rev-parse --show-toplevel`** -- fallback using repo path (machine-specific)
 4. **Global fallback** -- if no project is detected, instincts go to global scope

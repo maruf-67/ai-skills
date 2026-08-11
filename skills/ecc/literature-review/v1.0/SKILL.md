@@ -7,7 +7,7 @@ resource: file:///home/almaruf67/Codes/ai-os/ECC/skills/scientific-thinking-lite
 tags:
 - ecc
 - quality
-timestamp: '2026-07-23T07:08:11Z'
+timestamp: '2026-08-03T21:09:42Z'
 ---
 
 # Literature Review

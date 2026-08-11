@@ -7,7 +7,7 @@ resource: file:///home/almaruf67/Codes/ai-os/ECC/skills/laravel-patterns/SKILL.m
 tags:
 - ecc
 - backend
-timestamp: '2026-07-23T07:08:11Z'
+timestamp: '2026-08-03T21:09:41Z'
 ---
 
 # Laravel Development Patterns

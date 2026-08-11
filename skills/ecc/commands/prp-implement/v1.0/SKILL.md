@@ -7,7 +7,7 @@ resource: file:///home/almaruf67/Codes/ai-os/ECC/commands/prp-implement.md
 tags:
 - ecc
 - command
-timestamp: '2026-07-23T07:08:12Z'
+timestamp: '2026-08-03T21:09:42Z'
 ---
 
 > Adapted from PRPs-agentic-eng by Wirasm. Part of the PRP workflow series.
